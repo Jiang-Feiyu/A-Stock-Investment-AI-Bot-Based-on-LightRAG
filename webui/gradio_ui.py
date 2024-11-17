@@ -33,15 +33,17 @@ class Gradio_UI:
     def custom_setting(self):
         return {
             self.prompt_box: gr.update(placeholder = "Please input the Prompt", value = None),
-            self.roles_drop: gr.update(value = "Custom"),
+            self.roles_drop: gr.update(value = "Custom", allow_custom_value = True),
         }
 
-    def pre_define(self, a):
+    def pre_defined(self, a):
         return {
             self.prompt_box: gr.update(value = self.pre_defined_prompts[a]),
+            self.roles_drop: gr.update(allow_custom_value = False),
         }
 
     # TODO: Communicate with Model
+    """
     def respond(query, chat_history, prompt, temperature, top_p,
                 freq_penalty, presence_penalty, max_tokens):
         history = []
@@ -62,21 +64,7 @@ class Gradio_UI:
             time.sleep(0.01)
             yield {input_message: "", chat_box: chat_history}
         yield {input_message: "", chat_box: chat_history}
-
-
-    def bind_callback(self):
-        self.roles_drop.input(self.pre_defined, inputs=[self.roles_drop], outputs=[self.prompt_box])
-        self.custom_btn.click(custom_setting, inputs=[], outputs=[prompt_box, roles_drop])
-
-        self.input_message.submit(forbid_prompt_submit, inputs=[],
-                             outputs=[roles_drop, prompt_box, custom_btn, submit_prompt_btn])
-
-        self.input_message.submit(respond,
-                             inputs=[input_message, chat_box, prompt_box, temperature, top_p,
-                                     freq_penalty, presence_penalty, max_token],
-                             outputs=[input_message, chat_box])
-
-        self.chat_revoke_btn.click(lambda p: "", inputs=[chat_box], outputs=[chat_box])
+    """
 
     def helper_layout(self):
         with gr.Blocks() as b:
@@ -101,7 +89,7 @@ class Gradio_UI:
 
                             with gr.Row():
                                 self.custom_btn = gr.Button(
-                                    "Advanced Customization Settings (Not Commended)")
+                                    "Create Your Own Prompt")
 
                     # Model settings
                     gr.Markdown("<h4>Parameters</h4>")
@@ -145,6 +133,29 @@ class Gradio_UI:
                             elem_id="chat-input", container=False)
                         self.chat_revoke_btn = gr.Button("Clear", elem_id="chat_revoke")
 
+            self.bind_callback()
 
-def create_ui():
-    tabs = []
+        return {"block": b, "label": "HELPER"}
+
+    def bind_callback(self):
+        self.roles_drop.input(self.pre_defined, inputs = [self.roles_drop], outputs = [self.prompt_box])
+        self.custom_btn.click(self.custom_setting, inputs = [], outputs = [self.prompt_box, self.roles_drop])
+        self.input_message.submit(self.forbid_prompt_submit, inputs = [],
+                             outputs = [self.roles_drop, self.prompt_box, self.custom_btn])
+        self.chat_revoke_btn.click(lambda p: "", inputs = [self.chat_box], outputs = [self.chat_box])
+        '''
+        self.input_message.submit(self.respond,
+                             inputs = [self.input_message, self.chat_box, self.prompt_box, self.temperature_slider,
+                                       self.top_p_slider, self.freq_penalty_slider,
+                                       self.presence_penalty_slider, self.max_token_slider],
+                             outputs = [self.input_message, self.chat_box])
+        '''
+
+    def create_ui(self):
+        tabs = [self.helper_layout()]
+        with gr.Blocks(title = "prompt") as ui:
+            with gr.Tabs(elem_id = "tabs"):
+                for t in tabs:
+                    with gr.TabItem(label = t["label"], id = t["label"], elem_id = "tab_" + t["label"]):
+                        t["block"].render()
+        return ui
