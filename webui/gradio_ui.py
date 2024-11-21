@@ -19,6 +19,10 @@ class Gradio_UI:
         self.chat_box = None
         self.chat_revoke_btn = None
         self.input_message = None
+        self.option_bar = None
+        self.advance_option_btn = None
+
+        self.option_bar_state = False
 
         with open("pre_defined_prompts.json", "r", encoding="utf-8") as f:
             self.pre_defined_prompts = json.load(f)
@@ -32,14 +36,26 @@ class Gradio_UI:
 
     def custom_setting(self):
         return {
-            self.prompt_box: gr.update(placeholder = "Please input the Prompt", value = None),
+            self.prompt_box: gr.update(placeholder = "Please input the Prompt", value = None, interactive = True, visible = True),
             self.roles_drop: gr.update(value = "Custom", allow_custom_value = True),
         }
 
     def pre_defined(self, a):
         return {
-            self.prompt_box: gr.update(value = self.pre_defined_prompts[a]),
+            self.prompt_box: gr.update(value = self.pre_defined_prompts[a], interactive = False, visible = False),
             self.roles_drop: gr.update(allow_custom_value = False),
+        }
+
+    def option_bar_switch(self):
+        self.option_bar_state = not self.option_bar_state
+        if self.option_bar_state:
+            title = "Hide"
+        else:
+            title = "Show Advance Options"
+
+        return {
+            self.option_bar: gr.update(visible = self.option_bar_state),
+            self.advance_option_btn: gr.update(value = title),
         }
 
     # TODO: Communicate with Model
@@ -69,58 +85,7 @@ class Gradio_UI:
     def helper_layout(self):
         with gr.Blocks() as b:
             with gr.Row():
-                with gr.Column(scale=4):
-                    gr.Markdown("<h4>Prompt Settings</h4>")
-                    with gr.Row():
-                        with gr.Column():
-                            with gr.Row():
-                                # Several preferences provided for user to choose
-                                self.roles_drop = gr.Dropdown(
-                                    choices = self.pre_defined_prompts.keys(),
-                                    value="default", label="PREDEFINED ROLES",
-                                    interactive=True)
-
-                            with gr.Row():
-                                self.prompt_box = gr.Textbox(
-                                    label = "PROMPT",
-                                    value = self.pre_defined_prompts[self.roles_drop.value],
-                                    lines = 8, max_lines = 8,
-                                    interactive = True)
-
-                            with gr.Row():
-                                self.custom_btn = gr.Button(
-                                    "Create Your Own Prompt")
-
-                    # Model settings
-                    gr.Markdown("<h4>Parameters</h4>")
-                    with gr.Row():
-                        with gr.Column(variant="panel"):
-                            with gr.Row():
-                                self.temperature_slider = gr.Slider(
-                                    minimum=0.0, maximum=1.0,
-                                    step=0.1, label="TEMPERATURE",
-                                    interactive=True, value=0.1,
-                                    info="Info Test: This is Temperature.")
-                                self.top_p_slider = gr.Slider(
-                                    minimum=0.0, maximum=1.0,
-                                    step=0.1, label="TOP-P",
-                                    interactive=True, value=1.0)
-                            with gr.Row():
-                                self.freq_penalty_slider = gr.Slider(
-                                    minimum=-2.0, maximum=2.0,
-                                    step=0.1, label="FREQUENCY PENALTY",
-                                    interactive=True, value=0.0)
-                                self.presence_penalty_slider = gr.Slider(
-                                    minimum=-2.0, maximum=2.0,
-                                    step=0.1, label="PRESENCE PENALTY",
-                                    interactive=True, value=0.0)
-                            with gr.Row():
-                                self.max_token_slider = gr.Slider(
-                                    minimum=20, maximum=4096,
-                                    step=1, label="MAX TOKEN",
-                                    interactive=True, value=800)
-
-                with gr.Column(scale=6):
+                with gr.Column(scale = 4):
                     gr.Markdown("<h4>Chat</h4>")
 
                     self.chat_box = gr.Chatbot(
@@ -128,21 +93,80 @@ class Gradio_UI:
 
                     with gr.Row():
                         self.input_message = gr.Textbox(
-                            placeholder="Input your query, and press SHIFT + ENTER to send",
-                            show_label=False, lines=3, max_lines=3,
-                            elem_id="chat-input", container=False)
-                        self.chat_revoke_btn = gr.Button("Clear", elem_id="chat_revoke")
+                            placeholder = "Input your query, and press SHIFT + ENTER to send",
+                            show_label = False, lines = 4, max_lines = 4,
+                            elem_id = "chat-input", container = False)
+                        with gr.Column():
+                            self.chat_revoke_btn = gr.Button("Clear", elem_id="chat_revoke")
+                            self.advance_option_btn = gr.Button("Show Advance Options")
+
+                with gr.Column(scale = 6):
+                    with gr.Column(visible = self.option_bar_state) as option_bar:
+                        self.option_bar = option_bar
+                        gr.Markdown("<h4>Prompt Settings</h4>")
+                        with gr.Row():
+                            with gr.Column():
+                                with gr.Row():
+                                    # Several preferences provided for user to choose
+                                    self.roles_drop = gr.Dropdown(
+                                        choices = self.pre_defined_prompts.keys(),
+                                        value="default", label="PREDEFINED ROLES",
+                                        interactive=True)
+
+                                with gr.Row():
+                                    self.prompt_box = gr.Textbox(
+                                        label = "PROMPT",
+                                        value = self.pre_defined_prompts[self.roles_drop.value],
+                                        lines = 8, max_lines = 8,
+                                        interactive = False,
+                                        visible = False
+                                    )
+
+                                with gr.Row():
+                                    self.custom_btn = gr.Button(
+                                        "Create Your Own Prompt")
+
+                        # Model settings
+                        gr.Markdown("<h4>Parameters</h4>")
+                        with gr.Row():
+                            with gr.Column(variant="panel"):
+                                with gr.Row():
+                                    self.temperature_slider = gr.Slider(
+                                        minimum=0.0, maximum=1.0,
+                                        step=0.1, label="TEMPERATURE",
+                                        interactive=True, value=0.1,
+                                        info="Info Test: This is Temperature.")
+                                    self.top_p_slider = gr.Slider(
+                                        minimum=0.0, maximum=1.0,
+                                        step=0.1, label="TOP-P",
+                                        interactive=True, value=1.0)
+                                with gr.Row():
+                                    self.freq_penalty_slider = gr.Slider(
+                                        minimum=-2.0, maximum=2.0,
+                                        step=0.1, label="FREQUENCY PENALTY",
+                                        interactive=True, value=0.0)
+                                    self.presence_penalty_slider = gr.Slider(
+                                        minimum=-2.0, maximum=2.0,
+                                        step=0.1, label="PRESENCE PENALTY",
+                                        interactive=True, value=0.0)
+                                with gr.Row():
+                                    self.max_token_slider = gr.Slider(
+                                        minimum=20, maximum=4096,
+                                        step=1, label="MAX TOKEN",
+                                        interactive=True, value=800)
+
 
             self.bind_callback()
 
         return {"block": b, "label": "HELPER"}
 
     def bind_callback(self):
-        self.roles_drop.input(self.pre_defined, inputs = [self.roles_drop], outputs = [self.prompt_box])
+        self.roles_drop.input(self.pre_defined, inputs = [self.roles_drop], outputs = [self.prompt_box, self.roles_drop])
         self.custom_btn.click(self.custom_setting, inputs = [], outputs = [self.prompt_box, self.roles_drop])
         self.input_message.submit(self.forbid_prompt_submit, inputs = [],
                              outputs = [self.roles_drop, self.prompt_box, self.custom_btn])
         self.chat_revoke_btn.click(lambda p: "", inputs = [self.chat_box], outputs = [self.chat_box])
+        self.advance_option_btn.click(self.option_bar_switch, inputs = [], outputs = [self.option_bar, self.advance_option_btn])
         '''
         self.input_message.submit(self.respond,
                              inputs = [self.input_message, self.chat_box, self.prompt_box, self.temperature_slider,
