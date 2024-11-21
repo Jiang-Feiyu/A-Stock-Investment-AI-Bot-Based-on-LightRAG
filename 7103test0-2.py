@@ -19,8 +19,6 @@ stock_list=dict()
 
 def call_finance_api(ticker_name):
     ticker_data = yf.Ticker(ticker_name).info
-
-#     finance_data = f"Fetching finance data for {ticker_name}"
     return ticker_data
 
 
