@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-
-
 import yfinance as yf
 import json
 from typing import Optional
@@ -21,9 +19,6 @@ def call_finance_api(ticker_name):
     ticker_data = yf.Ticker(ticker_name).info
     return ticker_data
 
-
-
-
 app = FastAPI()
 @app.post("/stock/")
 async def create_item(s: Stock):
@@ -32,12 +27,7 @@ async def create_item(s: Stock):
 @app.put("/stock/put/{stock_ticker}")
 def create_item(stock_ticker: str):
     stock_detail=call_finance_api(stock_ticker)
-    with open('stockdata.txt', 'w') as file:
-     file.write(json.dumps(stock_detail)) 
+    # with open('stockdata.txt', 'w') as file:
+    #  file.write(json.dumps(stock_detail)) 
     stock_list[stock_ticker]= stock_detail
     return {"stock_ticker": stock_ticker, **stock_detail}
-
-@app.get("/stock/getstock/{stock_ticker}")
-async def return_stock(stock_ticker:str):
-    return stock_list[stock_ticker]
-
