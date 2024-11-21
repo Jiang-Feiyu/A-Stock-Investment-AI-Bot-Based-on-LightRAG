@@ -2,3 +2,17 @@
 /webui/__pycache__/
 /__pycache__
 /LightRAG/log
+/LightRAG__pycache__
+/LightRAG*.egg-info
+/LightRAGdickens/
+/LightRAGbook.txt
+/LightRAGlightrag-dev/
+/LightRAG.idea/
+/LightRAGdist/
+/LightRAGenv/
+/LightRAGlocal_neo4jWorkDir/
+/LightRAGneo4jWorkDir/
+/LightRAGignore_this.txt
+/LightRAG.venv/
+/LightRAG*.ignore.*
+/LightRAG.ruff_cache/
