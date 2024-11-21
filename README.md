@@ -1,3 +1,18 @@
+## Structure of the program
+
+```mermaid
+graph TD
+yFinance --api--> backend_server
+backend_server -.2.-> middle_desk
+middle_desk --3--> dynamic_stock_data
+company_list --1--> middle_desk
+dynamic_stock_data --writing--> knowledge_base
+knowledge_base --5--> middle_desk
+middle_desk --4--> OpenAI 
+OpenAI --> knowledge_base
+middle_desk -.6.-Frontend--> Interface
+```
+
 ## ENV Config
 ### Config Virtual Env
 `conda create -n <name> python=3.10`
@@ -70,3 +85,7 @@ Company stock information data structure
   }
 ]
 ```
+
+- Log files are created on a daily basis in the format `data_acquire_YYYYMMDD.log`
+- A maximum of five up-to-date records are kept for each company's data
+The program will automatically update the data every 60 seconds (you can adjust this by changing the select timeout)

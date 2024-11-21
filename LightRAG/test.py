@@ -7,7 +7,7 @@ from lightrag.llm import gpt_4o_mini_complete
 # nest_asyncio.apply()
 #########
 
-WORKING_DIR = "./dickens"
+WORKING_DIR = "./fina"
 
 if not os.path.exists(WORKING_DIR):
     os.mkdir(WORKING_DIR)

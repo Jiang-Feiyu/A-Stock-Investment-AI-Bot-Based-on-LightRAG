@@ -1,4 +1,6 @@
-Finance refers to monetary resources and to the study and discipline of money, currency, assets and liabilities.[a] As a subject of study, it is related to but distinct from economics, which is the study of the production, distribution, and consumption of goods and services.[b] Based on the scope of financial activities in financial systems, the discipline can be divided into personal, corporate, and public finance.
+# What is Finance
+
+Finance refers to monetary resources and to the study and discipline of money, currency, assets and liabilities. As a subject of study, it is related to but distinct from economics, which is the study of the production, distribution, and consumption of goods and services. Based on the scope of financial activities in financial systems, the discipline can be divided into personal, corporate, and public finance.
 
 In these financial systems, assets are bought, sold, or traded as financial instruments, such as currencies, loans, bonds, shares, stocks, options, futures, etc. Assets can also be banked, invested, and insured to maximize value and minimize loss. In practice, risks are always present in any financial action and entities.
 
@@ -6,4 +8,17 @@ Due to its wide scope, a broad range of subfields exists within finance. Asset-,
 
 The early history of finance parallels the early history of money, which is prehistoric. Ancient and medieval civilizations incorporated basic functions of finance, such as banking, trading and accounting, into their economies. In the late 19th century, the global financial system was formed.
 
-In the middle of the 20th century, finance emerged as a distinct academic discipline,[c] separate from economics.[1] The earliest doctoral programs in finance were established in the 1960s and 1970s.[2] Today, finance is also widely studied through career-focused undergraduate and master's level programs.[3]
+In the middle of the 20th century, finance emerged as a distinct academic discipline, separate from economics. The earliest doctoral programs in finance were established in the 1960s and 1970s. Today, finance is also widely studied through career-focused undergraduate and master's level programs.
+
+
+# What is stocks
+
+Stocks (also capital stock, or sometimes interchangeably, shares) consist of all the shares by which ownership of a corporation or company is divided. A single share of the stock means fractional ownership of the corporation in proportion to the total number of shares. This typically entitles the shareholder (stockholder) to that fraction of the company's earnings, proceeds from liquidation of assets (after discharge of all senior claims such as secured and unsecured debt), or voting power, often dividing these up in proportion to the number of like shares each stockholder owns. Not all stock is necessarily equal, as certain classes of stock may be issued, for example, without voting rights, with enhanced voting rights, or with a certain priority to receive profits or liquidation proceeds before or after other classes of shareholders.
+
+Stock can be bought and sold privately or on stock exchanges. Transactions of the former are closely overseen by governments and regulatory bodies to prevent fraud, protect investors, and benefit the larger economy. As new shares are issued by a company, the ownership and rights of existing shareholders are diluted in return for cash to sustain or grow the business. Companies can also buy back stock, which often lets investors recoup the initial investment plus capital gains from subsequent rises in stock price. Stock options issued by many companies as part of employee compensation do not represent ownership, but represent the right to buy ownership at a future time at a specified price. This would represent a windfall to the employees if the option were exercised when the market price is higher than the promised price, since if they immediately sold the stock they would keep the difference (minus taxes).
+
+Stock bought and sold in private markets fall within the private equity realm of finance.
+
+{GOOGLE}
+
+{APPLE}
