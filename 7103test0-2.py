@@ -1,37 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
 
-
-# from typing import List, Optional
-# from fastapi import FastAPI
-# from fastapi.encoders import jsonable_encoder
-# from pydantic import BaseModel
-
-
-# app = FastAPI()
-# class Item(BaseModel):
-#     name: Optional[str] = None
-#     description: Optional[str] = None
-#     price: Optional[float] = None
-#     tax: float = 10.5
-#     tags: List[str] = []
-        
-# items = {
-#     "one": {"name": "苹果", "price": 50.2}
-# }
-# @app.put("/items/", response_model=Item)
-# def update_item(name: str, item: Item):
-#     update_item_encoded = jsonable_encoder(item)
-#     items[name] = update_item_encoded
-#     return update_item_encoded
-# @app.get("/items/{item_id}", response_model=Item)
-# def read_item(item_id: str):
-#     return items[item_id]
-
-
-# In[ ]:
 
 import yfinance as yf
 import json
