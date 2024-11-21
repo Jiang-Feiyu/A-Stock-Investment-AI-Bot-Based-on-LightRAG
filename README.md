@@ -7,12 +7,18 @@ backend_server -.2.-> middle_desk
 middle_desk --3--> dynamic_stock_data
 company_list --1--> middle_desk
 dynamic_stock_data --writing--> knowledge_base
-knowledge_base --5--> middle_desk
-middle_desk --4--> OpenAI 
-OpenAI --> knowledge_base
+middle_desk --4--> knowledge_base
+knowledge_base <--5--> OpenAI
 middle_desk -.6.-Frontend--> Interface
 ```
+```
+1. The middleware obtains company stock codes through the company list
+2. The middleware queries information from the backend based on the company list
+3. The middleware stores the latest stock information in the database and parses the data into the knowledge base
 
+4, 5. The middleware makes requests to OpenAI through Light RAG
+6. The middleware sends the obtained responses to the frontend
+```
 ## ENV Config
 ### Config Virtual Env
 `conda create -n <name> python=3.10`
