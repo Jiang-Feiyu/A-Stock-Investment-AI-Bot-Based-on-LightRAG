@@ -21,22 +21,24 @@ rag = LightRAG(
 with open("./fina/knowledge.txt", "r", encoding="utf-8") as f:
     rag.insert(f.read())
 
+test_query = "Please give me the industry description of DE?"
+
 # Perform naive search
 print(
-    rag.query("What is the investment advice of DE", param=QueryParam(mode="naive"))
+    rag.query(query = test_query, param = QueryParam(mode="naive"))
 )
 
 # Perform local search
 print(
-    rag.query("Where is the operating Margins of PFE", param=QueryParam(mode="local"))
+    rag.query(query = test_query, param = QueryParam(mode="local"))
 )
 
 # Perform global search
 print(
-    rag.query("What is Finance?", param=QueryParam(mode="global"))
+    rag.query(query = test_query, param = QueryParam(mode="global"))
 )
 
 # Perform hybrid search
 print(
-    rag.query("What is Finance?", param=QueryParam(mode="hybrid"))
+    rag.query(query = test_query, param = QueryParam(mode="hybrid"))
 )

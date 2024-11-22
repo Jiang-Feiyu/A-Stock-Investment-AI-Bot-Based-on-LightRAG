@@ -1,9 +1,11 @@
 import json
 import time
 import gradio as gr
+import os, sys
+from lightrag import QueryParam
 
 class Gradio_UI:
-    def __init__(self):
+    def __init__(self, rag):
         # predefined prompts, can provide different kind of advice
         self.pre_defined_prompts = None
 
@@ -24,8 +26,11 @@ class Gradio_UI:
 
         self.option_bar_state = False
 
-        with open("pre_defined_prompts.json", "r", encoding="utf-8") as f:
+        self.rag = rag
+
+        with open("webui/pre_defined_prompts.json", "r", encoding="utf-8") as f:
             self.pre_defined_prompts = json.load(f)
+
 
     def forbid_prompt_submit(self):
         return {
@@ -59,6 +64,14 @@ class Gradio_UI:
         }
 
     # TODO: Communicate with Model
+    def respond(self, query, chat_history):
+        res = self.rag.query(query = query, param = QueryParam(mode = "hybrid"))
+        chat_history.append((query, res))
+
+        yield {
+            self.input_message: "",
+            self.chat_box: chat_history
+        }
     """
     def respond(query, chat_history, prompt, temperature, top_p,
                 freq_penalty, presence_penalty, max_tokens):
@@ -167,13 +180,10 @@ class Gradio_UI:
                              outputs = [self.roles_drop, self.prompt_box, self.custom_btn])
         self.chat_revoke_btn.click(lambda p: "", inputs = [self.chat_box], outputs = [self.chat_box])
         self.advance_option_btn.click(self.option_bar_switch, inputs = [], outputs = [self.option_bar, self.advance_option_btn])
-        '''
+
         self.input_message.submit(self.respond,
-                             inputs = [self.input_message, self.chat_box, self.prompt_box, self.temperature_slider,
-                                       self.top_p_slider, self.freq_penalty_slider,
-                                       self.presence_penalty_slider, self.max_token_slider],
+                             inputs = [self.input_message, self.chat_box],
                              outputs = [self.input_message, self.chat_box])
-        '''
 
     def create_ui(self):
         tabs = [self.helper_layout()]
