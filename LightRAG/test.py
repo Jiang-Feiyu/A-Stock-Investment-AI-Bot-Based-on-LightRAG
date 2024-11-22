@@ -23,12 +23,12 @@ with open("./fina/knowledge.txt", "r", encoding="utf-8") as f:
 
 # Perform naive search
 print(
-    rag.query("What is Finance?", param=QueryParam(mode="naive"))
+    rag.query("What is the investment advice of DE", param=QueryParam(mode="naive"))
 )
 
 # Perform local search
 print(
-    rag.query("What is Finance?", param=QueryParam(mode="local"))
+    rag.query("Where is the operating Margins of PFE", param=QueryParam(mode="local"))
 )
 
 # Perform global search
