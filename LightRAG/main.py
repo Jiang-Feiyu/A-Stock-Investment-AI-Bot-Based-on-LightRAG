@@ -8,10 +8,11 @@ import sys
 import select
 from collections import defaultdict
 
-fina_dir = '../fina'
-data_file = '../fina/data.jsonl'
+fina_dir = './fina'
+data_file = './fina/data.jsonl'
 company_list = 'company.json'
-knowledge_file = '../fina/dynamic_knowledge.txt'
+knowledge_file = './fina/dynamic_knowledge.txt'
+static_knowledge_file = './fina/static_knowledge.txt'
 
 def ensure_directory():
     """确保目录存在"""

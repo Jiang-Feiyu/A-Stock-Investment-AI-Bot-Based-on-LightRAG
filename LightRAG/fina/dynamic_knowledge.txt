@@ -3,17 +3,17 @@
 stock ticker is: AAPL
 industry category is: Consumer Electronics
 company business summary is: Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple TV, Apple Watch, Beats products, and HomePod. It also provides AppleCare support and cloud services; and operates various platforms, including the App Store that allow customers to discover and download applications and digital content, such as books, music, video, games, and podcasts, as well as advertising services include third-party licensing arrangements and its own advertising platforms. In addition, the company offers various subscription-based services, such as Apple Arcade, a game subscription service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a subscription news and magazine service; Apple TV+, which offers exclusive original content; Apple Card, a co-branded credit card; and Apple Pay, a cashless payment service, as well as licenses its intellectual property. The company serves consumers, and small and mid-sized businesses; and the education, enterprise, and government markets. It distributes third-party applications for its products through the App Store. The company also sells its products through its retail and online stores, and direct sales force; and third-party cellular network carriers, wholesalers, retailers, and resellers. Apple Inc. was founded in 1976 and is headquartered in Cupertino, California.
+priceToSalesTrailing12Months is: 8.885825
 debtToEquity is: 209.059
-priceToSalesTrailing12Months is: : 8.885825
-shortRatio is : 3.24
 beta is: 1.24
-totalRevenue is: 391034994688
+shortRatio is : 3.24
+profitMargins is: 0.23971
 totalCash is: 65171001344
 floatShares is: 15091184209
-profitMargins is: 0.23971
+totalRevenue is: 391034994688
 priceToSalesTrailing12Months is: 8.885825
-priceToBook is: 61.022034
 forwardPE is: 27.665546
+priceToBook is: 61.022034
 trailingPE is: 37.86985
 
 ## Data about the MSFT
@@ -21,158 +21,158 @@ trailingPE is: 37.86985
 stock ticker is: MSFT
 industry category is: Software - Infrastructure
 company business summary is: Microsoft Corporation develops and supports software, services, devices and solutions worldwide. The Productivity and Business Processes segment offers office, exchange, SharePoint, Microsoft Teams, office 365 Security and Compliance, Microsoft viva, and Microsoft 365 copilot; and office consumer services, such as Microsoft 365 consumer subscriptions, Office licensed on-premises, and other office services. This segment also provides LinkedIn; and dynamics business solutions, including Dynamics 365, a set of intelligent, cloud-based applications across ERP, CRM, power apps, and power automate; and on-premises ERP and CRM applications. The Intelligent Cloud segment offers server products and cloud services, such as azure and other cloud services; SQL and windows server, visual studio, system center, and related client access licenses, as well as nuance and GitHub; and enterprise services including enterprise support services, industry solutions, and nuance professional services. The More Personal Computing segment offers Windows, including windows OEM licensing and other non-volume licensing of the Windows operating system; Windows commercial comprising volume licensing of the Windows operating system, windows cloud services, and other Windows commercial offerings; patent licensing; and windows Internet of Things; and devices, such as surface, HoloLens, and PC accessories. Additionally, this segment provides gaming, which includes Xbox hardware and content, and first- and third-party content; Xbox game pass and other subscriptions, cloud gaming, advertising, third-party disc royalties, and other cloud services; and search and news advertising, which includes Bing, Microsoft News and Edge, and third-party affiliates. The company sells its products through OEMs, distributors, and resellers; and directly through digital marketplaces, online, and retail stores. The company was founded in 1975 and is headquartered in Redmond, Washington.
+priceToSalesTrailing12Months is: 12.196959
 beta is: 0.904
 shortRatio is : 3.28
 debtToEquity is: 33.657
-priceToSalesTrailing12Months is: : 12.196959
 floatShares is: 7424694989
 totalRevenue is: 254189993984
 profitMargins is: 0.35608003
 totalCash is: 78429003776
-priceToBook is: 10.777143
-forwardPE is: 27.700905
-trailingPE is: 34.491314
 priceToSalesTrailing12Months is: 12.196959
+forwardPE is: 27.700905
+priceToBook is: 10.777143
+trailingPE is: 34.491314
 
 ## Data about the GOOGL
 ### Basic information about the company
 stock ticker is: GOOGL
 industry category is: Internet Content & Information
 company business summary is: Alphabet Inc. offers various products and platforms in the United States, Europe, the Middle East, Africa, the Asia-Pacific, Canada, and Latin America. It operates through Google Services, Google Cloud, and Other Bets segments. The Google Services segment provides products and services, including ads, Android, Chrome, devices, Gmail, Google Drive, Google Maps, Google Photos, Google Play, Search, and YouTube. It is also involved in the sale of apps and in-app purchases and digital content in the Google Play and YouTube; and devices, as well as in the provision of YouTube consumer subscription services. The Google Cloud segment offers infrastructure, cybersecurity, databases, analytics, AI, and other services; Google Workspace that include cloud-based communication and collaboration tools for enterprises, such as Gmail, Docs, Drive, Calendar, and Meet; and other services for enterprise customers. The Other Bets segment sells healthcare-related and internet services. The company was incorporated in 1998 and is headquartered in Mountain View, California.
-shortRatio is : 2.61
 beta is: 1.034
+priceToSalesTrailing12Months is: 5.9637804
+shortRatio is : 2.61
 debtToEquity is: 9.324
-priceToSalesTrailing12Months is: : 5.9637804
+totalRevenue is: 339859013632
 floatShares is: 10916891030
 totalCash is: 93229998080
 profitMargins is: 0.27738002
-totalRevenue is: 339859013632
+priceToBook is: 6.4326706
 priceToSalesTrailing12Months is: 5.9637804
 trailingPE is: 21.822515
 forwardPE is: 18.377645
-priceToBook is: 6.4326706
 
 ## Data about the GOOG
 ### Basic information about the company
 stock ticker is: GOOG
 industry category is: Internet Content & Information
 company business summary is: Alphabet Inc. offers various products and platforms in the United States, Europe, the Middle East, Africa, the Asia-Pacific, Canada, and Latin America. It operates through Google Services, Google Cloud, and Other Bets segments. The Google Services segment provides products and services, including ads, Android, Chrome, devices, Gmail, Google Drive, Google Maps, Google Photos, Google Play, Search, and YouTube. It is also involved in the sale of apps and in-app purchases and digital content in the Google Play and YouTube; and devices, as well as in the provision of YouTube consumer subscription services. The Google Cloud segment offers infrastructure, cybersecurity, databases, analytics, AI, and other services; Google Workspace that include cloud-based communication and collaboration tools for enterprises, such as Gmail, Docs, Drive, Calendar, and Meet; and other services for enterprise customers. The Other Bets segment sells healthcare-related and internet services. The company was incorporated in 1998 and is headquartered in Mountain View, California.
-priceToSalesTrailing12Months is: : 5.9637685
 beta is: 1.034
-debtToEquity is: 9.324
 shortRatio is : 2.4
+priceToSalesTrailing12Months is: 5.9637685
+debtToEquity is: 9.324
+totalRevenue is: 339859013632
 floatShares is: 10916891030
 totalCash is: 93229998080
 profitMargins is: 0.27738002
-totalRevenue is: 339859013632
-trailingPE is: 22.062252
 priceToSalesTrailing12Months is: 5.9637685
-priceToBook is: 6.5033383
+trailingPE is: 22.062252
 forwardPE is: 18.579538
+priceToBook is: 6.5033383
 
 ## Data about the META
 ### Basic information about the company
 stock ticker is: META
 industry category is: Internet Content & Information
 company business summary is: Meta Platforms, Inc. engages in the development of products that enable people to connect and share with friends and family through mobile devices, personal computers, virtual reality headsets, and wearables worldwide. It operates in two segments, Family of Apps and Reality Labs. The Family of Apps segment offers Facebook, which enables people to share, discuss, discover, and connect with interests; Instagram, a community for sharing photos, videos, and private messages, as well as feed, stories, reels, video, live, and shops; Messenger, a messaging application for people to connect with friends, family, communities, and businesses across platforms and devices through text, audio, and video calls; and WhatsApp, a messaging application that is used by people and businesses to communicate and transact privately. The Reality Labs segment provides augmented and virtual reality related products comprising consumer hardware, software, and content that help people feel connected, anytime, and anywhere. The company was formerly known as Facebook, Inc. and changed its name to Meta Platforms, Inc. in October 2021. The company was incorporated in 2004 and is headquartered in Menlo Park, California
-priceToSalesTrailing12Months is: : 9.035208
+debtToEquity is: 29.811
+priceToSalesTrailing12Months is: 9.035208
 shortRatio is : 2.63
 beta is: 1.215
-debtToEquity is: 29.811
-totalRevenue is: 156226994176
-floatShares is: 2175553728
-totalCash is: 70899998720
 profitMargins is: 0.35549998
-priceToBook is: 8.577609
-trailingPE is: 26.386974
+floatShares is: 2175553728
+totalRevenue is: 156226994176
+totalCash is: 70899998720
 forwardPE is: 22.082336
+trailingPE is: 26.386974
 priceToSalesTrailing12Months is: 9.035208
+priceToBook is: 8.577609
 
 ## Data about the NVDA
 ### Basic information about the company
 stock ticker is: NVDA
 industry category is: Semiconductors
 company business summary is: NVIDIA Corporation provides graphics and compute and networking solutions in the United States, Taiwan, China, Hong Kong, and internationally. The Graphics segment offers GeForce GPUs for gaming and PCs, the GeForce NOW game streaming service and related infrastructure, and solutions for gaming platforms; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics; virtual GPU or vGPU software for cloud-based visual and virtual computing; automotive platforms for infotainment systems; and Omniverse software for building and operating metaverse and 3D internet applications. The Compute & Networking segment comprises Data Center computing platforms and end-to-end networking platforms, including Quantum for InfiniBand and Spectrum for Ethernet; NVIDIA DRIVE automated-driving platform and automotive development agreements; Jetson robotics and other embedded platforms; NVIDIA AI Enterprise and other software; and DGX Cloud software and services. The company's products are used in gaming, professional visualization, data center, and automotive markets. It sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, consumer internet companies, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California.
-beta is: 1.657
-shortRatio is : 1.01
-priceToSalesTrailing12Months is: : 36.096603
-debtToEquity is: 17.221
-profitMargins is: 0.55041003
-totalCash is: 34800001024
-totalRevenue is: 96307003392
-floatShares is: 23541441000
 priceToSalesTrailing12Months is: 36.096603
+shortRatio is : 1.01
+debtToEquity is: 17.221
+beta is: 1.657
+floatShares is: 23541441000
+totalRevenue is: 96307003392
+totalCash is: 34800001024
+profitMargins is: 0.55041003
 trailingPE is: 56.10672
 priceToBook is: 81.39335
 forwardPE is: 32.458473
+priceToSalesTrailing12Months is: 36.096603
 
 ## Data about the TSLA
 ### Basic information about the company
 stock ticker is: TSLA
 industry category is: Auto Manufacturers
 company business summary is: Tesla, Inc. designs, develops, manufactures, leases, and sells electric vehicles, and energy generation and storage systems in the United States, China, and internationally. The company operates in two segments, Automotive, and Energy Generation and Storage. The Automotive segment offers electric vehicles, as well as sells automotive regulatory credits; and non-warranty after-sales vehicle, used vehicles, body shop and parts, supercharging, retail merchandise, and vehicle insurance services. This segment also provides sedans and sport utility vehicles through direct and used vehicle sales, a network of Tesla Superchargers, and in-app upgrades; purchase financing and leasing services; services for electric vehicles through its company-owned service locations and Tesla mobile service technicians; and vehicle limited warranties and extended service plans. The Energy Generation and Storage segment engages in the design, manufacture, installation, sale, and leasing of solar energy generation and energy storage products, and related services to residential, commercial, and industrial customers and utilities through its website, stores, and galleries, as well as through a network of channel partners; and provision of service and repairs to its energy product customers, including under warranty, as well as various financing options to its solar customers. The company was formerly known as Tesla Motors, Inc. and changed its name to Tesla, Inc. in February 2017. Tesla, Inc. was incorporated in 2003 and is headquartered in Austin, Texas.
-beta is: 2.295
-priceToSalesTrailing12Months is: : 11.649395
 debtToEquity is: 18.078
+beta is: 2.295
 shortRatio is : 0.94
+priceToSalesTrailing12Months is: 11.649395
 totalCash is: 33648001024
 profitMargins is: 0.13075
 totalRevenue is: 97150001152
 floatShares is: 2793105010
-trailingPE is: 96.06539
-forwardPE is: 108.09352
 priceToSalesTrailing12Months is: 11.649395
 priceToBook is: 16.168028
+forwardPE is: 108.09352
+trailingPE is: 96.06539
 
 ## Data about the TSM
 ### Basic information about the company
 stock ticker is: TSM
 industry category is: Semiconductors
 company business summary is: Taiwan Semiconductor Manufacturing Company Limited, together with its subsidiaries, manufactures, packages, tests, and sells integrated circuits and other semiconductor devices in Taiwan, China, Europe, the Middle East, Africa, Japan, the United States, and internationally. It provides a range of wafer fabrication processes, including processes to manufacture complementary metal- oxide-semiconductor (CMOS) logic, mixed-signal, radio frequency, embedded memory, bipolar CMOS mixed-signal, and others. The company also offers customer and engineering support services; manufactures masks; and invests in technology start-up companies; researches, designs, develops, manufactures, packages, tests, and sells color filters; and provides investment services. Its products are used in high performance computing, smartphones, Internet of things, automotive, and digital consumer electronics. The company was incorporated in 1987 and is headquartered in Hsinchu City, Taiwan.
-beta is: 1.232
-priceToSalesTrailing12Months is: : 0.37182936
-shortRatio is : 1.83
 debtToEquity is: 24.081
+shortRatio is : 1.83
+beta is: 1.232
+priceToSalesTrailing12Months is: 0.37182936
+profitMargins is: 0.39123002
+floatShares is: 23355164560
 totalRevenue is: 2651375796224
 totalCash is: 2167600054272
-floatShares is: 23355164560
-profitMargins is: 0.39123002
 trailingPE is: 30.510433
-priceToBook is: 1.2351841
 forwardPE is: 21.391603
 priceToSalesTrailing12Months is: 0.37182936
+priceToBook is: 1.2351841
 
 ## Data about the AVGO
 ### Basic information about the company
 stock ticker is: AVGO
 industry category is: Semiconductors
 company business summary is: Broadcom Inc. designs, develops, and supplies various semiconductor devices with a focus on complex digital and mixed signal complementary metal oxide semiconductor based devices and analog III-V based products worldwide. The company operates in two segments, Semiconductor Solutions and Infrastructure Software. It provides set-top box system-on-chips (SoCs); cable, digital subscriber line, and passive optical networking central office/consumer premise equipment SoCs; wireless local area network access point SoCs; Ethernet switching and routing custom silicon solutions; serializer/deserializer application specific integrated circuits; optical and copper, and physical layer devices; and fiber optic components and RF semiconductor devices. The company also offers RF front end modules and filter; Wi-Fi, Bluetooth, and global positioning system/global navigation satellite system SoCs; custom touch controllers; inductive charging; attached small computer system interface, and redundant array of independent disks controllers and adapters; peripheral component interconnect express; fiber channel host bus adapters; read channel based SoCs; custom flash controllers; preamplifiers; optocouplers, industrial fiber optics, and motion control encoders and subsystems; light emitting diode, ethernet PHYs, switch ICs, and camera microcontrollers. Its products are used in various applications, including enterprise and data center networking, home connectivity, set-top boxes, broadband access, telecommunication equipment, smartphones and base stations, data center servers and storage systems, factory automation, power generation and alternative energy systems, and electronic displays. Broadcom Inc. was founded in 1961 and is headquartered in Palo Alto, California.
-priceToSalesTrailing12Months is: : 16.384693
-debtToEquity is: 166.032
 beta is: 1.187
+debtToEquity is: 166.032
+priceToSalesTrailing12Months is: 16.384693
 shortRatio is : 3.55
 totalCash is: 11105000448
 floatShares is: 405221340
-totalRevenue is: 46814998528
 profitMargins is: 0.108830005
+totalRevenue is: 46814998528
 priceToSalesTrailing12Months is: 16.384693
 trailingPE is: 133.52032
-forwardPE is: 26.506878
 priceToBook is: 2.7731717
+forwardPE is: 26.506878
 
 ## Data about the ORCL
 ### Basic information about the company
 stock ticker is: ORCL
 industry category is: Software - Infrastructure
 company business summary is: Oracle Corporation offers products and services that address enterprise information technology environments worldwide. Its Oracle cloud software as a service offering include various cloud software applications, including Oracle Fusion cloud enterprise resource planning (ERP), Oracle Fusion cloud enterprise performance management, Oracle Fusion cloud supply chain and manufacturing management, Oracle Fusion cloud human capital management, Oracle Cerner healthcare, and NetSuite applications suite, as well as Oracle Fusion Sales, Service, and Marketing. The company also offers cloud-based industry solutions for various industries; Oracle application licenses; and Oracle license support services. In addition, it provides cloud and license business' infrastructure technologies, such as the Oracle Database and MySQL Database; Java, a software development language; and middleware, including development tools and others. The company's cloud and license business' infrastructure technologies also comprise cloud-based compute, storage, and networking capabilities; and Oracle autonomous database and MySQL HeatWave, as well as Internet-of-Things, digital assistant, and blockchain. Further, it provides hardware products and other hardware-related software offerings, including Oracle engineered systems, enterprise servers, storage solutions, industry-specific hardware, virtualization software, operating systems, management software, and related hardware services, as well as hardware support products; and consulting and customer services. The company markets and sells its cloud, license, hardware, support, and services offerings directly to businesses in various industries, government agencies, and educational institutions, as well as through indirect channels. Oracle Corporation was founded in 1977 and is headquartered in Austin, Texas.
-priceToSalesTrailing12Months is: : 9.901461
-debtToEquity is: 749.978
 beta is: 1.013
 shortRatio is : 3.1
-floatShares is: 1617026086
-profitMargins is: 0.20396
+priceToSalesTrailing12Months is: 9.901461
+debtToEquity is: 749.978
 totalCash is: 10910999552
+floatShares is: 1617026086
 totalRevenue is: 53815001088
+profitMargins is: 0.20396
 priceToBook is: 49.267227
 priceToSalesTrailing12Months is: 9.901461
 trailingPE is: 49.559277
@@ -183,87 +183,87 @@ forwardPE is: 26.880585
 stock ticker is: CSCO
 industry category is: Communication Equipment
 company business summary is: Cisco Systems, Inc. designs, manufactures, and sells Internet Protocol based networking and other products related to the communications and information technology industry in the Americas, Europe, the Middle East, Africa, the Asia Pacific, Japan, and China. The company also offers switching portfolio encompasses campus switching as well as data center switching; enterprise routing portfolio interconnects public and private wireline and mobile networks, delivering highly secure, and reliable connectivity to campus, data center and branch networks; and wireless products include indoor and outdoor wireless coverage designed for seamless roaming use of voice, video, and data applications. In addition, it provides security, which comprising network security, identity and access management, secure access service edge, and threat intelligence, detection, and response offerings; collaboration products, such as Webex Suite, collaboration devices, contact center, and communication platform as a service; end-to-end collaboration solutions that can be delivered from the cloud, on-premise or within hybrid cloud environments allowing customers to transition their collaboration solutions from on-premise to the cloud; and observability offers network assurance, monitoring and analytics and observability suite. Further, the company offers a range of service and support options for its customers, including technical support and advanced services and advisory services. It serves businesses of various sizes, public institutions, governments, and service providers. The company sells its products and services directly, as well as through systems integrators, service providers, other resellers, and distributors. Cisco Systems, Inc. has strategic alliances with other companies. Cisco Systems, Inc. was incorporated in 1984 and is headquartered in San Jose, California.
+priceToSalesTrailing12Months is: 4.4018154
 shortRatio is : 3.83
-priceToSalesTrailing12Months is: : 4.4018154
-debtToEquity is: 70.647
 beta is: N/A
-profitMargins is: 0.17731
-totalRevenue is: 52976001024
+debtToEquity is: 70.647
 floatShares is: 3984334200
 totalCash is: 18670999552
-trailingPE is: 25.128756
-priceToBook is: 5.1594996
+totalRevenue is: 52976001024
+profitMargins is: 0.17731
 forwardPE is: 14.900266
 priceToSalesTrailing12Months is: 4.4018154
+trailingPE is: 25.128756
+priceToBook is: 5.1594996
 
 ## Data about the CRM
 ### Basic information about the company
 stock ticker is: CRM
 industry category is: Software - Application
 company business summary is: Salesforce, Inc. provides Customer Relationship Management (CRM) technology that brings companies and customers together worldwide. The company's service includes sales to store data, monitor leads and progress, forecast opportunities, gain insights through analytics and artificial intelligence, and deliver quotes, contracts, and invoices; and service that enables companies to deliver trusted and highly personalized customer support at scale. In addition, its platform offering comprise a flexible platform that enables companies of various sizes, locations, and industries to build business workflow and apps with customer; online learning platform that allows anyone to learn in-demand Salesforce skills; and Slack, an intelligent productivity platform. The company's marketing services enables companies to plan, personalize, automate, and optimize customer marketing journey, connecting interaction, and connected products; and commerce services, which empowers shopping experience across various customer touchpoint, such as mobile, web, social, and stores and provides click-to-code tools that offers customers to build and deploy solutions. Further, its analytics offering includes Tableau, an end-to-end analytics solution for range of enterprise use cases and intelligent analytics with AI models, spot trends, predict outcomes, creates summaries, timely recommendations, and take action from any device; and integration service including MuleSoft, which provides building blocks to deliver end-to-end and connected experiences. Additionally, the company provides data cloud, a hyperscale data engine native to Salesforce; vertical services to meet the needs of customers in industries, such as financial services, healthcare and life sciences, manufacturing and automotive and government; and offers salesforce starter for small and medium-sized businesses. Salesforce, Inc. was incorporated in 1999 and is headquartered in San Francisco, California.
-shortRatio is : 3.22
-priceToSalesTrailing12Months is: : 8.96671
-debtToEquity is: 21.148
 beta is: 1.288
-profitMargins is: 0.15445
-totalRevenue is: 36465000448
+debtToEquity is: 21.148
+shortRatio is : 3.22
+priceToSalesTrailing12Months is: 8.96671
 floatShares is: 929232000
 totalCash is: 12636000256
-priceToSalesTrailing12Months is: 8.96671
-trailingPE is: 59.48174
+profitMargins is: 0.15445
+totalRevenue is: 36465000448
 priceToBook is: 5.6851726
+trailingPE is: 59.48174
 forwardPE is: 30.608171
+priceToSalesTrailing12Months is: 8.96671
 
 ## Data about the ADBE
 ### Basic information about the company
 stock ticker is: ADBE
 industry category is: Software - Infrastructure
 company business summary is: Adobe Inc., together with its subsidiaries, operates as a diversified software company worldwide. It operates through three segments: Digital Media, Digital Experience, and Publishing and Advertising. The Digital Media segment offers products, services, and solutions that enable individuals, teams, and enterprises to create, publish, and promote content; and Document Cloud, a unified cloud-based document services platform. Its flagship product is Creative Cloud, a subscription service that allows members to access its creative products. This segment serves content creators, students, workers, marketers, educators, enthusiasts, and communicators. The Digital Experience segment provides an integrated platform and set of applications and services that enable brands and businesses to create, manage, execute, measure, monetize, and optimize customer experiences from analytics to commerce. This segment serves marketers, advertisers, agencies, publishers, merchandisers, merchants, web analysts, data scientists, developers, and executives across the C-suite. The Publishing and Advertising segment offers products and services, such as e-learning solutions, technical document publishing, web conferencing, document and forms platform, web application development, and high-end printing, as well as Advertising Cloud offerings. It also provides consulting, technical support, and learning services. The company offers its products and services directly to enterprise customers through its sales force and local field offices, as well as to end users through app stores and through its website at adobe.com. It also distributes products and services through distributors, value-added resellers, systems integrators, software vendors and developers, retailers, and original equipment manufacturers. The company was formerly known as Adobe Systems Incorporated and changed its name to Adobe Inc. in October 2018. Adobe Inc. was founded in 1982 and is headquartered in San Jose, California.
-beta is: 1.299
-priceToSalesTrailing12Months is: : 10.762804
-debtToEquity is: 41.788
-shortRatio is : 2.44
-totalCash is: 7514999808
-floatShares is: 439064284
-profitMargins is: 0.25588
-totalRevenue is: 20946999296
-trailingPE is: 43.29248
-forwardPE is: 24.905113
-priceToBook is: 15.669268
 priceToSalesTrailing12Months is: 10.762804
+debtToEquity is: 41.788
+beta is: 1.299
+shortRatio is : 2.44
+floatShares is: 439064284
+totalCash is: 7514999808
+totalRevenue is: 20946999296
+profitMargins is: 0.25588
+priceToBook is: 15.669268
+forwardPE is: 24.905113
+priceToSalesTrailing12Months is: 10.762804
+trailingPE is: 43.29248
 
 ## Data about the AMD
 ### Basic information about the company
 stock ticker is: AMD
 industry category is: Semiconductors
 company business summary is: Advanced Micro Devices, Inc. operates as a semiconductor company worldwide. It operates through Data Center, Client, Gaming, and Embedded segments. The company offers x86 microprocessors and graphics processing units (GPUs) as an accelerated processing unit, chipsets, data center, and professional GPUs; and embedded processors, and semi-custom system-on-chip (SoC) products, microprocessor and SoC development services and technology, data processing unites, field programmable gate arrays (FPGA), and adaptive SoC products. It provides processors under the AMD Ryzen, AMD Ryzen PRO, Ryzen Threadripper, Ryzen Threadripper PRO, AMD Athlon, AMD Athlon PRO, and AMD PRO A-Series brand names; graphics under the AMD Radeon graphics and AMD Embedded Radeon graphics; and professional graphics under the AMD Radeon Pro graphics brand name. In addition, the company offers data center graphics under the Radeon Instinct and Radeon PRO V-series brands, as well as servers under the AMD Instinct accelerators brand; server microprocessors under the AMD EPYC brands; low power solutions under the AMD Athlon, AMD Geode, AMD Ryzen, AMD EPYC, AMD R-Series, and G-Series brands; FPGA products under the Virtex-6, Virtex-7, Virtex UltraScale+, Kintex-7, Kintex UltraScale, Kintex UltraScale+, Artix-7, Artix UltraScale+, Spartan-6, and Spartan-7 brands; adaptive SOCs under the Zynq-7000, Zynq UltraScale+ MPSoC, Zynq UltraScale+ RFSoCs, Versal HBM, Versal Premium, Versal Prime, Versal AI Core, Versal AI Edge, Vitis, and Vivado brands; and compute and network acceleration board products under the Alveo brand. It serves original equipment and design manufacturers, public cloud service providers, system integrators, independent distributors, and add-in-board manufacturers through its direct sales force, and sales representatives. Advanced Micro Devices, Inc. was incorporated in 1969 and is headquartered in Santa Clara, California.
-priceToSalesTrailing12Months is: : 9.241234
-shortRatio is : 1.49
-beta is: 1.706
 debtToEquity is: 3.927
-totalRevenue is: 24295000064
-totalCash is: 4544000000
-profitMargins is: 0.07516
-floatShares is: 1611885853
 priceToSalesTrailing12Months is: 9.241234
-trailingPE is: 122.43363
-priceToBook is: 3.9403608
+beta is: 1.706
+shortRatio is : 1.49
+floatShares is: 1611885853
+profitMargins is: 0.07516
+totalCash is: 4544000000
+totalRevenue is: 24295000064
 forwardPE is: 26.908648
+priceToSalesTrailing12Months is: 9.241234
+priceToBook is: 3.9403608
+trailingPE is: 122.43363
 
 ## Data about the INTC
 ### Basic information about the company
 stock ticker is: INTC
 industry category is: Semiconductors
 company business summary is: Intel Corporation designs, develops, manufactures, markets, and sells computing and related products and services worldwide. It operates through Client Computing Group, Data Center and AI, Network and Edge, Mobileye, and Intel Foundry Services segments. The company's products portfolio comprises central processing units and chipsets, system-on-chips (SoCs), and multichip packages; mobile and desktop processors; hardware products comprising graphics processing units (GPUs), domain-specific accelerators, and field programmable gate arrays (FPGAs); and memory and storage, connectivity and networking, and other semiconductor products. It also offers silicon devices and software products; and optimization solutions for workloads, such as AI, cryptography, security, storage, networking, and leverages various features supporting diverse compute environments. In addition, the company develops and deploys advanced driver assistance systems (ADAS), and autonomous driving technologies and solutions; and provides advanced process technologies backed by an ecosystem of IP, EDA, and design services, as well as systems of chips, including advanced packaging technologies, software and accelerate bring-up, and integration of chips and driving standards. Further, it delivers and deploys intelligent edge platforms that allow developers to achieve agility and drive automation using AI for efficient operations with data integrity, as well as provides hardware and software platforms, tools, and ecosystem partnerships for digital transformation from the cloud to edge. The company serves original equipment manufacturers, original design manufacturers, cloud service providers, and other manufacturers and service providers. It has a strategic agreement with Synopsys, Inc. to develop EDA and IP solutions; and ARM that enables chip designers to build optimized compute SoCs on the Intel 18A process. Intel Corporation was incorporated in 1968 and is headquartered in Santa Clara, California.
-beta is: 1.026
-priceToSalesTrailing12Months is: : 1.9479142
-shortRatio is : 1.89
 debtToEquity is: 47.906
-totalRevenue is: 54246998016
+priceToSalesTrailing12Months is: 1.9479142
+beta is: 1.026
+shortRatio is : 1.89
+profitMargins is: -0.29423
 floatShares is: 4306185460
 totalCash is: 24085999616
-profitMargins is: -0.29423
-trailingPE is: N/A
-priceToSalesTrailing12Months is: 1.9479142
-priceToBook is: 1.0606519
+totalRevenue is: 54246998016
 forwardPE is: 24.772747
+priceToBook is: 1.0606519
+priceToSalesTrailing12Months is: 1.9479142
+trailingPE is: N/A

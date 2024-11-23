@@ -1,25 +1,6 @@
-## Structure of the program
+This is an AI-powered investment assistant that integrates `ChatGPT 4o mini`, `LightRAG`, and `yFinance`. It's capable of retrieving real-time financial market data and generating investment recommendations based on current market conditions
 
-```mermaid
-graph TD
-yFinance --api--> backend_server
-backend_server -.2.-> middle_desk
-middle_desk --3--> dynamic_stock_data
-company_list --1--> middle_desk
-dynamic_stock_data --writing--> knowledge_base
-middle_desk --4--> knowledge_base
-knowledge_base <--5--> OpenAI
-middle_desk -.6.-Frontend--> Interface
-```
-```
-1. The middleware obtains company stock codes through the company list
-2. The middleware queries information from the backend based on the company list
-3. The middleware stores the latest stock information in the database and parses the data into the knowledge base
-
-4, 5. The middleware makes requests to OpenAI through Light RAG
-6. The middleware sends the obtained responses to the frontend
-```
-## ENV Config
+## Start the Program
 ### Config Virtual Env
 `conda create -n <name> python=3.10`
 
@@ -27,6 +8,7 @@ middle_desk -.6.-Frontend--> Interface
 Dependency Install
 1. Install from source (Recommend):`pip install -e .` (recommend)
 2. Install from PyPI: `pip install lightrag-hku`
+3. Install server dependency: `pip install -r requirements.txt`
 #### Ollama Model Config
 - Ollama install: `curl -fsSL https://ollama.com/install.sh | sh`
 - Model Download: `ollama pull qwen2`
@@ -43,58 +25,39 @@ Dependency Install
 - Check for GPU usage (if applicable): `nvidia-smi`
 
 #### Openai API Config
-`exportOPENAI_API_KEY="sk-..."` 
+`export OPENAI_API_KEY="sk-..."`
 
+### Start the Program
+- Frontend: `python server.py`
+- Middle Desk: `python ./LightRAG/main.py`
+- Backend
+    - `cd backend`
+    - `uvicorn backend:app --reload`
 
+## Structure of the program
 
-### 
+```mermaid
+graph TD
+backend_server -.yFinance.-> middle_desk
+middle_desk --write--> dynamic_stock_data
+static_investment_knowledge --> knowledge_base
+company_list --> middle_desk
+dynamic_stock_data --writing--> knowledge_base
+middle_desk --LightRAG--> knowledge_base
+knowledge_base -.openAI.-Frontend
+```
+
 ## Data Processing
-### Data Collection
-- Start: `uvicorn parse_data:app --reload` 
-- Acquire data from `yfinance`
+- Company stock information data structure may refer to `./LightRAG/fina/data_format.json`
+- Dynamic konwlegde and static knowledge are in `./LightRAG/fina` folder as well.
+- When new data appears, the knowledge will be re-written with latest data.
+- The program will automatically update the data every 60 seconds (you can adjust this by changing the select timeout)
 
-### Data Storage
-- start:`python data_acquire.py`
-
-`./LightRAG/data_acquire.py` is used to regualarly check the data from the backend server and store the stock data into `LightRAG/fina/data.jsonl`. The company list can be modified in `LightRAG/fina/company.json`.
-
-Company stock information data structure
-```
-[
-  {
-    "symbol": "AAPL",
-    "company_name": "Apple Inc.",
-    "industry": "科技公司",
-    "exchange": "NASDAQ",
-    "currency": "USD",
-    "country": "United States",
-    "sector": "Technology",
-    "variable_data": [
-      {
-        "price": 170.25,
-        "timestamp": "2024-11-21T10:30:00",
-        "volume": 1234567,
-        "change": 2.5,
-        "change_percent": 1.5,
-        "market_cap": 2800000000000,
-        "pe_ratio": 28.5,
-        "high_52week": 180.5,
-        "low_52week": 140.2
-      },
-      {
-        // 下一个时间点的数据...
-      }
-    ]
-  },
-  {
-    // 下一家公司的数据...
-  }
-]
-```
-
-- Log files are created on a daily basis in the format `data_acquire_YYYYMMDD.log`
-- A maximum of five up-to-date records are kept for each company's data
-The program will automatically update the data every 60 seconds (you can adjust this by changing the select timeout)
+To simplified the question, the AI bot evaluate and provide suggestions based on 4 matrics, whcih are:
+1. basic_info: `[stock_ticker, industry, longBusinessSummary]`
+2. risk_metrics: `[beta, debtToEquity, priceToSalesTrailing12Months, shortRatio]`
+3. financial_metrics: `[profitMargins, totalCash, totalRevenue, floatShares]`
+4. valuation_metrics: `[trailingPE, forwardPE, priceToBook, priceToSalesTrailing12Months]`
 
 ## Reference
 ```

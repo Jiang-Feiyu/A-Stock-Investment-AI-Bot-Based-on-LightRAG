@@ -1046,6 +1046,701 @@
   <data key="d1">"Trailing Peg Ratio compares a company's price-to-earnings growth to its earnings, indicating stock valuation relative to growth."</data>
   <data key="d2">chunk-d5810bae27976d37e22e9eed1bc82b74</data>
 </node>
+<node id="&quot;APPLE INC.&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide, including products like iPhone, Mac, iPad, and services such as AppleCare and various subscription services."</data>
+  <data key="d2">chunk-c3244e0f3aed07264a4cb14bfc96ff11</data>
+</node>
+<node id="&quot;MICROSOFT CORPORATION&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Microsoft Corporation develops software, services, devices, and solutions worldwide, including Microsoft 365, Azure cloud services, and productivity tools, as well as gaming with Xbox."</data>
+  <data key="d2">chunk-c3244e0f3aed07264a4cb14bfc96ff11</data>
+</node>
+<node id="&quot;ALPHABET INC.&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Alphabet Inc. is a multinational conglomerate incorporated in 1998, headquartered in Mountain View, California, and known for its various products and platforms, including Google Services, Google Cloud, and Other Bets."&lt;SEP&gt;"Alphabet Inc. offers products and platforms including Google Services, Google Cloud, and various consumer services like ads, Android, Chrome, and YouTube, across multiple global markets."</data>
+  <data key="d2">chunk-c3244e0f3aed07264a4cb14bfc96ff11&lt;SEP&gt;chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</node>
+<node id="&quot;CUPERTINO, CALIFORNIA&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Cupertino is the location where Apple Inc. is headquartered and is known for being a center for technology and innovation."</data>
+  <data key="d2">chunk-c3244e0f3aed07264a4cb14bfc96ff11</data>
+</node>
+<node id="&quot;REDMOND, WASHINGTON&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Redmond is the location where Microsoft Corporation is headquartered, known for being a hub for software development."</data>
+  <data key="d2">chunk-c3244e0f3aed07264a4cb14bfc96ff11</data>
+</node>
+<node id="&quot;STOCK TICKER: AAPL&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"AAPL is the stock ticker symbol representing Apple Inc. on the stock market."</data>
+  <data key="d2">chunk-c3244e0f3aed07264a4cb14bfc96ff11</data>
+</node>
+<node id="&quot;STOCK TICKER: MSFT&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"MSFT is the stock ticker symbol representing Microsoft Corporation on the stock market."</data>
+  <data key="d2">chunk-c3244e0f3aed07264a4cb14bfc96ff11</data>
+</node>
+<node id="&quot;STOCK TICKER: GOOGL&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"GOOGL is the stock ticker symbol representing Alphabet Inc. on the stock market."</data>
+  <data key="d2">chunk-c3244e0f3aed07264a4cb14bfc96ff11</data>
+</node>
+<node id="&quot;IPHONE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"iPhone is a line of smartphones designed and manufactured by Apple Inc., known for its innovative technology and user-friendly interface."</data>
+  <data key="d2">chunk-c3244e0f3aed07264a4cb14bfc96ff11</data>
+</node>
+<node id="&quot;MAC&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Mac is a line of personal computers developed by Apple Inc., recognized for its design, performance, and integration with Apple software."</data>
+  <data key="d2">chunk-c3244e0f3aed07264a4cb14bfc96ff11</data>
+</node>
+<node id="&quot;IPAD&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"iPad is a line of multi-purpose tablets manufactured by Apple Inc., popular for its portability and versatile applications."</data>
+  <data key="d2">chunk-c3244e0f3aed07264a4cb14bfc96ff11</data>
+</node>
+<node id="&quot;AIRPODS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"AirPods are wireless earbuds created by Apple Inc., known for their seamless integration with Apple devices and high-quality audio."</data>
+  <data key="d2">chunk-c3244e0f3aed07264a4cb14bfc96ff11</data>
+</node>
+<node id="&quot;APPLE TV&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Apple TV is a digital media player and streaming device developed by Apple Inc., allowing users to access entertainment content."</data>
+  <data key="d2">chunk-c3244e0f3aed07264a4cb14bfc96ff11</data>
+</node>
+<node id="&quot;APPLE WATCH&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Apple Watch is a line of smartwatches developed by Apple Inc., offering health tracking, notifications, and connectivity features."</data>
+  <data key="d2">chunk-c3244e0f3aed07264a4cb14bfc96ff11</data>
+</node>
+<node id="&quot;BEATS PRODUCTS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Beats products are high-quality audio products owned by Apple Inc., including headphones and speakers known for their bass-heavy sound."</data>
+  <data key="d2">chunk-c3244e0f3aed07264a4cb14bfc96ff11</data>
+</node>
+<node id="&quot;HOMEPOD&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"HomePod is a smart speaker developed by Apple Inc., designed to work with Apple Music and provide high-fidelity audio."</data>
+  <data key="d2">chunk-c3244e0f3aed07264a4cb14bfc96ff11</data>
+</node>
+<node id="&quot;APPLECARE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"AppleCare is a support and warranty service provided by Apple Inc. to offer additional protection for their products."</data>
+  <data key="d2">chunk-c3244e0f3aed07264a4cb14bfc96ff11</data>
+</node>
+<node id="&quot;APP STORE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The App Store is a digital distribution platform created by Apple Inc. where users can discover and download applications and digital content."</data>
+  <data key="d2">chunk-c3244e0f3aed07264a4cb14bfc96ff11</data>
+</node>
+<node id="&quot;APPLE ARCADE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Apple Arcade is a subscription-based gaming service offered by Apple Inc. that provides access to a curated selection of games."</data>
+  <data key="d2">chunk-c3244e0f3aed07264a4cb14bfc96ff11</data>
+</node>
+<node id="&quot;APPLE FITNESS+ &quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Apple Fitness+ is a subscription service from Apple Inc. offering personalized fitness workouts and training sessions."</data>
+  <data key="d2">chunk-c3244e0f3aed07264a4cb14bfc96ff11</data>
+</node>
+<node id="&quot;APPLE MUSIC&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Apple Music is a subscription-based music streaming service provided by Apple Inc., offering curated playlists and radio stations."</data>
+  <data key="d2">chunk-c3244e0f3aed07264a4cb14bfc96ff11</data>
+</node>
+<node id="&quot;APPLE NEWS+ &quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Apple News+ is a subscription service from Apple Inc. that provides access to a wide range of magazines and news articles."</data>
+  <data key="d2">chunk-c3244e0f3aed07264a4cb14bfc96ff11</data>
+</node>
+<node id="&quot;APPLE TV+ &quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Apple TV+ is a subscription-based streaming service from Apple Inc. offering exclusive original TV shows and movies."</data>
+  <data key="d2">chunk-c3244e0f3aed07264a4cb14bfc96ff11</data>
+</node>
+<node id="&quot;APPLE CARD&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Apple Card is a co-branded credit card offered by Apple Inc., integrating with Apple Pay and providing a seamless payment experience."</data>
+  <data key="d2">chunk-c3244e0f3aed07264a4cb14bfc96ff11</data>
+</node>
+<node id="&quot;APPLE PAY&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Apple Pay is a cashless payment service provided by Apple Inc., allowing users to make payments using their Apple devices."</data>
+  <data key="d2">chunk-c3244e0f3aed07264a4cb14bfc96ff11</data>
+</node>
+<node id="&quot;AZURE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Azure is a cloud computing service created by Microsoft Corporation, allowing businesses to build, manage, and deploy applications through Microsoft's global network of data centers."</data>
+  <data key="d2">chunk-c3244e0f3aed07264a4cb14bfc96ff11</data>
+</node>
+<node id="&quot;LINKEDIN&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"LinkedIn is a professional networking platform owned by Microsoft Corporation, used for business networking and job searching."</data>
+  <data key="d2">chunk-c3244e0f3aed07264a4cb14bfc96ff11</data>
+</node>
+<node id="&quot;DYNAMICS 365&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Dynamics 365 is a set of intelligent cloud-based applications offered by Microsoft Corporation for enterprise resource planning (ERP) and customer relationship management (CRM)."</data>
+  <data key="d2">chunk-c3244e0f3aed07264a4cb14bfc96ff11</data>
+</node>
+<node id="&quot;XBOX&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Xbox is a gaming brand created by Microsoft Corporation, which includes consoles, games, and online services for gaming."</data>
+  <data key="d2">chunk-c3244e0f3aed07264a4cb14bfc96ff11</data>
+</node>
+<node id="&quot;BING&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Bing is a web search engine owned and operated by Microsoft Corporation, offering search services and advertising solutions."</data>
+  <data key="d2">chunk-c3244e0f3aed07264a4cb14bfc96ff11</data>
+</node>
+<node id="&quot;GOOGLE SERVICES&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Google Services is a segment of Alphabet Inc. that encompasses various products including ads, search services, and Google Play applications."&lt;SEP&gt;"Google Services is a segment of Alphabet Inc. that provides products and services including ads, Android, Chrome, Gmail, Google Drive, Google Maps, Google Photos, Google Play, Search, and YouTube, alongside in-app purchases and services."</data>
+  <data key="d2">chunk-c3244e0f3aed07264a4cb14bfc96ff11&lt;SEP&gt;chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</node>
+<node id="&quot;GOOGLE CLOUD&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Google Cloud is a segment of Alphabet Inc. that provides cloud computing services and APIs for businesses and developers."&lt;SEP&gt;"Google Cloud is the segment of Alphabet Inc. that offers infrastructure, cybersecurity, databases, analytics, AI, and services for enterprise customers."</data>
+  <data key="d2">chunk-c3244e0f3aed07264a4cb14bfc96ff11&lt;SEP&gt;chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</node>
+<node id="&quot;YOUTUBE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"YouTube is a video sharing platform owned by Alphabet Inc., allowing users to upload, share, and view videos."&lt;SEP&gt;"YouTube is a video-sharing platform owned by Alphabet Inc. that allows users to upload, view, and share videos, as well as providing consumer subscription services."</data>
+  <data key="d2">chunk-c3244e0f3aed07264a4cb14bfc96ff11&lt;SEP&gt;chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</node>
+<node id="&quot;GOOGLE WORKSPACE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Google Workspace is a suite of cloud-based productivity and collaboration tools provided by Alphabet Inc. for businesses and organizations."</data>
+  <data key="d2">chunk-c3244e0f3aed07264a4cb14bfc96ff11</data>
+</node>
+<node id="&quot;MOUNTAIN VIEW&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Mountain View is a city in California where Alphabet Inc. is headquartered."</data>
+  <data key="d2">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</node>
+<node id="&quot;OTHER BETS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Other Bets is a segment of Alphabet Inc. that sells healthcare-related and internet services."</data>
+  <data key="d2">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</node>
+<node id="&quot;META PLATFORMS, INC.&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Meta Platforms, Inc. is a multinational technology company that focuses on connecting people through various platforms such as Facebook, Instagram, Messenger, and WhatsApp, incorporating virtual and augmented reality technologies."</data>
+  <data key="d2">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</node>
+<node id="&quot;MENLO PARK&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Menlo Park is a city in California where Meta Platforms, Inc. is headquartered."</data>
+  <data key="d2">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</node>
+<node id="&quot;NVIDIA CORPORATION&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"NVIDIA Corporation is a technology company founded in 1993 and headquartered in Santa Clara, California, specializing in graphics processing units (GPUs) and AI computing platforms across various sectors including gaming, automotive, and data centers."&lt;SEP&gt;"NVIDIA Corporation is a technology company that provides graphics, compute, and networking solutions, offering products such as GPUs for gaming and enterprise applications, and services for cloud computing."</data>
+  <data key="d2">chunk-1ea21c687ff6ab4967a71be16e9b996a&lt;SEP&gt;chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</node>
+<node id="&quot;CALIFORNIA&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"California is a U.S. state where both Alphabet Inc. and Meta Platforms, Inc. are headquartered."</data>
+  <data key="d2">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</node>
+<node id="&quot;INTERNET CONTENT &amp; INFORMATION&quot;">
+  <data key="d0">"INDUSTRY"</data>
+  <data key="d1">"Internet Content &amp; Information is an industry category that includes companies providing a range of digital content and online services, including social media and search engine services provided by Alphabet Inc. and Meta."</data>
+  <data key="d2">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</node>
+<node id="&quot;SEMICONDUCTORS&quot;">
+  <data key="d0">"INDUSTRY"</data>
+  <data key="d1">"Semiconductors are materials that have electrical conductivity between a conductor and an insulator, playing a critical role in modern electronics and technology devices."&lt;SEP&gt;"Semiconductors is an industry category that encompasses companies like NVIDIA that specialize in creating semiconductor devices and solutions."</data>
+  <data key="d2">chunk-ecd689eefadff54c87cf82f749f2453c&lt;SEP&gt;chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</node>
+<node id="&quot;GOOGLE PLAY&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Google Play is a digital distribution service operated by Alphabet Inc. that serves as the official app store for Android devices, also providing music, books, and other digital content."</data>
+  <data key="d2">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</node>
+<node id="&quot;GMAIL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Gmail is a cloud-based email service developed by Alphabet Inc., which allows users to send and receive emails, benefiting from integrated communication tools."</data>
+  <data key="d2">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</node>
+<node id="&quot;DOCS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Docs refers to Google Docs, a part of Google Workspace that enables collaborative document editing and sharing in real-time, operated by Alphabet Inc."</data>
+  <data key="d2">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</node>
+<node id="&quot;DRIVE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Google Drive is a file storage and synchronization service developed by Alphabet Inc., allowing users to store files in the cloud and share them with others."</data>
+  <data key="d2">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</node>
+<node id="&quot;CALENDAR&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Google Calendar is a time-management and scheduling tool developed by Alphabet Inc., enabling users to organize their schedules and share events."</data>
+  <data key="d2">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</node>
+<node id="&quot;MEET&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Google Meet is a video-communication service developed as part of Google Workspace by Alphabet Inc., facilitating virtual meetings and video conferences."</data>
+  <data key="d2">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</node>
+<node id="&quot;FACEBOOK&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Facebook is a social media platform developed by Meta Platforms, Inc. that allows users to connect, share, and interact through posts, messages, and events."</data>
+  <data key="d2">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</node>
+<node id="&quot;INSTAGRAM&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Instagram is a photo and video-sharing social networking service owned by Meta Platforms, Inc., focusing on visual content and social interactions."</data>
+  <data key="d2">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</node>
+<node id="&quot;MESSENGER&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Messenger is a messaging application provided by Meta Platforms, Inc. that allows text, audio, and video communication among users."</data>
+  <data key="d2">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</node>
+<node id="&quot;WHATSAPP&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"WhatsApp is a messaging application owned by Meta Platforms, Inc. used for private communication and transactions between individuals and businesses."</data>
+  <data key="d2">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</node>
+<node id="&quot;GEFORCE GPUS&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"GeForce GPUs are graphics processing units developed by NVIDIA Corporation tailored for gaming and PC graphics performance."</data>
+  <data key="d2">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</node>
+<node id="&quot;GEFORCE NOW&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"GeForce NOW is a cloud gaming service that allows users to stream games directly from various devices, developed by NVIDIA Corporation."&lt;SEP&gt;"GeForce NOW is a game streaming service offered by NVIDIA Corporation that allows users to play games remotely through cloud technology."</data>
+  <data key="d2">chunk-1ea21c687ff6ab4967a71be16e9b996a&lt;SEP&gt;chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</node>
+<node id="&quot;SPECTRUM FOR ETHERNET&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Spectrum for Ethernet is a networking solution offered by NVIDIA Corporation that focuses on efficient data transfer and connectivity."</data>
+  <data key="d2">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</node>
+<node id="&quot;TESLA, INC.&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Tesla, Inc. designs, manufactures, and sells electric vehicles and energy generation systems and is headquartered in Austin, Texas. The company focuses on sustainability and innovation in the automotive industry and energy markets."</data>
+  <data key="d2">chunk-1ea21c687ff6ab4967a71be16e9b996a</data>
+</node>
+<node id="&quot;TAIWAN SEMICONDUCTOR MANUFACTURING COMPANY LIMITED&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Taiwan Semiconductor Manufacturing Company Limited (TSMC), headquartered in Hsinchu City, Taiwan, is a major manufacturer of semiconductors, offering various fabrication processes and supporting services globally."</data>
+  <data key="d2">chunk-1ea21c687ff6ab4967a71be16e9b996a</data>
+</node>
+<node id="&quot;BROADCOM INC.&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Broadcom Inc. designs and develops a variety of semiconductor devices, primarily focusing on complex digital and mixed-signal devices."&lt;SEP&gt;"Broadcom Inc. is a semiconductor company that designs, develops, and supplies various semiconductor devices, focusing on complex digital, mixed signal devices, and analog products worldwide."</data>
+  <data key="d2">chunk-1ea21c687ff6ab4967a71be16e9b996a&lt;SEP&gt;chunk-ecd689eefadff54c87cf82f749f2453c</data>
+</node>
+<node id="&quot;SANTA CLARA&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Santa Clara is a city in California and is the headquarters for NVIDIA Corporation, highlighting its role in the tech industry."&lt;SEP&gt;"Santa Clara is a city in California that serves as the headquarters for Intel Corporation, playing a significant role in its operational and strategic activities."</data>
+  <data key="d2">chunk-1ea21c687ff6ab4967a71be16e9b996a&lt;SEP&gt;chunk-5b2ee78eac564af1e0a9009fcbcf9671</data>
+</node>
+<node id="&quot;AUSTIN&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Austin is a city in Texas, serving as the headquarters for Oracle Corporation, highlighting its role as a hub for technology companies."&lt;SEP&gt;"Austin is a city in Texas, which serves as the headquarters for Tesla, Inc., a key player in the electric vehicle market."</data>
+  <data key="d2">chunk-1ea21c687ff6ab4967a71be16e9b996a&lt;SEP&gt;chunk-ecd689eefadff54c87cf82f749f2453c</data>
+</node>
+<node id="&quot;HSINCHU CITY&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Hsinchu City is located in Taiwan and is known for being the headquarters of TSMC, a leader in semiconductor manufacturing."</data>
+  <data key="d2">chunk-1ea21c687ff6ab4967a71be16e9b996a</data>
+</node>
+<node id="&quot;QUADRO&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Quadro is a line of professional graphics cards developed by NVIDIA for use in workstations, designed to meet the needs of professionals in CAD and digital content creation."</data>
+  <data key="d2">chunk-1ea21c687ff6ab4967a71be16e9b996a</data>
+</node>
+<node id="&quot;NVIDIA RTX GPUS&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"NVIDIA RTX GPUs are advanced graphics processing units that utilize ray tracing technology for realistic graphics rendering, commonly used in high-end gaming and professional visualization."</data>
+  <data key="d2">chunk-1ea21c687ff6ab4967a71be16e9b996a</data>
+</node>
+<node id="&quot;VGPU SOFTWARE&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"vGPU software enables the use of NVIDIA GPUs for cloud-based visual and virtual computing, allowing multiple users across a network to share a single GPU."</data>
+  <data key="d2">chunk-1ea21c687ff6ab4967a71be16e9b996a</data>
+</node>
+<node id="&quot;AUTOMOTIVE PLATFORMS&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Automotive platforms developed by NVIDIA include solutions for infotainment systems and automated driving, enhancing both user experience and vehicle safety."</data>
+  <data key="d2">chunk-1ea21c687ff6ab4967a71be16e9b996a</data>
+</node>
+<node id="&quot;OMNIVERSE SOFTWARE&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Omniverse software is designed for building and operating metaverse and 3D internet applications, facilitating collaboration in 3D design."</data>
+  <data key="d2">chunk-1ea21c687ff6ab4967a71be16e9b996a</data>
+</node>
+<node id="&quot;COMPUTE &amp; NETWORKING SEGMENT&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The Compute &amp; Networking segment of NVIDIA consists of data center computing platforms and networking solutions, catering to enterprise and cloud infrastructure needs."</data>
+  <data key="d2">chunk-1ea21c687ff6ab4967a71be16e9b996a</data>
+</node>
+<node id="&quot;JETSON ROBOTICS&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Jetson robotics refers to a series of AI platforms and devices designed by NVIDIA for robotics applications, enabling autonomous machines."</data>
+  <data key="d2">chunk-1ea21c687ff6ab4967a71be16e9b996a</data>
+</node>
+<node id="&quot;DGX CLOUD&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"DGX Cloud is a cloud service by NVIDIA providing access to high-performance computing resources specifically for AI workloads and data science."</data>
+  <data key="d2">chunk-1ea21c687ff6ab4967a71be16e9b996a</data>
+</node>
+<node id="&quot;TSLA&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"TSLA is the stock ticker symbol for Tesla, Inc., reflecting its trading presence in the stock market."</data>
+  <data key="d2">chunk-1ea21c687ff6ab4967a71be16e9b996a</data>
+</node>
+<node id="&quot;AUTO MANUFACTURERS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Auto Manufacturers refers to the industry category encompassing companies that design, develop, and produce motor vehicles."</data>
+  <data key="d2">chunk-1ea21c687ff6ab4967a71be16e9b996a</data>
+</node>
+<node id="&quot;ENERGY GENERATION AND STORAGE SEGMENT&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The Energy Generation and Storage segment of Tesla focuses on solar energy products and energy storage solutions for various customers."</data>
+  <data key="d2">chunk-1ea21c687ff6ab4967a71be16e9b996a</data>
+</node>
+<node id="&quot;SUPERCHARGING&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Supercharging refers to the network of fast-charging stations developed by Tesla to support its electric vehicles across the globe."</data>
+  <data key="d2">chunk-1ea21c687ff6ab4967a71be16e9b996a</data>
+</node>
+<node id="&quot;INTEGRATED CIRCUITS&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Integrated circuits are semiconductor devices that consolidate multiple electronic components into a single chip, essential for modern electronic devices."</data>
+  <data key="d2">chunk-1ea21c687ff6ab4967a71be16e9b996a</data>
+</node>
+<node id="&quot;SEMICONDUCTOR DEVICES&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Semiconductor devices are materials that have electrical conductivity between conductors and insulators, fundamental in electronic components."</data>
+  <data key="d2">chunk-1ea21c687ff6ab4967a71be16e9b996a</data>
+</node>
+<node id="&quot;WAFER FABRICATION PROCESSES&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Wafer fabrication processes involve the manufacturing of semiconductor devices on silicon wafers, critical for producing integrated circuits."</data>
+  <data key="d2">chunk-1ea21c687ff6ab4967a71be16e9b996a</data>
+</node>
+<node id="&quot;COLOR FILTERS&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Color filters are components used in display technologies to enhance color quality and accuracy in electronic displays."</data>
+  <data key="d2">chunk-1ea21c687ff6ab4967a71be16e9b996a</data>
+</node>
+<node id="&quot;CONSUMER ELECTRONICS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Consumer electronics encompass devices that are intended for everyday personal use, such as smartphones, televisions, and audio systems."</data>
+  <data key="d2">chunk-1ea21c687ff6ab4967a71be16e9b996a</data>
+</node>
+<node id="&quot;AUTOMOTIVE MARKETS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Automotive markets refer to the sector focused on the manufacture and sale of motor vehicles, including electric and traditional vehicles."</data>
+  <data key="d2">chunk-1ea21c687ff6ab4967a71be16e9b996a</data>
+</node>
+<node id="&quot;ORACLE CORPORATION&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Oracle Corporation offers a range of enterprise technology solutions, including cloud software and infrastructure services, addressing information technology environments globally."</data>
+  <data key="d2">chunk-ecd689eefadff54c87cf82f749f2453c</data>
+</node>
+<node id="&quot;CISCO SYSTEMS, INC.&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Cisco Systems, Inc. designs and sells networking and communications products related to information technology, providing solutions for secure connectivity and collaboration."&lt;SEP&gt;"Cisco Systems, Inc. is a technology company headquartered in San Jose, California that specializes in providing networking hardware, software, and security solutions for various businesses and organizations."</data>
+  <data key="d2">chunk-60f2ec1c7599b807899a5a8a3bd3d395&lt;SEP&gt;chunk-ecd689eefadff54c87cf82f749f2453c</data>
+</node>
+<node id="&quot;PALO ALTO&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Palo Alto is a city in California, serving as the headquarters for Broadcom Inc., reflecting its significance in the tech industry."</data>
+  <data key="d2">chunk-ecd689eefadff54c87cf82f749f2453c</data>
+</node>
+<node id="&quot;CLOUD SOFTWARE&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Cloud Software refers to applications and services that run in the cloud and can be accessed via the internet, revolutionizing how businesses operate and manage information."</data>
+  <data key="d2">chunk-ecd689eefadff54c87cf82f749f2453c</data>
+</node>
+<node id="&quot;AVGO&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"AVGO is the stock ticker for Broadcom Inc., representing the company in financial markets and stock exchanges."</data>
+  <data key="d2">chunk-ecd689eefadff54c87cf82f749f2453c</data>
+</node>
+<node id="&quot;ORCL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"ORCL is the stock ticker for Oracle Corporation, symbolizing its presence in the financial market."</data>
+  <data key="d2">chunk-ecd689eefadff54c87cf82f749f2453c</data>
+</node>
+<node id="&quot;CSCO&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"CSCO is the stock ticker for Cisco Systems, Inc., indicating its stock performance and trading activity in markets."</data>
+  <data key="d2">chunk-ecd689eefadff54c87cf82f749f2453c</data>
+</node>
+<node id="&quot;SEMICONDUCTOR SOLUTIONS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Semiconductor Solutions is one of the operational segments of Broadcom Inc. focusing on semiconductor devices and technology solutions."</data>
+  <data key="d2">chunk-ecd689eefadff54c87cf82f749f2453c</data>
+</node>
+<node id="&quot;INFRASTRUCTURE SOFTWARE&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Infrastructure Software is another operational segment of Broadcom Inc., emphasizing software solutions that support infrastructure needs."</data>
+  <data key="d2">chunk-ecd689eefadff54c87cf82f749f2453c</data>
+</node>
+<node id="&quot;ENTERPRISE RESOURCE PLANNING (ERP)&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Enterprise resource planning (ERP) refers to software solutions that help businesses manage core functions like finance, HR, and operations, a key offering of Oracle."</data>
+  <data key="d2">chunk-ecd689eefadff54c87cf82f749f2453c</data>
+</node>
+<node id="&quot;CLOUD-BASED COMPUTE, STORAGE, AND NETWORKING CAPABILITIES&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Cloud-based compute, storage, and networking capabilities are core technological offerings by Oracle, essential for modern business IT infrastructure."</data>
+  <data key="d2">chunk-ecd689eefadff54c87cf82f749f2453c</data>
+</node>
+<node id="&quot;INTERNET-OF-THINGS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Internet-of-Things refers to the network of physical devices connected to the internet, enabling smart capabilities; a field Oracle engages in with its products."</data>
+  <data key="d2">chunk-ecd689eefadff54c87cf82f749f2453c</data>
+</node>
+<node id="&quot;WEBEX SUITE&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Webex Suite is a collaboration platform offered by Cisco that includes video conferencing and messaging solutions, facilitating remote work and communication."&lt;SEP&gt;"Webex Suite is a collaboration product offered by Cisco Systems, Inc. that facilitates communication and teamwork through video conferencing and messaging solutions."</data>
+  <data key="d2">chunk-60f2ec1c7599b807899a5a8a3bd3d395&lt;SEP&gt;chunk-ecd689eefadff54c87cf82f749f2453c</data>
+</node>
+<node id="&quot;SECURE ACCESS SERVICE EDGE&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Secure access service edge is a modern cybersecurity architecture that combines networking and security services, reflecting Cisco's focus on security solutions."</data>
+  <data key="d2">chunk-ecd689eefadff54c87cf82f749f2453c</data>
+</node>
+<node id="&quot;SALESFORCE, INC.&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Salesforce, Inc. is a customer relationship management (CRM) technology company based in San Francisco, California, offering solutions that connect companies and customers across various industries."</data>
+  <data key="d2">chunk-60f2ec1c7599b807899a5a8a3bd3d395</data>
+</node>
+<node id="&quot;ADOBE INC.&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Adobe Inc. is a diversified software company that operates globally, providing a range of creative, marketing, and publishing solutions through its various segments."&lt;SEP&gt;"Adobe Inc. is a software company known for its creative software and marketing solutions, rooted in its offerings of products and services to enterprise customers and end users."</data>
+  <data key="d2">chunk-971777b1a9e18c153ebf40fb19d27220&lt;SEP&gt;chunk-60f2ec1c7599b807899a5a8a3bd3d395</data>
+</node>
+<node id="&quot;SAN JOSE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"San Jose is a city in California, which serves as the headquarters for Cisco Systems, Inc."</data>
+  <data key="d2">chunk-60f2ec1c7599b807899a5a8a3bd3d395</data>
+</node>
+<node id="&quot;SAN FRANCISCO&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"San Francisco is a city in California, which serves as the headquarters for Salesforce, Inc."</data>
+  <data key="d2">chunk-60f2ec1c7599b807899a5a8a3bd3d395</data>
+</node>
+<node id="&quot;TABLEAU&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Tableau is an end-to-end analytics solution offered by Salesforce, Inc. that enables organizations to visualize and understand their data."</data>
+  <data key="d2">chunk-60f2ec1c7599b807899a5a8a3bd3d395</data>
+</node>
+<node id="&quot;SLACK&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Slack is an intelligent productivity platform provided by Salesforce, Inc. that facilitates team collaboration through messaging and integration of various tools."</data>
+  <data key="d2">chunk-60f2ec1c7599b807899a5a8a3bd3d395</data>
+</node>
+<node id="&quot;CREATIVE CLOUD&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Creative Cloud is Adobe Inc.'s flagship product subscription service that provides access to a range of creative software for content creation."</data>
+  <data key="d2">chunk-60f2ec1c7599b807899a5a8a3bd3d395</data>
+</node>
+<node id="&quot;DOCUMENT CLOUD&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Document Cloud is a unified cloud-based document services platform provided by Adobe Inc. that allows users to create, edit, and manage documents online."</data>
+  <data key="d2">chunk-60f2ec1c7599b807899a5a8a3bd3d395</data>
+</node>
+<node id="&quot;CUSTOMER RELATIONSHIP MANAGEMENT&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Customer Relationship Management (CRM) is a technology and strategy that Salesforce, Inc. specializes in, focusing on managing a company’s interactions with potential and current customers."</data>
+  <data key="d2">chunk-60f2ec1c7599b807899a5a8a3bd3d395</data>
+</node>
+<node id="&quot;TECHNICAL SUPPORT&quot;">
+  <data key="d0">"SERVICE"</data>
+  <data key="d1">"Technical Support is a service provided by both Cisco Systems, Inc. and Adobe Inc. that assists customers in resolving technical issues with their products."</data>
+  <data key="d2">chunk-60f2ec1c7599b807899a5a8a3bd3d395</data>
+</node>
+<node id="&quot;NETWORK SECURITY&quot;">
+  <data key="d0">"SERVICE"</data>
+  <data key="d1">"Network Security is a service offering from Cisco Systems, Inc. that includes various solutions for protecting networks from threats and unauthorized access."</data>
+  <data key="d2">chunk-60f2ec1c7599b807899a5a8a3bd3d395</data>
+</node>
+<node id="&quot;SERVICE AND SUPPORT OPTIONS&quot;">
+  <data key="d0">"SERVICE"</data>
+  <data key="d1">"Service and Support Options represent offerings by Cisco Systems, Inc. that provide customers with various levels of support, including technical assistance and advisory services."</data>
+  <data key="d2">chunk-60f2ec1c7599b807899a5a8a3bd3d395</data>
+</node>
+<node id="&quot;SAN JOSE, CALIFORNIA&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"San Jose, California is the location where Adobe Inc. is headquartered, indicating its significance as the center of operations for the company."</data>
+  <data key="d2">chunk-971777b1a9e18c153ebf40fb19d27220</data>
+</node>
+<node id="&quot;ADVANCED MICRO DEVICES, INC.&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Advanced Micro Devices, Inc. operates as a semiconductor company offering a variety of products, including processors, graphics processing units, and system-on-chip solutions globally."</data>
+  <data key="d2">chunk-971777b1a9e18c153ebf40fb19d27220</data>
+</node>
+<node id="&quot;SANTA CLARA, CALIFORNIA&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Santa Clara, California is the headquarters of Advanced Micro Devices, Inc., serving as its operational base in the semiconductor industry."</data>
+  <data key="d2">chunk-971777b1a9e18c153ebf40fb19d27220</data>
+</node>
+<node id="&quot;INTEL CORPORATION&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Intel Corporation designs and manufactures a range of computing products and services, including processors, memory and storage, and advanced technologies for various applications."&lt;SEP&gt;"Intel Corporation is a technology company incorporated in 1968, headquartered in Santa Clara, California, focused on developing intelligent edge platforms and AI solutions for efficient operations and digital transformation."</data>
+  <data key="d2">chunk-971777b1a9e18c153ebf40fb19d27220&lt;SEP&gt;chunk-5b2ee78eac564af1e0a9009fcbcf9671</data>
+</node>
+<node id="&quot;SYNOPSYS, INC.&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Synopsys, Inc. is a company that has a strategic agreement with Intel Corporation to develop Electronic Design Automation (EDA) and Intellectual Property (IP) solutions."&lt;SEP&gt;"Synopsys, Inc. is involved in providing EDA and IP solutions, partnering with Intel Corporation for the development of advanced technologies."</data>
+  <data key="d2">chunk-971777b1a9e18c153ebf40fb19d27220&lt;SEP&gt;chunk-5b2ee78eac564af1e0a9009fcbcf9671</data>
+</node>
+<node id="&quot;AMD&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"AMD, or Advanced Micro Devices, is a leading semiconductor company known for manufacturing processors, GPUs, and system-on-chip products for various computing applications."</data>
+  <data key="d2">chunk-971777b1a9e18c153ebf40fb19d27220</data>
+</node>
+<node id="&quot;INTC&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"INTC, or Intel Corporation, is a major integrated semiconductor company that produces processors and other computing products for a range of applications."</data>
+  <data key="d2">chunk-971777b1a9e18c153ebf40fb19d27220</data>
+</node>
+<node id="&quot;X86 MICROPROCESSORS&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"x86 microprocessors are a family of computer processors that are widely used in PCs and servers, developed by AMD as part of their product offerings."</data>
+  <data key="d2">chunk-971777b1a9e18c153ebf40fb19d27220</data>
+</node>
+<node id="&quot;GRAPHICS PROCESSING UNITS (GPUS)&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"GPUs are specialized hardware designed to accelerate rendering of images and videos, critical in gaming and professional graphic applications, offered by both AMD and Intel."</data>
+  <data key="d2">chunk-971777b1a9e18c153ebf40fb19d27220</data>
+</node>
+<node id="&quot;RYZEN&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Ryzen is AMD's brand of CPUs known for high performance in gaming and professional applications."</data>
+  <data key="d2">chunk-971777b1a9e18c153ebf40fb19d27220</data>
+</node>
+<node id="&quot;RADEON&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Radeon refers to AMD's brand of GPUs, which are used in gaming, professional graphics tasks, and machine learning.</data>
+  <data key="d2">chunk-971777b1a9e18c153ebf40fb19d27220</data>
+</node>
+<node id="&quot;EPYC MICROPROCESSORS&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"EPYC microprocessors are AMD's line of server CPUs designed for data centers and cloud computing applications."</data>
+  <data key="d2">chunk-971777b1a9e18c153ebf40fb19d27220</data>
+</node>
+<node id="&quot;DATA CENTER GRAPHICS&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Data center graphics products are designed to provide high-performance computing for data-intensive applications, offered by AMD under the Radeon Instinct brand."</data>
+  <data key="d2">chunk-971777b1a9e18c153ebf40fb19d27220</data>
+</node>
+<node id="&quot;CENTRAL PROCESSING UNITS (CPUS)&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"CPUs are the primary component of computer systems that perform the majority of processing tasks."</data>
+  <data key="d2">chunk-971777b1a9e18c153ebf40fb19d27220</data>
+</node>
+<node id="&quot;FIELD PROGRAMMABLE GATE ARRAYS (FPGAS)&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"FPGAs are integrated circuits that can be configured by the customer or designer after manufacturing, providing flexibility in hardware design."</data>
+  <data key="d2">chunk-971777b1a9e18c153ebf40fb19d27220</data>
+</node>
+<node id="&quot;MEMORY AND STORAGE PRODUCTS&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Memory and storage products include devices that store data, essential for computers and servers, produced by Intel."</data>
+  <data key="d2">chunk-971777b1a9e18c153ebf40fb19d27220</data>
+</node>
+<node id="&quot;AUTONOMOUS DRIVING TECHNOLOGIES&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Autonomous driving technologies involve hardware and software systems used to facilitate self-driving vehicles, an area of development for Intel."</data>
+  <data key="d2">chunk-971777b1a9e18c153ebf40fb19d27220</data>
+</node>
+<node id="&quot;CLOUD SERVICE PROVIDERS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Cloud service providers are companies that offer cloud computing services, utilizing hardware from companies like Intel and AMD."&lt;SEP&gt;"Cloud service providers offer storage and computing services accessible over the internet, and Intel Corporation caters to this market segment with its technology solutions."</data>
+  <data key="d2">chunk-971777b1a9e18c153ebf40fb19d27220&lt;SEP&gt;chunk-5b2ee78eac564af1e0a9009fcbcf9671</data>
+</node>
+<node id="&quot;DIGITAL TRANSFORMATION&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Digital transformation refers to the integration of digital technology into all areas of a business, fundamentally changing how it operates and delivers value to customers."</data>
+  <data key="d2">chunk-971777b1a9e18c153ebf40fb19d27220</data>
+</node>
+<node id="&quot;SEMICONDUCTOR INDUSTRY&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"The semiconductor industry encompasses the design and fabrication of semiconductor devices, crucial for modern electronics, comprising companies like AMD and Intel."</data>
+  <data key="d2">chunk-971777b1a9e18c153ebf40fb19d27220</data>
+</node>
+<node id="&quot;ARM&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"ARM is a company that collaborates with Intel Corporation to enable chip designers to build optimized compute System on Chips (SoCs) using Intel's manufacturing processes."</data>
+  <data key="d2">chunk-5b2ee78eac564af1e0a9009fcbcf9671</data>
+</node>
+<node id="&quot;INVESTMENT STRATEGY&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Investment Strategy refers to a set of guidelines and recommendations for evaluating financial metrics and making investment decisions based on risk and valuation metrics."</data>
+  <data key="d2">chunk-5b2ee78eac564af1e0a9009fcbcf9671</data>
+</node>
+<node id="&quot;ORIGINAL EQUIPMENT MANUFACTURERS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Original equipment manufacturers are companies that produce parts and equipment that may be marketed by another manufacturer, which Intel Corporation serves as part of its business operations."</data>
+  <data key="d2">chunk-5b2ee78eac564af1e0a9009fcbcf9671</data>
+</node>
+<node id="&quot;ORIGINAL DESIGN MANUFACTURERS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Original design manufacturers are firms that design and manufacture products that can be rebranded by other companies, and Intel Corporation provides services to them as well."</data>
+  <data key="d2">chunk-5b2ee78eac564af1e0a9009fcbcf9671</data>
+</node>
+<node id="&quot;DATA INTEGRITY&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Data integrity refers to the accuracy and consistency of data over its lifecycle, an important aspect in the context of Intel Corporation's AI and operational solutions."</data>
+  <data key="d2">chunk-5b2ee78eac564af1e0a9009fcbcf9671</data>
+</node>
+<node id="&quot;AI&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"AI, or artificial intelligence, is a field of technology that enables machines to perform tasks that would typically require human intelligence, which Intel integrates into its operations."</data>
+  <data key="d2">chunk-5b2ee78eac564af1e0a9009fcbcf9671</data>
+</node>
+<node id="&quot;HARDWARE AND SOFTWARE PLATFORMS&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Hardware and software platforms are foundational industrial technologies offered by Intel Corporation to drive digital transformation."</data>
+  <data key="d2">chunk-5b2ee78eac564af1e0a9009fcbcf9671</data>
+</node>
+<node id="&quot;ECOSYSTEM PARTNERSHIPS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Ecosystem partnerships refer to collaborative relationships formed with other companies to enhance technology development and market reach, utilized by Intel Corporation."</data>
+  <data key="d2">chunk-5b2ee78eac564af1e0a9009fcbcf9671</data>
+</node>
+<node id="&quot;GOOGL&quot;">
+  <data key="d2">chunk-c3244e0f3aed07264a4cb14bfc96ff11</data>
+  <data key="d1">"GOOGL is the stock ticker that represents Alphabet Inc. in financial markets, indicating their relationship as an organization and its financial representation."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;INSTAGRAM&quot;&lt;||&gt;&quot;INSTAGRAM IS PART OF META PLATFORMS, INC.'S FAMILY OF APPLICATIONS, FOCUSING ON PHOTO AND VIDEO SHARING FOR USERS.&quot;">
+  <data key="d2">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+  <data key="d1">"visual content, social interaction"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;QUANTUM FOR INFINIBAND&quot;&lt;||&gt;&quot;QUANTUM FOR INFINIBAND IS A NETWORKING TECHNOLOGY DEVELOPED BY NVIDIA CORPORATION FOR HIGH-PERFORMANCE APPLICATIONS.&quot;">
+  <data key="d2">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+  <data key="d1">"networking solutions, high-performance computing"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;SPECTRUM FOR ETHERNET&quot;&lt;||&gt;&quot;SPECTRUM FOR ETHERNET IS A TECHNOLOGICAL ADVANCEMENT BY NVIDIA CORPORATION AIMED AT OPTIMIZING DATA CONNECTIVITY.&quot;">
+  <data key="d2">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+  <data key="d1">"networking solutions, data transfer"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;COMMUNICATION EQUIPMENT&quot;">
+  <data key="d2">chunk-ecd689eefadff54c87cf82f749f2453c</data>
+  <data key="d1">"Cisco Systems, Inc. operates in the communication equipment industry, focusing on networking technology."&lt;SEP&gt;"Cisco Systems, Inc. produces communication equipment, highlighting its core business area.")</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;CPUS&quot;">
+  <data key="d2">chunk-971777b1a9e18c153ebf40fb19d27220</data>
+  <data key="d1">"Intel designs and manufactures CPUs that are integral to computer systems, representing a core aspect of their product offerings."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
 <edge source="&quot;FINANCE&quot;" target="&quot;STOCKS&quot;">
   <data key="d3">8.0</data>
   <data key="d4">"Finance encompasses the study of stocks as a financial instrument, indicating a relationship between the broader discipline and the specific concept of ownership shares."</data>
@@ -1609,5 +2304,491 @@
   <data key="d4">"General Motors Company conducts its financial transactions and reporting in USD, which is crucial for its economic activities."</data>
   <data key="d5">"financial reporting, currency"</data>
   <data key="d6">chunk-d5810bae27976d37e22e9eed1bc82b74</data>
+</edge>
+<edge source="&quot;APPLE INC.&quot;" target="&quot;CUPERTINO, CALIFORNIA&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Apple Inc. is headquartered in Cupertino, California, which signifies the location's importance to the company."</data>
+  <data key="d5">"headquarters, location"</data>
+  <data key="d6">chunk-c3244e0f3aed07264a4cb14bfc96ff11</data>
+</edge>
+<edge source="&quot;APPLE INC.&quot;" target="&quot;GOOGL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Apple Inc. and Alphabet Inc. are both major technology organizations, competing in various sectors including internet services, which creates a dynamic relationship between them."</data>
+  <data key="d5">"competition, technology sector"</data>
+  <data key="d6">chunk-c3244e0f3aed07264a4cb14bfc96ff11</data>
+</edge>
+<edge source="&quot;APPLE INC.&quot;" target="&quot;MICROSOFT CORPORATION&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Apple Inc. and Microsoft Corporation are two leading technology companies that compete in consumer electronics and software markets, linking their business activities."</data>
+  <data key="d5">"competition, technology sector"</data>
+  <data key="d6">chunk-c3244e0f3aed07264a4cb14bfc96ff11</data>
+</edge>
+<edge source="&quot;MICROSOFT CORPORATION&quot;" target="&quot;REDMOND, WASHINGTON&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Microsoft Corporation is headquartered in Redmond, Washington, marking the city's significance to the company."</data>
+  <data key="d5">"headquarters, location"</data>
+  <data key="d6">chunk-c3244e0f3aed07264a4cb14bfc96ff11</data>
+</edge>
+<edge source="&quot;MICROSOFT CORPORATION&quot;" target="&quot;GOOGL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Microsoft Corporation and Alphabet Inc. compete in the technology and cloud services industries, indicating their interrelated business dynamics."</data>
+  <data key="d5">"competition, technology sector"</data>
+  <data key="d6">chunk-c3244e0f3aed07264a4cb14bfc96ff11</data>
+</edge>
+<edge source="&quot;ALPHABET INC.&quot;" target="&quot;GOOGL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"GOOGL is the stock ticker that represents Alphabet Inc. in financial markets, indicating their relationship as an organization and its financial representation."</data>
+  <data key="d5">"financial representation, stock market"</data>
+  <data key="d6">chunk-c3244e0f3aed07264a4cb14bfc96ff11</data>
+</edge>
+<edge source="&quot;ALPHABET INC.&quot;" target="&quot;GOOGLE SERVICES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Google Services is a prominent segment of Alphabet Inc., responsible for various digital products and services, highlighting the company's diversified operations."</data>
+  <data key="d5">"organizational structure, product offerings"</data>
+  <data key="d6">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</edge>
+<edge source="&quot;ALPHABET INC.&quot;" target="&quot;GOOGLE CLOUD&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Google Cloud is another significant segment of Alphabet Inc., demonstrating their extensive range of services offered to enterprise customers."</data>
+  <data key="d5">"organizational structure, service offerings"</data>
+  <data key="d6">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</edge>
+<edge source="&quot;ALPHABET INC.&quot;" target="&quot;OTHER BETS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Other Bets represents the diversification of Alphabet Inc.'s business, allowing them to explore various markets outside their core services."</data>
+  <data key="d5">"business diversification, market exploration"</data>
+  <data key="d6">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</edge>
+<edge source="&quot;ALPHABET INC.&quot;" target="&quot;CALIFORNIA&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"California is home to both Alphabet Inc. and Meta Platforms, Inc., indicating a hub for major technology companies."</data>
+  <data key="d5">"corporate presence, technological hub"</data>
+  <data key="d6">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</edge>
+<edge source="&quot;ALPHABET INC.&quot;" target="&quot;META PLATFORMS, INC.&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Both companies are leading players in the Internet Content &amp; Information industry and are headquartered in California, showcasing the competitive landscape."</data>
+  <data key="d5">"industry competition, corporate rivalry"</data>
+  <data key="d6">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</edge>
+<edge source="&quot;ALPHABET INC.&quot;" target="&quot;YOUTUBE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"YouTube is a key product and platform owned by Alphabet Inc., enhancing its service offerings in digital content."</data>
+  <data key="d5">"product offerings, digital services"</data>
+  <data key="d6">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</edge>
+<edge source="&quot;ALPHABET INC.&quot;" target="&quot;GOOGLE PLAY&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Google Play serves as a significant platform for app distribution under Alphabet Inc., facilitating in-app purchases and digital content sales."</data>
+  <data key="d5">"digital distribution, app ecosystem"</data>
+  <data key="d6">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</edge>
+<edge source="&quot;ALPHABET INC.&quot;" target="&quot;GMAIL&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Gmail is part of the comprehensive services offered by Alphabet Inc., enhancing communication tools for users worldwide."</data>
+  <data key="d5">"communication services, user engagement"</data>
+  <data key="d6">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</edge>
+<edge source="&quot;ALPHABET INC.&quot;" target="&quot;DOCS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Docs is an essential component of Google Workspace, operated by Alphabet Inc., promoting collaborative editing and document sharing."</data>
+  <data key="d5">"collaboration tools, productivity"</data>
+  <data key="d6">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</edge>
+<edge source="&quot;ALPHABET INC.&quot;" target="&quot;DRIVE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Google Drive plays a crucial role in enabling cloud storage and file synchronization as part of Alphabet Inc.'s services."</data>
+  <data key="d5">"cloud storage, data management"</data>
+  <data key="d6">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</edge>
+<edge source="&quot;ALPHABET INC.&quot;" target="&quot;CALENDAR&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Google Calendar integrates scheduling and event management in Alphabet Inc.'s suite of productivity tools."</data>
+  <data key="d5">"time management, productivity"</data>
+  <data key="d6">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</edge>
+<edge source="&quot;ALPHABET INC.&quot;" target="&quot;MEET&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Google Meet enhances communication capabilities for Google Workspace users, showcasing Alphabet Inc.'s commitment to virtual collaboration."</data>
+  <data key="d5">"video conferencing, virtual meetings"</data>
+  <data key="d6">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</edge>
+<edge source="&quot;META PLATFORMS, INC.&quot;" target="&quot;MENLO PARK&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Menlo Park is the headquarters of Meta Platforms, Inc., indicating the geographical significance of the location to the company's operations."</data>
+  <data key="d5">"geographical significance, corporate identity"</data>
+  <data key="d6">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</edge>
+<edge source="&quot;META PLATFORMS, INC.&quot;" target="&quot;CALIFORNIA&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"California is the state where Meta Platforms, Inc. operates and is headquartered, linking the company to its geographical roots."</data>
+  <data key="d5">"corporate presence, geographical significance"</data>
+  <data key="d6">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</edge>
+<edge source="&quot;META PLATFORMS, INC.&quot;" target="&quot;FACEBOOK&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Facebook is the flagship social media platform developed by Meta Platforms, Inc., driving significant user engagement."</data>
+  <data key="d5">"social media, user connectivity"</data>
+  <data key="d6">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</edge>
+<edge source="&quot;META PLATFORMS, INC.&quot;" target="&quot;INSTAGRAM&quot;&lt;||&gt;&quot;INSTAGRAM IS PART OF META PLATFORMS, INC.'S FAMILY OF APPLICATIONS, FOCUSING ON PHOTO AND VIDEO SHARING FOR USERS.&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"visual content, social interaction"</data>
+  <data key="d5">9</data>
+  <data key="d6">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</edge>
+<edge source="&quot;META PLATFORMS, INC.&quot;" target="&quot;MESSENGER&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Messenger is an integral part of Meta Platforms, Inc.'s communication offerings, facilitating messaging across platforms."</data>
+  <data key="d5">"messaging services, user engagement"</data>
+  <data key="d6">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</edge>
+<edge source="&quot;META PLATFORMS, INC.&quot;" target="&quot;WHATSAPP&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"WhatsApp allows private communication and transactions, adding to the diverse messaging solutions provided by Meta Platforms, Inc."</data>
+  <data key="d5">"private messaging, business communication"</data>
+  <data key="d6">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</edge>
+<edge source="&quot;NVIDIA CORPORATION&quot;" target="&quot;CALIFORNIA&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"California serves as the operational base for NVIDIA Corporation, affirming the state's role as a center for semiconductors and technology."&lt;SEP&gt;"NVIDIA Corporation operates within California, linking its operations and significance to the state's tech industry."</data>
+  <data key="d5">"corporate presence, technological focus"&lt;SEP&gt;"corporate presence, technological hub"</data>
+  <data key="d6">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</edge>
+<edge source="&quot;NVIDIA CORPORATION&quot;" target="&quot;GEFORCE GPUS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"GeForce GPUs are core products of NVIDIA Corporation, essential for gaming and graphical performance."</data>
+  <data key="d5">"gaming technology, graphics solutions"</data>
+  <data key="d6">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</edge>
+<edge source="&quot;NVIDIA CORPORATION&quot;" target="&quot;GEFORCE NOW&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"GeForce NOW represents NVIDIA Corporation's foray into cloud gaming, enhancing accessibility for gamers."</data>
+  <data key="d5">"cloud gaming, streaming services"</data>
+  <data key="d6">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</edge>
+<edge source="&quot;NVIDIA CORPORATION&quot;" target="&quot;QUANTUM FOR INFINIBAND&quot;&lt;||&gt;&quot;QUANTUM FOR INFINIBAND IS A NETWORKING TECHNOLOGY DEVELOPED BY NVIDIA CORPORATION FOR HIGH-PERFORMANCE APPLICATIONS.&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"networking solutions, high-performance computing"</data>
+  <data key="d5">9</data>
+  <data key="d6">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</edge>
+<edge source="&quot;NVIDIA CORPORATION&quot;" target="&quot;SPECTRUM FOR ETHERNET&quot;&lt;||&gt;&quot;SPECTRUM FOR ETHERNET IS A TECHNOLOGICAL ADVANCEMENT BY NVIDIA CORPORATION AIMED AT OPTIMIZING DATA CONNECTIVITY.&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"networking solutions, data transfer"</data>
+  <data key="d5">8</data>
+  <data key="d6">chunk-398e2bc2d50f51d730c4fae2af6c22cc</data>
+</edge>
+<edge source="&quot;NVIDIA CORPORATION&quot;" target="&quot;SANTA CLARA&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"NVIDIA Corporation is headquartered in Santa Clara, California, which is significant to its identity as a major tech firm."</data>
+  <data key="d5">"headquarters, location"</data>
+  <data key="d6">chunk-1ea21c687ff6ab4967a71be16e9b996a</data>
+</edge>
+<edge source="&quot;NVIDIA CORPORATION&quot;" target="&quot;TESLA, INC.&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Both NVIDIA Corporation and Tesla, Inc. are significant players in the tech and automotive sectors, with NVIDIA providing GPUs that enhance Tesla's electric vehicles."</data>
+  <data key="d5">"industry influence, partnership potential"</data>
+  <data key="d6">chunk-1ea21c687ff6ab4967a71be16e9b996a</data>
+</edge>
+<edge source="&quot;SEMICONDUCTORS&quot;" target="&quot;BROADCOM INC.&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Broadcom Inc. operates in the semiconductors industry and designs semiconductor devices.")</data>
+  <data key="d5">"industry involvement, technological focus"</data>
+  <data key="d6">chunk-ecd689eefadff54c87cf82f749f2453c</data>
+</edge>
+<edge source="&quot;TESLA, INC.&quot;" target="&quot;AUSTIN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Tesla, Inc. is headquartered in Austin, Texas, reflecting its impact on the automotive and energy industries in that area."</data>
+  <data key="d5">"headquarters, location"</data>
+  <data key="d6">chunk-1ea21c687ff6ab4967a71be16e9b996a</data>
+</edge>
+<edge source="&quot;TAIWAN SEMICONDUCTOR MANUFACTURING COMPANY LIMITED&quot;" target="&quot;HSINCHU CITY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"TSMC operates from Hsinchu City, Taiwan, emphasizing its role as a leading semiconductor manufacturer in that region."</data>
+  <data key="d5">"headquarters, location"</data>
+  <data key="d6">chunk-1ea21c687ff6ab4967a71be16e9b996a</data>
+</edge>
+<edge source="&quot;TAIWAN SEMICONDUCTOR MANUFACTURING COMPANY LIMITED&quot;" target="&quot;BROADCOM INC.&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"TSMC and Broadcom Inc. both operate within the semiconductor industry, supplying essential components and technologies to various sectors."</data>
+  <data key="d5">"industry collaboration, semiconductor supply"</data>
+  <data key="d6">chunk-1ea21c687ff6ab4967a71be16e9b996a</data>
+</edge>
+<edge source="&quot;BROADCOM INC.&quot;" target="&quot;PALO ALTO&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Broadcom Inc. is headquartered in Palo Alto, indicating a strong geographic connection to the tech industry.")</data>
+  <data key="d5">"headquarters, geographic significance"</data>
+  <data key="d6">chunk-ecd689eefadff54c87cf82f749f2453c</data>
+</edge>
+<edge source="&quot;BROADCOM INC.&quot;" target="&quot;AVGO&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"AVGO is the stock ticker symbol representing Broadcom Inc., connecting the company to its financial representation.")</data>
+  <data key="d5">"financial identity, stock market"</data>
+  <data key="d6">chunk-ecd689eefadff54c87cf82f749f2453c</data>
+</edge>
+<edge source="&quot;BROADCOM INC.&quot;" target="&quot;INFRASTRUCTURE SOFTWARE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Broadcom Inc. provides Infrastructure Software as part of its business operations, demonstrating its technological breadth.")</data>
+  <data key="d5">"business operations, technology focus"</data>
+  <data key="d6">chunk-ecd689eefadff54c87cf82f749f2453c</data>
+</edge>
+<edge source="&quot;SANTA CLARA&quot;" target="&quot;INTEL CORPORATION&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Intel Corporation is headquartered in Santa Clara, indicating a strong geographical and operational relationship."</data>
+  <data key="d5">"headquarters, operational base"</data>
+  <data key="d6">chunk-5b2ee78eac564af1e0a9009fcbcf9671</data>
+</edge>
+<edge source="&quot;AUSTIN&quot;" target="&quot;ORACLE CORPORATION&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Oracle Corporation is headquartered in Austin, which highlights the importance of this city in the technology sector.")</data>
+  <data key="d5">"headquarters, geographic significance"</data>
+  <data key="d6">chunk-ecd689eefadff54c87cf82f749f2453c</data>
+</edge>
+<edge source="&quot;ORACLE CORPORATION&quot;" target="&quot;CLOUD SOFTWARE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Oracle Corporation provides cloud software solutions, reflecting its role in developing cloud technologies.")</data>
+  <data key="d5">"product offering, technology evolution"</data>
+  <data key="d6">chunk-ecd689eefadff54c87cf82f749f2453c</data>
+</edge>
+<edge source="&quot;ORACLE CORPORATION&quot;" target="&quot;ORCL&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"ORCL is the stock ticker for Oracle Corporation, linking the entity to its performance in financial markets.")</data>
+  <data key="d5">"financial identity, stock market"</data>
+  <data key="d6">chunk-ecd689eefadff54c87cf82f749f2453c</data>
+</edge>
+<edge source="&quot;ORACLE CORPORATION&quot;" target="&quot;ENTERPRISE RESOURCE PLANNING (ERP)&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Oracle Corporation's cloud ERP solutions are vital for businesses, linking the company to enterprise-level software technology.")</data>
+  <data key="d5">"business management, software solutions"</data>
+  <data key="d6">chunk-ecd689eefadff54c87cf82f749f2453c</data>
+</edge>
+<edge source="&quot;ORACLE CORPORATION&quot;" target="&quot;INTERNET-OF-THINGS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Oracle Corporation is engaged in providing IoT solutions, highlighting its efforts in modern technology innovation.")</data>
+  <data key="d5">"technology innovation, connectivity"</data>
+  <data key="d6">chunk-ecd689eefadff54c87cf82f749f2453c</data>
+</edge>
+<edge source="&quot;CISCO SYSTEMS, INC.&quot;" target="&quot;COMMUNICATION EQUIPMENT&quot;">
+  <data key="d3">17.0</data>
+  <data key="d4">"Cisco Systems, Inc. operates in the communication equipment industry, focusing on networking technology."&lt;SEP&gt;"Cisco Systems, Inc. produces communication equipment, highlighting its core business area.")</data>
+  <data key="d5">"industry focus, market presence"&lt;SEP&gt;"product development, technology focus"</data>
+  <data key="d6">chunk-ecd689eefadff54c87cf82f749f2453c</data>
+</edge>
+<edge source="&quot;CISCO SYSTEMS, INC.&quot;" target="&quot;CSCO&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"CSCO serves as the stock ticker for Cisco Systems, Inc., indicating its trading representation in the financial markets.")</data>
+  <data key="d5">"financial identity, stock market"</data>
+  <data key="d6">chunk-ecd689eefadff54c87cf82f749f2453c</data>
+</edge>
+<edge source="&quot;CISCO SYSTEMS, INC.&quot;" target="&quot;WEBEX SUITE&quot;">
+  <data key="d3">18.0</data>
+  <data key="d4">"Cisco Systems, Inc. offers the Webex Suite as part of its collaboration technology, illustrating its role in remote communication.")&lt;SEP&gt;"Webex Suite is developed and offered by Cisco Systems, Inc., indicating an internal product-company relationship."</data>
+  <data key="d5">"collaboration technology, communication"&lt;SEP&gt;"product offering, organizational structure"</data>
+  <data key="d6">chunk-60f2ec1c7599b807899a5a8a3bd3d395&lt;SEP&gt;chunk-ecd689eefadff54c87cf82f749f2453c</data>
+</edge>
+<edge source="&quot;CISCO SYSTEMS, INC.&quot;" target="&quot;SECURE ACCESS SERVICE EDGE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Cisco Systems, Inc. focuses on secure access service edge solutions, enhancing security and network management.")</data>
+  <data key="d5">"cybersecurity, network management"</data>
+  <data key="d6">chunk-ecd689eefadff54c87cf82f749f2453c</data>
+</edge>
+<edge source="&quot;CISCO SYSTEMS, INC.&quot;" target="&quot;SAN JOSE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Cisco Systems, Inc. is headquartered in San Jose, indicating a direct geographic connection between the company and its location."</data>
+  <data key="d5">"headquarters, location"</data>
+  <data key="d6">chunk-60f2ec1c7599b807899a5a8a3bd3d395</data>
+</edge>
+<edge source="&quot;CISCO SYSTEMS, INC.&quot;" target="&quot;SALESFORCE, INC.&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Both Cisco Systems, Inc. and Salesforce, Inc. are technology companies that provide services and products to businesses, indicating a competitive or collaborative industry relationship."</data>
+  <data key="d5">"industry competition, technology"</data>
+  <data key="d6">chunk-60f2ec1c7599b807899a5a8a3bd3d395</data>
+</edge>
+<edge source="&quot;CISCO SYSTEMS, INC.&quot;" target="&quot;ADOBE INC.&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"Cisco Systems, Inc. and Adobe Inc. are technology organizations with offerings that may complement each other in business environments."</data>
+  <data key="d5">"industry collaboration, technology"</data>
+  <data key="d6">chunk-60f2ec1c7599b807899a5a8a3bd3d395</data>
+</edge>
+<edge source="&quot;CISCO SYSTEMS, INC.&quot;" target="&quot;TECHNICAL SUPPORT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Technical Support is a service provided by Cisco Systems, Inc. to assist customers in technical issues, enhancing user experience."</data>
+  <data key="d5">"customer service, support offering"</data>
+  <data key="d6">chunk-60f2ec1c7599b807899a5a8a3bd3d395</data>
+</edge>
+<edge source="&quot;CISCO SYSTEMS, INC.&quot;" target="&quot;NETWORK SECURITY&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Network Security is part of the offerings by Cisco Systems, Inc., showcasing their focus on cybersecurity solutions."</data>
+  <data key="d5">"cybersecurity, service offering"</data>
+  <data key="d6">chunk-60f2ec1c7599b807899a5a8a3bd3d395</data>
+</edge>
+<edge source="&quot;CISCO SYSTEMS, INC.&quot;" target="&quot;SERVICE AND SUPPORT OPTIONS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Service and Support Options are provided by Cisco Systems, Inc. to ensure customers receive adequate assistance for their products."</data>
+  <data key="d5">"customer service, support offering"</data>
+  <data key="d6">chunk-60f2ec1c7599b807899a5a8a3bd3d395</data>
+</edge>
+<edge source="&quot;SALESFORCE, INC.&quot;" target="&quot;SAN FRANCISCO&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Salesforce, Inc. is headquartered in San Francisco, linking the company to its geographic location."</data>
+  <data key="d5">"headquarters, location"</data>
+  <data key="d6">chunk-60f2ec1c7599b807899a5a8a3bd3d395</data>
+</edge>
+<edge source="&quot;SALESFORCE, INC.&quot;" target="&quot;ADOBE INC.&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Salesforce, Inc. and Adobe Inc. both operate in the software sector, providing technology solutions to enhance customer relationship and experience."</data>
+  <data key="d5">"industry collaboration, software"</data>
+  <data key="d6">chunk-60f2ec1c7599b807899a5a8a3bd3d395</data>
+</edge>
+<edge source="&quot;SALESFORCE, INC.&quot;" target="&quot;TABLEAU&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Tableau is a product provided by Salesforce, Inc., indicating a direct relationship between the product and the organization."</data>
+  <data key="d5">"product offering, organizational structure"</data>
+  <data key="d6">chunk-60f2ec1c7599b807899a5a8a3bd3d395</data>
+</edge>
+<edge source="&quot;SALESFORCE, INC.&quot;" target="&quot;SLACK&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Slack is part of the portfolio of products offered by Salesforce, Inc., demonstrating its role as a collaboration tool within the organization."</data>
+  <data key="d5">"product offering, organizational structure"</data>
+  <data key="d6">chunk-60f2ec1c7599b807899a5a8a3bd3d395</data>
+</edge>
+<edge source="&quot;SALESFORCE, INC.&quot;" target="&quot;CUSTOMER RELATIONSHIP MANAGEMENT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Customer Relationship Management is the main focus of Salesforce, Inc., illustrating the company's business model and service offering."</data>
+  <data key="d5">"business model, core service"</data>
+  <data key="d6">chunk-60f2ec1c7599b807899a5a8a3bd3d395</data>
+</edge>
+<edge source="&quot;ADOBE INC.&quot;" target="&quot;CREATIVE CLOUD&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Creative Cloud is a major product offering from Adobe Inc., reflecting the company's focus on creative solutions."</data>
+  <data key="d5">"product offering, organizational structure"</data>
+  <data key="d6">chunk-60f2ec1c7599b807899a5a8a3bd3d395</data>
+</edge>
+<edge source="&quot;ADOBE INC.&quot;" target="&quot;DOCUMENT CLOUD&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Document Cloud is a product offered by Adobe Inc., enhancing its capabilities in document management and services."</data>
+  <data key="d5">"product offering, organizational structure"</data>
+  <data key="d6">chunk-60f2ec1c7599b807899a5a8a3bd3d395</data>
+</edge>
+<edge source="&quot;ADOBE INC.&quot;" target="&quot;SAN JOSE, CALIFORNIA&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Adobe Inc. is headquartered in San Jose, California, which is a critical location for its business operations."</data>
+  <data key="d5">"headquarters, operational hub"</data>
+  <data key="d6">chunk-971777b1a9e18c153ebf40fb19d27220</data>
+</edge>
+<edge source="&quot;ADVANCED MICRO DEVICES, INC.&quot;" target="&quot;SANTA CLARA, CALIFORNIA&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Advanced Micro Devices, Inc. is based in Santa Clara, California, indicating that this location is vital for its corporate activities."</data>
+  <data key="d5">"headquarters, operational hub"</data>
+  <data key="d6">chunk-971777b1a9e18c153ebf40fb19d27220</data>
+</edge>
+<edge source="&quot;SANTA CLARA, CALIFORNIA&quot;" target="&quot;AMD&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"AMD's headquarters is located in Santa Clara, California, which is vital for its corporate operations within the semiconductor industry."</data>
+  <data key="d5">"headquarters, operational importance"</data>
+  <data key="d6">chunk-971777b1a9e18c153ebf40fb19d27220</data>
+</edge>
+<edge source="&quot;SANTA CLARA, CALIFORNIA&quot;" target="&quot;INTC&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Intel Corporation has significant operations in Santa Clara, California, indicating the area's importance to its business."</data>
+  <data key="d5">"business operations, strategic location"</data>
+  <data key="d6">chunk-971777b1a9e18c153ebf40fb19d27220</data>
+</edge>
+<edge source="&quot;INTEL CORPORATION&quot;" target="&quot;SYNOPSYS, INC.&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"Intel Corporation collaborates with Synopsys, Inc. to enhance its design and development processes through strategic agreements."&lt;SEP&gt;"Intel Corporation has a strategic agreement with Synopsys, Inc. to develop EDA and IP solutions, highlighting their collaboration in technological development."</data>
+  <data key="d5">"strategic partnership, collaboration"</data>
+  <data key="d6">chunk-971777b1a9e18c153ebf40fb19d27220&lt;SEP&gt;chunk-5b2ee78eac564af1e0a9009fcbcf9671</data>
+</edge>
+<edge source="&quot;INTEL CORPORATION&quot;" target="&quot;AUTONOMOUS DRIVING TECHNOLOGIES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Intel is actively involved in the development of technologies related to autonomous driving, showcasing innovation in automotive applications."</data>
+  <data key="d5">"technology development, innovation"</data>
+  <data key="d6">chunk-971777b1a9e18c153ebf40fb19d27220</data>
+</edge>
+<edge source="&quot;INTEL CORPORATION&quot;" target="&quot;ARM&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Intel Corporation collaborates with ARM to enable chip designers to build optimized compute SoCs, demonstrating a partnership in technological innovation."</data>
+  <data key="d5">"collaboration, technological innovation"</data>
+  <data key="d6">chunk-5b2ee78eac564af1e0a9009fcbcf9671</data>
+</edge>
+<edge source="&quot;INTEL CORPORATION&quot;" target="&quot;INVESTMENT STRATEGY&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The investment strategy includes evaluating Intel Corporation's financial metrics as part of informed investment decisions, linking corporate performance to investor recommendations."</data>
+  <data key="d5">"financial evaluation, investment"</data>
+  <data key="d6">chunk-5b2ee78eac564af1e0a9009fcbcf9671</data>
+</edge>
+<edge source="&quot;INTEL CORPORATION&quot;" target="&quot;ORIGINAL EQUIPMENT MANUFACTURERS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Intel Corporation serves original equipment manufacturers as a key part of its business model, indicating a direct market relationship."</data>
+  <data key="d5">"business operations, market relationship"</data>
+  <data key="d6">chunk-5b2ee78eac564af1e0a9009fcbcf9671</data>
+</edge>
+<edge source="&quot;INTEL CORPORATION&quot;" target="&quot;ORIGINAL DESIGN MANUFACTURERS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Intel Corporation offers its technology and services to original design manufacturers, underscoring its role in their production processes."</data>
+  <data key="d5">"collaboration, service provision"</data>
+  <data key="d6">chunk-5b2ee78eac564af1e0a9009fcbcf9671</data>
+</edge>
+<edge source="&quot;INTEL CORPORATION&quot;" target="&quot;CLOUD SERVICE PROVIDERS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Intel Corporation provides technology solutions to cloud service providers, linking its products to the cloud computing industry."</data>
+  <data key="d5">"service provision, cloud computing"</data>
+  <data key="d6">chunk-5b2ee78eac564af1e0a9009fcbcf9671</data>
+</edge>
+<edge source="&quot;INTEL CORPORATION&quot;" target="&quot;AI&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Intel Corporation incorporates AI in its edge platforms and operations, demonstrating the significance of AI in its product offerings."</data>
+  <data key="d5">"technological integration, innovation"</data>
+  <data key="d6">chunk-5b2ee78eac564af1e0a9009fcbcf9671</data>
+</edge>
+<edge source="&quot;INTEL CORPORATION&quot;" target="&quot;DATA INTEGRITY&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Intel Corporation emphasizes data integrity in its AI solutions, reflecting the importance of accurate data management in its operations."</data>
+  <data key="d5">"data management, operational focus"</data>
+  <data key="d6">chunk-5b2ee78eac564af1e0a9009fcbcf9671</data>
+</edge>
+<edge source="&quot;INTEL CORPORATION&quot;" target="&quot;HARDWARE AND SOFTWARE PLATFORMS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Intel Corporation develops and provides hardware and software platforms as part of its core technology offerings, which support various industries."</data>
+  <data key="d5">"technology offerings, industrial support"</data>
+  <data key="d6">chunk-5b2ee78eac564af1e0a9009fcbcf9671</data>
+</edge>
+<edge source="&quot;INTEL CORPORATION&quot;" target="&quot;ECOSYSTEM PARTNERSHIPS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Intel Corporation engages in ecosystem partnerships to enhance its technology development and market positioning, indicating collaboration with other organizations."</data>
+  <data key="d5">"collaboration, market positioning"</data>
+  <data key="d6">chunk-5b2ee78eac564af1e0a9009fcbcf9671</data>
+</edge>
+<edge source="&quot;AMD&quot;" target="&quot;X86 MICROPROCESSORS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"AMD develops x86 microprocessors which are critical in computers and servers, marking their role in the semiconductor market."</data>
+  <data key="d5">"product development, technology innovation"</data>
+  <data key="d6">chunk-971777b1a9e18c153ebf40fb19d27220</data>
+</edge>
+<edge source="&quot;AMD&quot;" target="&quot;RADEON&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Radeon is a product line of AMD focused on graphics processing, showcasing AMD's innovation in GPU technology."</data>
+  <data key="d5">"brand development, product line"</data>
+  <data key="d6">chunk-971777b1a9e18c153ebf40fb19d27220</data>
+</edge>
+<edge source="&quot;AMD&quot;" target="&quot;DATA CENTER GRAPHICS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"AMD's data center graphics products are designed for high-performance computing, indicating their competitive position in the industry."</data>
+  <data key="d5">"product specialization, market positioning"</data>
+  <data key="d6">chunk-971777b1a9e18c153ebf40fb19d27220</data>
+</edge>
+<edge source="&quot;INTC&quot;" target="&quot;CPUS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Intel designs and manufactures CPUs that are integral to computer systems, representing a core aspect of their product offerings."</data>
+  <data key="d5">"core product, market leadership"</data>
+  <data key="d6">chunk-971777b1a9e18c153ebf40fb19d27220</data>
+</edge>
+<edge source="&quot;CLOUD SERVICE PROVIDERS&quot;" target="&quot;SEMICONDUCTOR INDUSTRY&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The semiconductor industry serves cloud service providers, supplying necessary technology for their operations and services."</data>
+  <data key="d5">"supply chain, industry collaboration"</data>
+  <data key="d6">chunk-971777b1a9e18c153ebf40fb19d27220</data>
 </edge>
 </graph></graphml>
