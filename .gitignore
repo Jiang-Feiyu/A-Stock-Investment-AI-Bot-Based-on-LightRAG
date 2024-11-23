@@ -18,3 +18,4 @@
 /fina
 /app/__pycache__
 /LightRAG/__pycache__
+*.pyc
