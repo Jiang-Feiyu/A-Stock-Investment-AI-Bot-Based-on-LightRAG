@@ -28,11 +28,16 @@ Dependency Install
 `export OPENAI_API_KEY="sk-..."`
 
 ### Start the Program
-- Frontend: `python server.py`
-- Middle Desk: `python ./LightRAG/main.py`
+
+- Middle Desk:
+  - `cd LightRAG` 
+  - `python main.py`
 - Backend
     - `cd backend`
     - `uvicorn backend:app --reload`
+
+Please make sure the Middle desk and backend is already running before you start the Frontend (maybe wait for 60s)
+- Frontend: `python server.py`
 
 ## Structure of the program
 
