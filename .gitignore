@@ -17,3 +17,5 @@
 /LightRAG*.ignore.*
 /LightRAG.ruff_cache/
 /fina
+/app/__pycache__
+/LightRAG/__pycache__
