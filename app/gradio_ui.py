@@ -2,7 +2,8 @@ import json
 import time
 import gradio as gr
 import os, sys
-from lightrag import QueryParam
+sys.path.append("..")
+from LightRAG.lightrag import QueryParam
 
 class Gradio_UI:
     def __init__(self, rag):
@@ -28,7 +29,7 @@ class Gradio_UI:
 
         self.rag = rag
 
-        with open("webui/pre_defined_prompts.json", "r", encoding="utf-8") as f:
+        with open("./app/pre_defined_prompts.json", "r", encoding="utf-8") as f:
             self.pre_defined_prompts = json.load(f)
 
 
