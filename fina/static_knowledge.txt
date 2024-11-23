@@ -1,0 +1,112 @@
+# Investment Strategy
+
+## P/E Ratio Analysis
+- Target stocks with P/E below industry average (typically 20-25% lower)
+- Compare with historical P/E trends over 5-year periods
+- Consider cyclical industry variations
+
+## Price to Book Analysis
+- Focus on P/B < 1 for potential undervaluation
+- Compare with industry averages
+- Check for underlying asset quality
+- Consider intangible assets not reflected in book value
+
+## Profitability Metrics
+- Maintain Profit Margins > 10%
+- Look for consistent margin improvement over 3-5 years
+- ROE > 15% indicating efficient capital usage
+- Compare ROE with industry peers
+
+# Growth Investment Strategy
+
+## Revenue Growth
+- Target consistent 10%+ annual revenue growth
+- Analyze organic vs. acquisition-driven growth
+- Review quarter-over-quarter growth stability
+- Compare with market and sector growth rates
+
+## Earnings Quality
+- Look for consistent earnings growth trend
+- Analyze earnings quality and sources
+- Monitor earnings surprise history
+- Check cash flow correlation with earnings
+
+## Cash Flow Analysis
+- Maintain positive free cash flow
+- Growing operating cash flow
+- Strong cash conversion cycle
+- Healthy working capital management
+
+# Income Investment Strategy
+
+## Dividend Analysis
+- Target dividend yield > 3%
+- Review dividend growth history (5-10 years)
+- Payout ratio between 40-60%
+- Dividend coverage ratio > 2
+
+## Company Stability
+- Current ratio > 1.5
+- Interest coverage ratio > 3
+- Stable earnings history
+- Strong market position
+
+# Financial Health Screening
+
+## Debt Management
+- Debt-to-Equity < 0.5
+- Interest coverage ratio > 4
+- Net debt to EBITDA < 3
+- Credit rating analysis
+
+## Liquidity Assessment
+- Current ratio > 1.5
+- Quick ratio > 1
+- Working capital adequacy
+- Cash conversion cycle
+
+# Risk Management Guidelines
+
+## Portfolio Diversification
+- Maximum 5% in single stock
+- Sector exposure limits (15-20%)
+- Geographic diversification
+- Market cap diversification
+
+## Beta Management
+- High beta stocks (>1.5): max 20% of portfolio
+- Low beta stocks (<0.8): min 40% of portfolio
+- Regular beta rebalancing
+- Correlation analysis
+
+## Portfolio Maintenance
+- Quarterly rebalancing
+- Annual strategy review
+- Regular fundamental analysis updates
+- Performance attribution analysis
+
+## Risk Controls
+- Stop-loss at 7-10% below purchase price
+- Trailing stops for winning positions
+- Position sizing based on volatility
+- Regular risk metrics monitoring
+
+# Additional Considerations:
+
+## Market Timing
+- Moving average analysis
+- Volume indicators
+- Market sentiment indicators
+- Technical analysis support
+
+## Regular Monitoring
+- Quarterly earnings reports
+- Management commentary
+- Industry trends
+- Competitive position
+
+## Exit Strategy
+- Define clear exit criteria
+- Regular review of investment thesis
+- Monitor valuation metrics
+- Consider tax implications

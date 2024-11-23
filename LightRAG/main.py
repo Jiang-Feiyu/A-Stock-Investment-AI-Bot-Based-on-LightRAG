@@ -11,6 +11,7 @@ from collections import defaultdict
 fina_dir = '../fina'
 data_file = '../fina/data.jsonl'
 company_list = 'company.json'
+knowledge_file = '../fina/dynamic_knowledge.txt'
 
 def ensure_directory():
     """确保目录存在"""
@@ -51,9 +52,13 @@ def save_to_jsonl(data_list):
         logging.error(f"Failed to save data: {e}")
 
 def query_all_stocks():
-    """查询所有股票信息"""
+    """查询所有股票信息并生成知识文本"""
     all_data = []
+    all_knowledge = []
     companies = load_company_list()
+    
+    print("==================companies==================")
+    print(companies)
     
     for category, tickers in companies.items():
         logging.info(f"Processing category: {category}")
@@ -67,21 +72,85 @@ def query_all_stocks():
                 stock_data['query_time'] = datetime.now().isoformat()
                 all_data.append(stock_data)
                 
-                # 添加延时避免过于频繁的请求
+                print("==================stock_data==================")
+                print(stock_data)
+                
+                # 处理指标并生成文本
+                knowledge_text = process_metrics(stock_data)
+                all_knowledge.append(knowledge_text)
+                
                 time.sleep(1)
             else:
                 logging.warning(f"Failed to get data for {ticker}")
     
-    return all_data
+    combined_knowledge = '\n\n'.join(all_knowledge)
+    return all_data, combined_knowledge
 
+def process_metrics(data):
+    """处理指标数据并生成文本描述"""
+    knowledge_text = []
+    
+    # 基本信息
+    basic_info = [
+        f"## Data about the {data.get('stock_ticker', 'N/A')}",
+        f"### Basic information about the company",
+        f"stock ticker is: {data.get('stock_ticker', 'N/A')}",
+        f"industry category is: {data.get('industry', 'N/A')}",
+        f"company business summary is: {data.get('longBusinessSummary', 'N/A')}"
+    ]
+    
+    # 风险指标
+    risk_metrics = {
+        f"beta is: {data.get('beta','N/A')}",
+        f"debtToEquity is: {data.get('debtToEquity','N/A')}",
+        f"priceToSalesTrailing12Months is: {data.get('priceToSalesTrailing12Months','N/A')}",
+        f"shortRatio is : {data.get('shortRatio','N/A')}"
+    }
+    
+    # 财务指标
+    financial_metrics = {
+        f"profitMargins is: {data.get('profitMargins','N/A')}",
+        f"totalCash is: {data.get('totalCash','N/A')}",
+        f"totalRevenue is: {data.get('totalRevenue','N/A')}",
+        f"floatShares is: {data.get('floatShares','N/A')}"
+    }
+    
+    # 估值指标
+    valuation_metrics = {
+        f"trailingPE is: {data.get('trailingPE','N/A')}",
+        f"forwardPE is: {data.get('forwardPE','N/A')}",
+        f"priceToBook is: {data.get('priceToBook','N/A')}",
+        f"priceToSalesTrailing12Months is: {data.get('priceToSalesTrailing12Months','N/A')}"
+    }
+    
+    # 添加基本信息
+    knowledge_text.extend(basic_info)
+    
+    # 添加风险指标
+    knowledge_text.extend(risk_metrics)
+    
+    # 添加财务指标
+    knowledge_text.extend(financial_metrics)
+    
+    # 添加估值指标
+    knowledge_text.extend(valuation_metrics)
+    
+    return '\n'.join(knowledge_text)
+
+def save_knowledge(text):
+    """保存知识文本到文件"""
+    try:
+        with open(knowledge_file, 'w') as f:
+            f.write(text)
+    except Exception as e:
+        logging.error(f"Failed to save knowledge text: {e}")
+        
 def main():
-    # 设置日志
     logging.basicConfig(
         level=logging.INFO,
         format='%(asctime)s - %(levelname)s - %(message)s'
     )
 
-    # 确保目录存在
     ensure_directory()
 
     try:
@@ -89,17 +158,17 @@ def main():
             current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             logging.info(f"Starting new query cycle at {current_time}")
             
-            # 查询所有股票数据
-            all_stock_data = query_all_stocks()
+            # 查询所有股票数据并生成知识文本
+            all_stock_data, knowledge_text = query_all_stocks()
             
-            # 保存所有数据（覆写文件）
+            # 保存数据和知识文本
             if all_stock_data:
                 save_to_jsonl(all_stock_data)
-                logging.info(f"Successfully updated data for {len(all_stock_data)} stocks")
+                save_knowledge(knowledge_text)
+                logging.info(f"Successfully updated data and knowledge for {len(all_stock_data)} stocks")
             else:
                 logging.warning("No data was collected in this cycle")
             
-            # 等待60秒
             logging.info("Waiting 60 seconds before next cycle...")
             time.sleep(60)
             
