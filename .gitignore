@@ -1,6 +1,5 @@
 /.idea/
-/LightRAG/webui/__pycache__/
-/__pycache__
+**/__pycache__
 /LightRAG/log
 /LightRAG__pycache__
 /LightRAG*.egg-info
