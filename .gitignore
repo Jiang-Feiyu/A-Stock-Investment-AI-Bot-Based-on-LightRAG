@@ -19,3 +19,7 @@
 /app/__pycache__
 /LightRAG/__pycache__
 *.pyc
+/LightRAG/fina
+/LightRAG/fina/*
+!/LightRAG/fina/data_format.json
+!/LightRAG/fina/static_knowledge.txt
