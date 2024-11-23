@@ -1,0 +1,1613 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d5" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;FINANCE&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Finance refers to monetary resources and the study and discipline of money, currency, assets, and liabilities. It encompasses various activities related to personal, corporate, and public finance."</data>
+  <data key="d2">chunk-75d3485b46a470c1989bf64e8e60755a</data>
+</node>
+<node id="&quot;STOCKS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Stocks consist of all the shares by which ownership of a corporation or company is divided, typically entailing voting rights and a fraction of the company's earnings."</data>
+  <data key="d2">chunk-75d3485b46a470c1989bf64e8e60755a</data>
+</node>
+<node id="&quot;UNITED PARCEL SERVICE, INC.&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"United Parcel Service, Inc. (UPS) is a logistics and package delivery company known for its extensive transportation network and services in freight and supply chain solutions."&lt;SEP&gt;"United Parcel Service, Inc. (UPS) is a package delivery company headquartered in Atlanta, Georgia, providing integrated freight and logistics services globally, including transportation, contract logistics, and insurance."</data>
+  <data key="d2">chunk-75d3485b46a470c1989bf64e8e60755a&lt;SEP&gt;chunk-50ec12daf0fd85579a5074c689a4a8d0</data>
+</node>
+<node id="&quot;CAROL B. TOME&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Carol B. Tome is the CEO and Director of United Parcel Service, Inc., responsible for leading the company's strategic direction and operations."</data>
+  <data key="d2">chunk-75d3485b46a470c1989bf64e8e60755a</data>
+</node>
+<node id="&quot;ATLANTA&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Atlanta is a city in Georgia, United States, serving as the headquarters of United Parcel Service, Inc. and an important hub for logistics and transportation."</data>
+  <data key="d2">chunk-75d3485b46a470c1989bf64e8e60755a</data>
+</node>
+<node id="&quot;ASSETS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Assets are resources owned by individuals or organizations that can provide future economic benefits, including cash, property, and investments."</data>
+  <data key="d2">chunk-75d3485b46a470c1989bf64e8e60755a</data>
+</node>
+<node id="&quot;LIABILITIES&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Liabilities are financial obligations or debts that an individual or organization owes to outside parties, impacting overall financial stability."</data>
+  <data key="d2">chunk-75d3485b46a470c1989bf64e8e60755a</data>
+</node>
+<node id="&quot;CURRENCY&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Currency denotes the monetary system used for financial reporting, in this case, USD."&lt;SEP&gt;"Currency refers to the system of money in common use, particularly in the context of trade and exchange within an economic framework."</data>
+  <data key="d2">chunk-75d3485b46a470c1989bf64e8e60755a&lt;SEP&gt;chunk-b54a46d2a45784de073c77599a54df6c</data>
+</node>
+<node id="&quot;FINANCIAL ANALYSIS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Financial analysis involves evaluating an entity's financial data to assess its viability, stability, and profitability."</data>
+  <data key="d2">chunk-75d3485b46a470c1989bf64e8e60755a</data>
+</node>
+<node id="&quot;INVESTMENT MANAGEMENT&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Investment management is the professional management of various securities and assets to meet specified investment goals for the benefit of investors."</data>
+  <data key="d2">chunk-75d3485b46a470c1989bf64e8e60755a</data>
+</node>
+<node id="&quot;PUBLIC FINANCE&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Public finance involves the study of government revenue and expenditure activities, focusing on how governmental entities acquire and allocate resources."</data>
+  <data key="d2">chunk-75d3485b46a470c1989bf64e8e60755a</data>
+</node>
+<node id="&quot;CORPORATE FINANCE&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Corporate finance deals with the funding and capital structure of corporations, and the actions that managers take to increase the value of the company to shareholders."</data>
+  <data key="d2">chunk-75d3485b46a470c1989bf64e8e60755a</data>
+</node>
+<node id="&quot;RISK MANAGEMENT&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Risk management involves identifying, assessing, and prioritizing financial risks followed by the application of resources to minimize or control the probability of unfortunate events."</data>
+  <data key="d2">chunk-75d3485b46a470c1989bf64e8e60755a</data>
+</node>
+<node id="&quot;ECONOMIC HISTORY&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Economic history refers to the study of economies or economic phenomena in the past, including the analysis of historical financial trends and events."</data>
+  <data key="d2">chunk-75d3485b46a470c1989bf64e8e60755a</data>
+</node>
+<node id="&quot;FINANCIAL SYSTEMS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Financial systems are processes and structures that facilitate the exchange of funds, encompassing banks, investment firms, and financial markets."</data>
+  <data key="d2">chunk-75d3485b46a470c1989bf64e8e60755a</data>
+</node>
+<node id="&quot;MATHEMATICAL FINANCE&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Mathematical finance involves the application of mathematical methods to solve problems in finance, particularly concerning the pricing of financial derivatives."</data>
+  <data key="d2">chunk-75d3485b46a470c1989bf64e8e60755a</data>
+</node>
+<node id="&quot;EXPERIMENTAL FINANCE&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Experimental finance is the study and analysis of financial theories through controlled experiments in order to observe behaviors and outcomes."</data>
+  <data key="d2">chunk-75d3485b46a470c1989bf64e8e60755a</data>
+</node>
+<node id="&quot;INTEGRATED FREIGHT &amp; LOGISTICS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Integrated Freight &amp; Logistics refers to the comprehensive coordination and management of transportation services to optimize delivery and supply chain efficiencies."</data>
+  <data key="d2">chunk-75d3485b46a470c1989bf64e8e60755a</data>
+</node>
+<node id="&quot;PRIVATE EQUITY&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Private equity consists of investment funds that purchase equity ownership in private companies or conduct buyouts of public companies, resulting in delisting."</data>
+  <data key="d2">chunk-75d3485b46a470c1989bf64e8e60755a</data>
+</node>
+<node id="&quot;OCT 2023&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The timeframe of October 2023 contextualizes the information presented regarding finance and organizations operating in that period."</data>
+  <data key="d2">chunk-75d3485b46a470c1989bf64e8e60755a</data>
+</node>
+<node id="&quot;LOANS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Loans are the act of giving a sum of money to an individual or organization, typically on the agreement that it will be paid back with interest."</data>
+  <data key="d2">chunk-75d3485b46a470c1989bf64e8e60755a</data>
+</node>
+<node id="&quot;BONDS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Bonds are fixed income instruments that represent a loan made by an investor to a borrower, typically corporate or governmental."</data>
+  <data key="d2">chunk-75d3485b46a470c1989bf64e8e60755a</data>
+</node>
+<node id="&quot;FUTURES&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Futures are financial contracts obligating the buyer to purchase, and the seller to sell, an asset at a predetermined future date and price."</data>
+  <data key="d2">chunk-75d3485b46a470c1989bf64e8e60755a</data>
+</node>
+<node id="&quot;OPTIONS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Options are financial derivatives that give the buyer the right, but not the obligation, to buy or sell an asset at a set price before a certain date."</data>
+  <data key="d2">chunk-75d3485b46a470c1989bf64e8e60755a</data>
+</node>
+<node id="&quot;SHARES&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Shares represent units of ownership in a company, entitling holders to a portion of the corporation's profits and assets."</data>
+  <data key="d2">chunk-75d3485b46a470c1989bf64e8e60755a</data>
+</node>
+<node id="&quot;VOTING RIGHTS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Voting rights refer to the privileges granted to shareholders of a corporation to vote on corporate matters, often proportional to their share ownership."</data>
+  <data key="d2">chunk-75d3485b46a470c1989bf64e8e60755a</data>
+</node>
+<node id="&quot;FINANCIAL TECHNOLOGY&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Financial technology, or fintech, refers to the integration of technology into offerings by financial services companies to improve their use of financial services."</data>
+  <data key="d2">chunk-75d3485b46a470c1989bf64e8e60755a</data>
+</node>
+<node id="&quot;COMPANY BUYBACKS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Company buybacks refer to when a company purchases its own shares from the marketplace, reducing the number of outstanding shares and often increasing the value of remaining shares."</data>
+  <data key="d2">chunk-75d3485b46a470c1989bf64e8e60755a</data>
+</node>
+<node id="&quot;INVESTMENT OPTIONS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Investment options available to individuals and companies include stocks, bonds, mutual funds, ETFs, and various forms of securities."</data>
+  <data key="d2">chunk-75d3485b46a470c1989bf64e8e60755a</data>
+</node>
+<node id="&quot;MR. BALA SUBRAMANIAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Mr. Bala Subramanian is the EVP and Chief Digital &amp; Technology Officer at a company, age 52, born in 1971."</data>
+  <data key="d2">chunk-b54a46d2a45784de073c77599a54df6c</data>
+</node>
+<node id="&quot;MS. KATHLEEN M. GUTMANN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Ms. Kathleen M. Gutmann is the Executive VP and President of International, Healthcare &amp; Supply Chain Solutions, age 54, born in 1969."</data>
+  <data key="d2">chunk-b54a46d2a45784de073c77599a54df6c</data>
+</node>
+<node id="&quot;MR. NANDO CESARONE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Mr. Nando Cesarone is the Executive VP &amp; President of U.S. and UPS Airline, age 51, born in 1972."</data>
+  <data key="d2">chunk-b54a46d2a45784de073c77599a54df6c</data>
+</node>
+<node id="&quot;MR. BRIAN DYKES&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Mr. Brian Dykes is the Chief Financial Officer &amp; Executive Vice President, age 45, born in 1978."</data>
+  <data key="d2">chunk-b54a46d2a45784de073c77599a54df6c</data>
+</node>
+<node id="&quot;KEN COOK&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Ken Cook is the Investor Relations Officer at a company."</data>
+  <data key="d2">chunk-b54a46d2a45784de073c77599a54df6c</data>
+</node>
+<node id="&quot;MR. NORMAN M. BROTHERS JR.&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Mr. Norman M. Brothers Jr. is the Executive VP, Chief Legal, Compliance Officer &amp; Corporate Secretary, age 55, born in 1968."</data>
+  <data key="d2">chunk-b54a46d2a45784de073c77599a54df6c</data>
+</node>
+<node id="&quot;MR. DARRELL L. FORD&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Mr. Darrell L. Ford is the Executive VP, Chief Diversity, Equity and Inclusion Officer &amp; Chief Human Resources Officer, age 58, born in 1965."</data>
+  <data key="d2">chunk-b54a46d2a45784de073c77599a54df6c</data>
+</node>
+<node id="&quot;MR. RALPH OZOUDE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Mr. Ralph Ozoude is the Managing Director of Nigerian Operations &amp; Special Projects Manager for West Africa."</data>
+  <data key="d2">chunk-b54a46d2a45784de073c77599a54df6c</data>
+</node>
+<node id="&quot;MR. HARRISON PARK&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Mr. Harrison Park is the Managing Director of UPS Korea."</data>
+  <data key="d2">chunk-b54a46d2a45784de073c77599a54df6c</data>
+</node>
+<node id="&quot;UPS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"UPS is a multinational package delivery and supply chain management company, known for its logistics services."</data>
+  <data key="d2">chunk-b54a46d2a45784de073c77599a54df6c</data>
+</node>
+<node id="&quot;2023&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The year 2023 is significant for various corporate executive compensations and financial metrics for UPS."</data>
+  <data key="d2">chunk-b54a46d2a45784de073c77599a54df6c</data>
+</node>
+<node id="&quot;TOTALPAY&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"TotalPay refers to the overall compensation amount received by executives in a fiscal year."</data>
+  <data key="d2">chunk-b54a46d2a45784de073c77599a54df6c</data>
+</node>
+<node id="&quot;EXERCISEDVALUE&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"ExercisedValue refers to the total value of stock options that have been exercised by executives."</data>
+  <data key="d2">chunk-b54a46d2a45784de073c77599a54df6c</data>
+</node>
+<node id="&quot;UNEXERCISEDVALUE&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"UnexercisedValue denotes the total value of stock options that have not yet been exercised by executives."</data>
+  <data key="d2">chunk-b54a46d2a45784de073c77599a54df6c</data>
+</node>
+<node id="&quot;AUDITRISK&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Audit Risk is a metric indicating the level of risk associated with the financial auditing process for General Motors Company."&lt;SEP&gt;"AuditRisk is a measure indicating the risk associated with the financial auditing process."</data>
+  <data key="d2">chunk-07b1b52470586dbcc2cd72bc39786df6&lt;SEP&gt;chunk-b54a46d2a45784de073c77599a54df6c</data>
+</node>
+<node id="&quot;BOARDRISK&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Board Risk represents the potential risks that the board of directors of General Motors Company may face in governance and decision making."&lt;SEP&gt;"BoardRisk is a metric evaluating the risk related to the composition and functioning of the board of directors."</data>
+  <data key="d2">chunk-07b1b52470586dbcc2cd72bc39786df6&lt;SEP&gt;chunk-b54a46d2a45784de073c77599a54df6c</data>
+</node>
+<node id="&quot;COMPENSATIONRISK&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Compensation Risk is the assessment of risks related to compensation practices for executives at General Motors Company."&lt;SEP&gt;"CompensationRisk assesses risks associated with the compensation structure of the organization."</data>
+  <data key="d2">chunk-07b1b52470586dbcc2cd72bc39786df6&lt;SEP&gt;chunk-b54a46d2a45784de073c77599a54df6c</data>
+</node>
+<node id="&quot;SHAREHOLDERRIGHTSRISK&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"ShareHolderRightsRisk is a measure of risks concerning the rights and protections afforded to shareholders."&lt;SEP&gt;"Shareholder Rights Risk denotes the potential risks regarding the rights and privileges of shareholders within General Motors Company."</data>
+  <data key="d2">chunk-07b1b52470586dbcc2cd72bc39786df6&lt;SEP&gt;chunk-b54a46d2a45784de073c77599a54df6c</data>
+</node>
+<node id="&quot;OVERALLRISK&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Overall Risk reflects the combined assessment of various risks faced by General Motors Company in its corporate governance."&lt;SEP&gt;"OverallRisk is a composite risk score evaluating multiple facets of corporate governance and operational risk."</data>
+  <data key="d2">chunk-07b1b52470586dbcc2cd72bc39786df6&lt;SEP&gt;chunk-b54a46d2a45784de073c77599a54df6c</data>
+</node>
+<node id="&quot;IRWEBSITE&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"IRWebsite refers to the Investor Relations website where financial information and disclosures are made available to investors."</data>
+  <data key="d2">chunk-b54a46d2a45784de073c77599a54df6c</data>
+</node>
+<node id="&quot;DIVIDENDRATE&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"DividendRate is the percentage of earnings a company pays to its shareholders in dividends."</data>
+  <data key="d2">chunk-b54a46d2a45784de073c77599a54df6c</data>
+</node>
+<node id="&quot;DIVIDENDYIELD&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"DividendYield signifies the annual dividend income relative to the stock price, expressed as a percentage."</data>
+  <data key="d2">chunk-b54a46d2a45784de073c77599a54df6c</data>
+</node>
+<node id="&quot;EXDIVIDENDDATE&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"ExDividendDate indicates the cut-off date established by a company in order to determine which shareholders are eligible to receive a dividend."</data>
+  <data key="d2">chunk-b54a46d2a45784de073c77599a54df6c</data>
+</node>
+<node id="&quot;PROFITMARGINS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"ProfitMargins refer to the percentage of revenue that exceeds costs, measured as a profitability indicator."&lt;SEP&gt;"profitMargins refer to the percentage of revenue that exceeds the costs of goods sold, indicating how well a company converts sales into profits."</data>
+  <data key="d2">chunk-b54a46d2a45784de073c77599a54df6c&lt;SEP&gt;chunk-7fb5f83d32b097642b96ace3dd1278aa</data>
+</node>
+<node id="&quot;MARKETCAP&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"MarketCap is the total market value of a company's outstanding shares, calculated as share price times the total number of shares."&lt;SEP&gt;"marketCap, or market capitalization, refers to the total market value of a company's outstanding shares, helping to evaluate its size and investment potential."</data>
+  <data key="d2">chunk-b54a46d2a45784de073c77599a54df6c&lt;SEP&gt;chunk-7fb5f83d32b097642b96ace3dd1278aa</data>
+</node>
+<node id="&quot;VOLUME&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Volume indicates the total number of shares traded within a certain period, reflecting market activity."</data>
+  <data key="d2">chunk-b54a46d2a45784de073c77599a54df6c</data>
+</node>
+<node id="&quot;AVERAGEVOLUME&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"AverageVolume provides insight into how many shares are traded on average over a specific period."</data>
+  <data key="d2">chunk-b54a46d2a45784de073c77599a54df6c</data>
+</node>
+<node id="&quot;RTX CORPORATION&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"RTX Corporation is a major aerospace and defense company that provides aircraft engines, auxiliary power units, and threat detection services to various customers, including military and commercial sectors. It was incorporated in 1934 and has undergone a name change from Raytheon Technologies Corporation in July 2023."&lt;SEP&gt;"RTX Corporation is a publicly traded aerospace and defense company, known for its extensive range of technologies, products, and services in various segments including aeronautics, missiles and fire control, and space."&lt;SEP&gt;"RTX Corporation is an aerospace and defense company that provides systems and services for commercial, military, and government customers. It operates through segments including Collins Aerospace, Pratt &amp; Whitney, and Raytheon."</data>
+  <data key="d2">chunk-e3725cebb099a9e0c91201f645ee87f0&lt;SEP&gt;chunk-7fb5f83d32b097642b96ace3dd1278aa&lt;SEP&gt;chunk-50ec12daf0fd85579a5074c689a4a8d0</data>
+</node>
+<node id="&quot;ARLINGTON&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Arlington is a city in Virginia, United States, notable for housing the headquarters of RTX Corporation."</data>
+  <data key="d2">chunk-50ec12daf0fd85579a5074c689a4a8d0</data>
+</node>
+<node id="&quot;AEROSPACE &amp; DEFENSE&quot;">
+  <data key="d0">"INDUSTRY"</data>
+  <data key="d1">"Aerospace &amp; Defense is an industry event capturing developments, technologies, and innovations related to air and space travel, military systems, and defense technologies."&lt;SEP&gt;"Aerospace &amp; Defense is an industry focusing on the development and manufacturing of vehicles for air travel and defense systems."</data>
+  <data key="d2">chunk-7fb5f83d32b097642b96ace3dd1278aa&lt;SEP&gt;chunk-50ec12daf0fd85579a5074c689a4a8d0</data>
+</node>
+<node id="&quot;RTX&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"RTX is the stock ticker symbol for RTX Corporation, reflecting its identity in financial markets as an aerospace and defense company."</data>
+  <data key="d2">chunk-50ec12daf0fd85579a5074c689a4a8d0</data>
+</node>
+<node id="&quot;1000 WILSON BOULEVARD&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"1000 Wilson Boulevard is the street address for RTX Corporation's headquarters located in Arlington, VA."</data>
+  <data key="d2">chunk-50ec12daf0fd85579a5074c689a4a8d0</data>
+</node>
+<node id="&quot;VIRGINIA&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Virginia is a state in the United States, where Arlington and RTX Corporation are located."</data>
+  <data key="d2">chunk-50ec12daf0fd85579a5074c689a4a8d0</data>
+</node>
+<node id="&quot;UNITED STATES&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"The United States is a country where RTX Corporation operates in various sectors, including aerospace and defense."&lt;SEP&gt;"United States is the country where Deere &amp; Company operates and is based, providing a national context for its activities."</data>
+  <data key="d2">chunk-8f57c9e1be40cf88709a43b3d838a63a&lt;SEP&gt;chunk-50ec12daf0fd85579a5074c689a4a8d0</data>
+</node>
+<node id="&quot;RAYTHEON TECHNOLOGIES CORPORATION&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Raytheon Technologies Corporation is the former name of RTX Corporation before it rebranded in July 2023."&lt;SEP&gt;"Raytheon Technologies Corporation was the former name of RTX Corporation until it changed its name in July 2023, representing the company's historical identity."</data>
+  <data key="d2">chunk-e3725cebb099a9e0c91201f645ee87f0&lt;SEP&gt;chunk-50ec12daf0fd85579a5074c689a4a8d0</data>
+</node>
+<node id="&quot;JULY 2023&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"July 2023 marks the rebranding event when Raytheon Technologies Corporation changed its name to RTX Corporation."</data>
+  <data key="d2">chunk-50ec12daf0fd85579a5074c689a4a8d0</data>
+</node>
+<node id="&quot;AEROSPACE &amp; DEFENSE INDUSTRY&quot;">
+  <data key="d0">"INDUSTRY"</data>
+  <data key="d1">"The Aerospace &amp; Defense industry involves the design, production, and support of aircraft and defense systems, a primary focus of RTX Corporation."</data>
+  <data key="d2">chunk-50ec12daf0fd85579a5074c689a4a8d0</data>
+</node>
+<node id="&quot;CIVIL AND MILITARY AIRCRAFT MANUFACTURERS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Civil and military aircraft manufacturers are companies that produce aircraft for civilian and military purposes, a key customer group for RTX Corporation's Collins Aerospace segment."</data>
+  <data key="d2">chunk-50ec12daf0fd85579a5074c689a4a8d0</data>
+</node>
+<node id="&quot;GOVERNMENT CUSTOMERS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Government customers refer to various governmental bodies that procure defense and aerospace services from RTX Corporation."</data>
+  <data key="d2">chunk-50ec12daf0fd85579a5074c689a4a8d0</data>
+</node>
+<node id="&quot;COMMERCIAL AIRLINES&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Commercial airlines are airline companies that provide air transport services for passengers and freight, which RTX Corporation serves through its aerospace products."</data>
+  <data key="d2">chunk-50ec12daf0fd85579a5074c689a4a8d0</data>
+</node>
+<node id="&quot;REGIONAL, BUSINESS, AND GENERAL AVIATION&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Regional, business, and general aviation represents various categories of air travel services that RTX Corporation addresses through its product offerings."</data>
+  <data key="d2">chunk-50ec12daf0fd85579a5074c689a4a8d0</data>
+</node>
+<node id="&quot;DEFENSIVE AND OFFENSIVE THREAT DETECTION&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Defensive and offensive threat detection capabilities are solutions provided by RTX Corporation’s Raytheon segment to enhance national and commercial security."</data>
+  <data key="d2">chunk-50ec12daf0fd85579a5074c689a4a8d0</data>
+</node>
+<node id="&quot;AFTERMARKET SERVICES&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Aftermarket services include support and maintenance provided by RTX Corporation for its aerospace products, ensuring their long-term performance and reliability."</data>
+  <data key="d2">chunk-50ec12daf0fd85579a5074c689a4a8d0</data>
+</node>
+<node id="&quot;ELECTRIC POWER UNITS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Auxiliary power units are additional power generation units produced by RTX Corporation for use in aircraft, enhancing functionality and support."</data>
+  <data key="d2">chunk-50ec12daf0fd85579a5074c689a4a8d0</data>
+</node>
+<node id="&quot;CIVILIAN AND MILITARY CUSTOMERS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Civilian and military customers represent the diverse client base that RTX Corporation's Pratt &amp; Whitney segment supplies engines and auxiliary power units to."</data>
+  <data key="d2">chunk-50ec12daf0fd85579a5074c689a4a8d0</data>
+</node>
+<node id="&quot;LONGBUSINESSSUMMARY&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"The long business summary provides a detailed overview of RTX Corporation's activities, segments, and offerings in the aerospace and defense sectors."</data>
+  <data key="d2">chunk-50ec12daf0fd85579a5074c689a4a8d0</data>
+</node>
+<node id="&quot;ARLINGTON, VIRGINIA&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Arlington, Virginia is the location where RTX Corporation is headquartered, highlighting its geographic significance in the business landscape."</data>
+  <data key="d2">chunk-e3725cebb099a9e0c91201f645ee87f0</data>
+</node>
+<node id="&quot;MR. CHRISTOPHER T. CALIO&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Mr. Christopher T. Calio is the CEO, President &amp; Director of RTX Corporation, with significant leadership responsibilities within the organization."</data>
+  <data key="d2">chunk-e3725cebb099a9e0c91201f645ee87f0</data>
+</node>
+<node id="&quot;MR. NEIL G. MITCHILL JR.&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Mr. Neil G. Mitchill Jr. serves as the Executive VP &amp; CFO of RTX Corporation, overseeing financial operations."</data>
+  <data key="d2">chunk-e3725cebb099a9e0c91201f645ee87f0</data>
+</node>
+<node id="&quot;MS. ROBIN L. DIAMONTE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Ms. Robin L. Diamonte is the Chief Investment Officer &amp; VP of Pension Investments at RTX Corporation, focusing on investment strategies."</data>
+  <data key="d2">chunk-e3725cebb099a9e0c91201f645ee87f0</data>
+</node>
+<node id="&quot;MS. AMY L. JOHNSON&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Ms. Amy L. Johnson is the Corporate VP &amp; Controller at RTX Corporation, responsible for financial reporting and compliance."</data>
+  <data key="d2">chunk-e3725cebb099a9e0c91201f645ee87f0</data>
+</node>
+<node id="&quot;MR. JUAN M. DE BEDOUT&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Mr. Juan M. de Bedout holds the position of Chief Technology Officer at RTX Corporation, driving technological innovation."</data>
+  <data key="d2">chunk-e3725cebb099a9e0c91201f645ee87f0</data>
+</node>
+<node id="&quot;MS. JENNIFER REED&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Ms. Jennifer Reed is the Vice President of Investor Relations at RTX Corporation, managing communications with investors."</data>
+  <data key="d2">chunk-e3725cebb099a9e0c91201f645ee87f0</data>
+</node>
+<node id="&quot;MR. RAMSARAN MAHARAJH JR.&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Mr. Ramsaran Maharajh Jr. is the General Counsel for RTX Corporation, providing legal guidance and support."</data>
+  <data key="d2">chunk-e3725cebb099a9e0c91201f645ee87f0</data>
+</node>
+<node id="&quot;MS. PAMELA M. ERICKSON&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Ms. Pamela M. Erickson serves as the Chief Communications Officer, overseeing external and internal communications."</data>
+  <data key="d2">chunk-e3725cebb099a9e0c91201f645ee87f0</data>
+</node>
+<node id="&quot;MS. DANTAYA M. WILLIAMS&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Ms. Dantaya M. Williams is the Chief Human Resources Officer at RTX Corporation, managing HR strategies and practices."</data>
+  <data key="d2">chunk-e3725cebb099a9e0c91201f645ee87f0</data>
+</node>
+<node id="&quot;MR. SHANE G. EDDY&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Mr. Shane G. Eddy is the President of Pratt &amp; Whitney, a segment of RTX Corporation focused on aircraft engines."</data>
+  <data key="d2">chunk-e3725cebb099a9e0c91201f645ee87f0</data>
+</node>
+<node id="&quot;PRATT &amp; WHITNEY&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Pratt &amp; Whitney is a segment of RTX Corporation that supplies aircraft engines and auxiliary power units for various aviation sectors, including commercial and military."</data>
+  <data key="d2">chunk-e3725cebb099a9e0c91201f645ee87f0</data>
+</node>
+<node id="&quot;U.S. GOVERNMENT&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The U.S. Government is a significant customer of RTX Corporation's defense and aerospace products, reflecting the company's role in national security."&lt;SEP&gt;"The U.S. government is a primary customer of Lockheed Martin Corporation, utilizing its products and services for national defense and security."</data>
+  <data key="d2">chunk-56a649eb958065f31b13940c919179d2&lt;SEP&gt;chunk-e3725cebb099a9e0c91201f645ee87f0</data>
+</node>
+<node id="&quot;FOREIGN GOVERNMENT&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Foreign governments are clients of RTX Corporation, benefiting from its advanced defense systems and technologies."</data>
+  <data key="d2">chunk-e3725cebb099a9e0c91201f645ee87f0</data>
+</node>
+<node id="&quot;COMMERCIAL CUSTOMERS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Commercial customers engage with RTX Corporation for aircraft engines and other aerospace services, indicating the company's role in the aviation industry."</data>
+  <data key="d2">chunk-e3725cebb099a9e0c91201f645ee87f0</data>
+</node>
+<node id="&quot;FULL-TIME EMPLOYEES&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Full-time employees at RTX Corporation number around 185,000, signifying the company's workforce scale and operational capacity."</data>
+  <data key="d2">chunk-e3725cebb099a9e0c91201f645ee87f0</data>
+</node>
+<node id="&quot;TOTAL PAY&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Total Pay represents the compensation for executives at RTX Corporation, illustrating the company's investment in leadership talent and structure."</data>
+  <data key="d2">chunk-e3725cebb099a9e0c91201f645ee87f0</data>
+</node>
+<node id="&quot;FISCAL YEAR 2023&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Fiscal Year 2023 marks a specific timeframe for RTX Corporation's financial performance and reporting."&lt;SEP&gt;"Fiscal Year 2023 refers to the annual financial reporting period for the entities mentioned, crucial for assessing their financial performance and compensation structures."</data>
+  <data key="d2">chunk-e3725cebb099a9e0c91201f645ee87f0&lt;SEP&gt;chunk-4772dbaba2fc40212d9bf295e9a50e6d</data>
+</node>
+<node id="&quot;MANAGEMENT SERVICES&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Management services refer to the comprehensive services offered by RTX Corporation in the realms of aerospace and defense."</data>
+  <data key="d2">chunk-e3725cebb099a9e0c91201f645ee87f0</data>
+</node>
+<node id="&quot;LOCKHEED MARTIN CORPORATION&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Lockheed Martin Corporation is a global aerospace and defense company, providing advanced technologies and services including aircraft, missile defense systems, and space systems, primarily serving the U.S. government and foreign military."&lt;SEP&gt;"Lockheed Martin Corporation is a global security and aerospace company involved in the research, design, development, and manufacture of advanced technology systems and products across multiple sectors."&lt;SEP&gt;"Lockheed Martin Corporation is a major American aerospace, defense, arms, security, and advanced technologies company with a variety of products and services."</data>
+  <data key="d2">chunk-56a649eb958065f31b13940c919179d2&lt;SEP&gt;chunk-7fb5f83d32b097642b96ace3dd1278aa&lt;SEP&gt;chunk-5d94e244ddd833e621fe4b456e9f9436</data>
+</node>
+<node id="&quot;BETHESDA&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Bethesda is a city located in Maryland, United States, known for its proximity to Washington D.C. and its significance in various industrial sectors, including aerospace and defense."&lt;SEP&gt;"Bethesda is a location where Lockheed Martin Corporation is headquartered, contributing to its operational and administrative functions."</data>
+  <data key="d2">chunk-56a649eb958065f31b13940c919179d2&lt;SEP&gt;chunk-7fb5f83d32b097642b96ace3dd1278aa</data>
+</node>
+<node id="&quot;AVERAGEDAILYVOLUME10DAY&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"averageDailyVolume10Day refers to a statistical measure that indicates the average trading volume of a security over a 10-day period, which is a key metric for investors."</data>
+  <data key="d2">chunk-7fb5f83d32b097642b96ace3dd1278aa</data>
+</node>
+<node id="&quot;BID&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"bid is a term used in trading that represents the price that a buyer is willing to pay for a security, which is important for determining market value."</data>
+  <data key="d2">chunk-7fb5f83d32b097642b96ace3dd1278aa</data>
+</node>
+<node id="&quot;ASK&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"ask is a term in trading that indicates the price at which a seller is willing to sell a security, which helps assess market conditions."</data>
+  <data key="d2">chunk-7fb5f83d32b097642b96ace3dd1278aa</data>
+</node>
+<node id="&quot;FIFTYTWOWEEKLOW&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"fiftyTwoWeekLow represents the lowest price at which a stock has traded in the last 52 weeks, indicating potential support levels."</data>
+  <data key="d2">chunk-7fb5f83d32b097642b96ace3dd1278aa</data>
+</node>
+<node id="&quot;FIFTYTWOWEEKHIGH&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"fiftyTwoWeekHigh signifies the highest price at which a stock has traded in the last 52 weeks, reflecting its performance over the year."</data>
+  <data key="d2">chunk-7fb5f83d32b097642b96ace3dd1278aa</data>
+</node>
+<node id="&quot;TRAILINGANNUALDIVIDENDRATE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"trailingAnnualDividendRate indicates the annual rate of dividends paid by a company based on its financial performance, crucial for income investors."</data>
+  <data key="d2">chunk-7fb5f83d32b097642b96ace3dd1278aa</data>
+</node>
+<node id="&quot;TRAILINGANNUALDIVIDENDYIELD&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"trailingAnnualDividendYield is a financial ratio that indicates how much a company pays out in dividends each year relative to its stock price, essential for assessing dividend investment attractiveness."</data>
+  <data key="d2">chunk-7fb5f83d32b097642b96ace3dd1278aa</data>
+</node>
+<node id="&quot;CURRENTPRICE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Current Price indicates the latest trading price of General Motors Company stock, which is vital for investors and market analysis."&lt;SEP&gt;"currentPrice refers to the latest trading price of a security in the market, essential for investors making buy or sell decisions."</data>
+  <data key="d2">chunk-d5810bae27976d37e22e9eed1bc82b74&lt;SEP&gt;chunk-7fb5f83d32b097642b96ace3dd1278aa</data>
+</node>
+<node id="&quot;REVENUEGROWTH&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Revenue Growth measures the percentage increase in revenue over a specific period, highlighting the company's growth trajectory."&lt;SEP&gt;"revenueGrowth measures the increase in a company's revenue over a specific period, indicating business performance and market demand."</data>
+  <data key="d2">chunk-d5810bae27976d37e22e9eed1bc82b74&lt;SEP&gt;chunk-7fb5f83d32b097642b96ace3dd1278aa</data>
+</node>
+<node id="&quot;TOTALREVENUE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Total Revenue represents the total income generated by General Motors Company through its operations, a key measure of its financial health."&lt;SEP&gt;"totalRevenue is the overall income generated by a company from its core business operations before any expenses are deducted, a vital indicator of financial health."</data>
+  <data key="d2">chunk-d5810bae27976d37e22e9eed1bc82b74&lt;SEP&gt;chunk-7fb5f83d32b097642b96ace3dd1278aa</data>
+</node>
+<node id="&quot;DEBTTOEQUITY&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Debt to Equity ratio is a financial metric that compares the company's total debt to its shareholder equity, indicating financial leverage."&lt;SEP&gt;"debtToEquity is a financial ratio that compares a company's total liabilities to its shareholders' equity, signaling the extent of financial leverage."</data>
+  <data key="d2">chunk-d5810bae27976d37e22e9eed1bc82b74&lt;SEP&gt;chunk-7fb5f83d32b097642b96ace3dd1278aa</data>
+</node>
+<node id="&quot;EXCHANGE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"exchange refers to the specific marketplace where securities are traded, such as NYQ for the New York Stock Exchange, essential for trading context."</data>
+  <data key="d2">chunk-7fb5f83d32b097642b96ace3dd1278aa</data>
+</node>
+<node id="&quot;FINANCIALCURRENCY&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Financial Currency indicates the currency in which General Motors Company's financial transactions are conducted, which is USD."&lt;SEP&gt;"financialCurrency indicates the currency in which financial transactions of a company are denominated, affecting how financial information is interpreted."</data>
+  <data key="d2">chunk-d5810bae27976d37e22e9eed1bc82b74&lt;SEP&gt;chunk-7fb5f83d32b097642b96ace3dd1278aa</data>
+</node>
+<node id="&quot;UUID&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"uuid is a universally unique identifier assigned to entities in various fields, providing a way to uniquely distinguish between them."</data>
+  <data key="d2">chunk-7fb5f83d32b097642b96ace3dd1278aa</data>
+</node>
+<node id="&quot;EPS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"EPS, or earnings per share, is a financial metric that indicates the profitability of a company on a per-share basis, critical for investment analysis."</data>
+  <data key="d2">chunk-7fb5f83d32b097642b96ace3dd1278aa</data>
+</node>
+<node id="&quot;SHORTRATIO&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"shortRatio measures how many days it would take for all short sellers to cover their short positions based on the average daily trading volume, used to gauge market sentiment."</data>
+  <data key="d2">chunk-7fb5f83d32b097642b96ace3dd1278aa</data>
+</node>
+<node id="&quot;RECOMMENDATIONMEAN&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Recommendation Mean represents an average analyst recommendation score for General Motors Company, indicating market sentiment towards the stock."&lt;SEP&gt;"recommendationMean represents the average rating assigned by analysts to a stock, reflecting their outlook on the company's performance."</data>
+  <data key="d2">chunk-d5810bae27976d37e22e9eed1bc82b74&lt;SEP&gt;chunk-7fb5f83d32b097642b96ace3dd1278aa</data>
+</node>
+<node id="&quot;JAMES D. TAICLET JR.&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"James D. Taiclet Jr. is the Chairman, President, and CEO of Lockheed Martin Corporation, responsible for the company's strategic direction and leadership."</data>
+  <data key="d2">chunk-56a649eb958065f31b13940c919179d2</data>
+</node>
+<node id="&quot;JESUS MALAVE JR.&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Jesus Malave Jr. is the Chief Financial Officer of Lockheed Martin Corporation, overseeing the financial operations and strategies of the company."</data>
+  <data key="d2">chunk-56a649eb958065f31b13940c919179d2</data>
+</node>
+<node id="&quot;FRANK A. ST. JOHN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Frank A. St. John serves as the Chief Operating Officer of Lockheed Martin Corporation, managing the company's overall operations."</data>
+  <data key="d2">chunk-56a649eb958065f31b13940c919179d2</data>
+</node>
+<node id="&quot;GREGORY M. ULMER&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Gregory M. Ulmer is the President of Aeronautics at Lockheed Martin Corporation, overseeing the aeronautics segment of its operations."</data>
+  <data key="d2">chunk-56a649eb958065f31b13940c919179d2</data>
+</node>
+<node id="&quot;TIMOTHY S. CAHILL&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Timothy S. Cahill is the President of Missiles &amp; Fire Control at Lockheed Martin Corporation, responsible for missile defense and tactical missile operations."</data>
+  <data key="d2">chunk-56a649eb958065f31b13940c919179d2</data>
+</node>
+<node id="&quot;H. EDWARD PAUL III&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"H. Edward Paul III is the Chief Accounting Officer, VP &amp; Controller at Lockheed Martin Corporation, ensuring accurate financial reporting."</data>
+  <data key="d2">chunk-56a649eb958065f31b13940c919179d2</data>
+</node>
+<node id="&quot;RODNEY A. MAKOSKE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Rodney A. Makoske serves as the Chief Engineer and Senior VP of Engineering &amp; Technology at Lockheed Martin Corporation, directing engineering efforts."</data>
+  <data key="d2">chunk-56a649eb958065f31b13940c919179d2</data>
+</node>
+<node id="&quot;YVONNE O. HODGE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Yvonne O. Hodge is the Senior VP of Enterprise Business &amp; Digital Transformation and CIO at Lockheed Martin Corporation, leading digital initiatives."</data>
+  <data key="d2">chunk-56a649eb958065f31b13940c919179d2</data>
+</node>
+<node id="&quot;MARIA A. RICCIARDONE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Maria A. Ricciardone is the VP, Treasurer &amp; Investor Relations at Lockheed Martin Corporation, managing investor relations and financial communications."</data>
+  <data key="d2">chunk-56a649eb958065f31b13940c919179d2</data>
+</node>
+<node id="&quot;MARYANNE R. LAVAN J.D.&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Maryanne R. Lavan J.D. is the Senior VP, General Counsel &amp; Corporate Secretary at Lockheed Martin Corporation, overseeing legal and governance matters."</data>
+  <data key="d2">chunk-56a649eb958065f31b13940c919179d2</data>
+</node>
+<node id="&quot;MISSILES AND FIRE CONTROL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Missiles and Fire Control is a segment of Lockheed Martin Corporation that provides air and missile defense systems, tactical missiles, and related support services."</data>
+  <data key="d2">chunk-56a649eb958065f31b13940c919179d2</data>
+</node>
+<node id="&quot;ROTARY AND MISSION SYSTEMS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Rotary and Mission Systems is a segment of Lockheed Martin Corporation offering military and commercial helicopters, surface ships, and various defense systems."</data>
+  <data key="d2">chunk-56a649eb958065f31b13940c919179d2</data>
+</node>
+<node id="&quot;SPACE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Space is a segment of Lockheed Martin Corporation that deals with satellites, space transportation systems, and defense solutions in support of national security."</data>
+  <data key="d2">chunk-56a649eb958065f31b13940c919179d2</data>
+</node>
+<node id="&quot;FOREIGN MILITARY SALES&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Foreign military sales refer to the transactions made by Lockheed Martin Corporation to supply weapon systems and services to allied nations through the U.S. government."</data>
+  <data key="d2">chunk-56a649eb958065f31b13940c919179d2</data>
+</node>
+<node id="&quot;JOHN DEERE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"John Deere is a well-known manufacturer of agricultural machinery and equipment, part of Deere &amp; Company and influential in the agricultural sector."&lt;SEP&gt;"John Deere is an American corporation known for its agricultural machinery, heavy equipment, forestry machinery, and turf care equipment."</data>
+  <data key="d2">chunk-4772dbaba2fc40212d9bf295e9a50e6d&lt;SEP&gt;chunk-5d94e244ddd833e621fe4b456e9f9436</data>
+</node>
+<node id="&quot;MOLINE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Moline is a city in Illinois where Deere &amp; Company is headquartered, indicating its geographical relevance to the organization."&lt;SEP&gt;"Moline is a city located in Illinois, known as the headquarters of John Deere."</data>
+  <data key="d2">chunk-8f57c9e1be40cf88709a43b3d838a63a&lt;SEP&gt;chunk-5d94e244ddd833e621fe4b456e9f9436</data>
+</node>
+<node id="&quot;DE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"DE refers to Delaware, a U.S. state frequently associated with various corporations due to its business-friendly laws."</data>
+  <data key="d2">chunk-5d94e244ddd833e621fe4b456e9f9436</data>
+</node>
+<node id="&quot;LMT&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"LMT is the stock ticker symbol for Lockheed Martin Corporation, representing its shares in the stock market."</data>
+  <data key="d2">chunk-5d94e244ddd833e621fe4b456e9f9436</data>
+</node>
+<node id="&quot;ONE JOHN DEERE PLACE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"One John Deere Place is the address of John Deere's corporate headquarters located in Moline, Illinois."</data>
+  <data key="d2">chunk-5d94e244ddd833e621fe4b456e9f9436</data>
+</node>
+<node id="&quot;ILLINOIS&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Illinois is a U.S. state where the city of Moline and John Deere's headquarters are located."&lt;SEP&gt;"Illinois is a state in the United States where Moline is located, contributing to the geographical context of Deere &amp; Company."</data>
+  <data key="d2">chunk-8f57c9e1be40cf88709a43b3d838a63a&lt;SEP&gt;chunk-5d94e244ddd833e621fe4b456e9f9436</data>
+</node>
+<node id="&quot;NEW YORK STOCK EXCHANGE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"New York Stock Exchange (NYSE) is a stock exchange where publicly traded companies, including Lockheed Martin and John Deere, list their shares."</data>
+  <data key="d2">chunk-5d94e244ddd833e621fe4b456e9f9436</data>
+</node>
+<node id="&quot;DIVIDEND RATE&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Dividend rate refers to the amount of dividend declared by a company, which can influence investor interest and stock performance."&lt;SEP&gt;"The Dividend Rate represents the amount paid to shareholders as dividends, influencing investor decisions and company performance evaluation."</data>
+  <data key="d2">chunk-4772dbaba2fc40212d9bf295e9a50e6d&lt;SEP&gt;chunk-5d94e244ddd833e621fe4b456e9f9436</data>
+</node>
+<node id="&quot;BETA&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Beta is a measure of a stock's volatility in relation to the overall market, reflecting its risk profile."</data>
+  <data key="d2">chunk-5d94e244ddd833e621fe4b456e9f9436</data>
+</node>
+<node id="&quot;MARKET CAP&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Market capitalization or Market Cap refers to the total market value of a company's outstanding shares, indicating its size."</data>
+  <data key="d2">chunk-5d94e244ddd833e621fe4b456e9f9436</data>
+</node>
+<node id="&quot;DEERE &amp; COMPANY&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Deere &amp; Company is a company engaged in the manufacture and distribution of equipment worldwide, operating in multiple segments including agriculture and financial services."&lt;SEP&gt;"Deere &amp; Company is a major agricultural and machinery manufacturer known for its financial services and equipment, with significant market capital."</data>
+  <data key="d2">chunk-8f57c9e1be40cf88709a43b3d838a63a&lt;SEP&gt;chunk-4772dbaba2fc40212d9bf295e9a50e6d</data>
+</node>
+<node id="&quot;MR. JOHN C. MAY II&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Mr. John C. May II is the Chairman, President &amp; CEO of Deere &amp; Company, indicating his leadership role within the organization."</data>
+  <data key="d2">chunk-8f57c9e1be40cf88709a43b3d838a63a</data>
+</node>
+<node id="&quot;MR. JOSHUA A. JEPSEN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Mr. Joshua A. Jepsen is the Senior VP &amp; CFO of Deere &amp; Company, responsible for financial operations."</data>
+  <data key="d2">chunk-8f57c9e1be40cf88709a43b3d838a63a</data>
+</node>
+<node id="&quot;MR. RYAN D. CAMPBELL&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Mr. Ryan D. Campbell is the President of Worldwide Construction, Forestry Equipment &amp; Power Systems Division at Deere &amp; Company, highlighting his role in a specific segment."</data>
+  <data key="d2">chunk-8f57c9e1be40cf88709a43b3d838a63a</data>
+</node>
+<node id="&quot;MR. CORY J. REED&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Mr. Cory J. Reed is the President Precision Ag for Americas &amp; Australia and International President of Small Agriculture &amp; Green Space Equipment, indicating a senior leadership position."</data>
+  <data key="d2">chunk-8f57c9e1be40cf88709a43b3d838a63a</data>
+</node>
+<node id="&quot;MR. JUSTIN R. ROSE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Mr. Justin R. Rose is the President of Lifecycle Solutions, Supply Management &amp; Customer Success at Deere &amp; Company, focusing on customer-related initiatives."</data>
+  <data key="d2">chunk-8f57c9e1be40cf88709a43b3d838a63a</data>
+</node>
+<node id="&quot;MR. JAHMY J. HINDMAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Mr. Jahmy J. Hindman is the Senior VP &amp; CTO at Deere &amp; Company, responsible for technology and innovation."</data>
+  <data key="d2">chunk-8f57c9e1be40cf88709a43b3d838a63a</data>
+</node>
+<node id="&quot;MR. RAJESH KALATHUR&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Mr. Rajesh Kalathur is the President of John Deere Financial &amp; Chief Information Officer, overseeing financial services and information technology."&lt;SEP&gt;"Mr. Rajesh Kalathur is the President of John Deere Financial and Chief Information Officer, with a total pay of 1,845,968 dollars in the fiscal year 2023."</data>
+  <data key="d2">chunk-8f57c9e1be40cf88709a43b3d838a63a&lt;SEP&gt;chunk-4772dbaba2fc40212d9bf295e9a50e6d</data>
+</node>
+<node id="&quot;PRODUCTION AND PRECISION AGRICULTURE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Production and Precision Agriculture is one of the four segments of Deere &amp; Company, focusing on large and medium tractors and various agricultural machinery."</data>
+  <data key="d2">chunk-8f57c9e1be40cf88709a43b3d838a63a</data>
+</node>
+<node id="&quot;SMALL AGRICULTURE AND TURF&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Small Agriculture and Turf is a segment of Deere &amp; Company that offers utility tractors, turf equipment, and related outdoor power products."</data>
+  <data key="d2">chunk-8f57c9e1be40cf88709a43b3d838a63a</data>
+</node>
+<node id="&quot;CONSTRUCTION AND FORESTRY&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Construction and Forestry is a segment of Deere &amp; Company providing a wide range of construction equipment and solutions."</data>
+  <data key="d2">chunk-8f57c9e1be40cf88709a43b3d838a63a</data>
+</node>
+<node id="&quot;FINANCIAL SERVICES&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Financial Services is a segment of Deere &amp; Company that finances sales and leases for agricultural, turf, and construction equipment."</data>
+  <data key="d2">chunk-8f57c9e1be40cf88709a43b3d838a63a</data>
+</node>
+<node id="&quot;DEERE.COM&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Deere.com is the official website of Deere &amp; Company, providing information on their products, services, and corporate structure."</data>
+  <data key="d2">chunk-8f57c9e1be40cf88709a43b3d838a63a</data>
+</node>
+<node id="&quot;JOSH BEAL&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Josh Beal is the Director of Investor Relations, involved in the financial management and communication strategies of the organization."</data>
+  <data key="d2">chunk-4772dbaba2fc40212d9bf295e9a50e6d</data>
+</node>
+<node id="&quot;MS. RENEE A. MAILHOT&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Ms. Renee A. Mailhot is the VP and Chief Compliance Officer, responsible for overseeing compliance with regulatory requirements."</data>
+  <data key="d2">chunk-4772dbaba2fc40212d9bf295e9a50e6d</data>
+</node>
+<node id="&quot;JOHN DEERE FINANCIAL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"John Deere Financial is a financial services organization providing financing solutions, part of Deere &amp; Company, influencing agricultural and machinery financing."</data>
+  <data key="d2">chunk-4772dbaba2fc40212d9bf295e9a50e6d</data>
+</node>
+<node id="&quot;RAJESH KALATHUR&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Rajesh Kalathur is the President of John Deere Financial and Chief Information Officer, overseeing financial operations and strategic decisions."</data>
+  <data key="d2">chunk-4772dbaba2fc40212d9bf295e9a50e6d</data>
+</node>
+<node id="&quot;PRESIDENT OF JOHN DEERE FINANCIAL&quot;">
+  <data key="d0">"ROLE"</data>
+  <data key="d1">"The role of President of John Deere Financial involves leadership and strategic direction within the financial services sector of Deere &amp; Company."</data>
+  <data key="d2">chunk-4772dbaba2fc40212d9bf295e9a50e6d</data>
+</node>
+<node id="&quot;CHIEF INFORMATION OFFICER&quot;">
+  <data key="d0">"ROLE"</data>
+  <data key="d1">"The Chief Information Officer is responsible for the management of information technology and systems to support the organization's operations."</data>
+  <data key="d2">chunk-4772dbaba2fc40212d9bf295e9a50e6d</data>
+</node>
+<node id="&quot;DIRECTOR OF INVESTOR RELATIONS&quot;">
+  <data key="d0">"ROLE"</data>
+  <data key="d1">"The Director of Investor Relations manages communication and relationships with investors, presenting financial information and strategy."</data>
+  <data key="d2">chunk-4772dbaba2fc40212d9bf295e9a50e6d</data>
+</node>
+<node id="&quot;VP &amp; CHIEF COMPLIANCE OFFICER&quot;">
+  <data key="d0">"ROLE"</data>
+  <data key="d1">"The VP &amp; Chief Compliance Officer oversees compliance and regulatory affairs to ensure the organization adheres to laws and guidelines."</data>
+  <data key="d2">chunk-4772dbaba2fc40212d9bf295e9a50e6d</data>
+</node>
+<node id="&quot;NYQ&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"NYQ refers to the New York Stock Exchange, where Deere &amp; Company is publicly traded, impacting its market visibility and financial analysis."</data>
+  <data key="d2">chunk-4772dbaba2fc40212d9bf295e9a50e6d</data>
+</node>
+<node id="&quot;DEERE &amp; COMPANY STOCK&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Deere &amp; Company Stock represents the shares of the company traded on the New York Stock Exchange, reflecting its market value and investor interest."</data>
+  <data key="d2">chunk-4772dbaba2fc40212d9bf295e9a50e6d</data>
+</node>
+<node id="&quot;MARKET CAPITALIZATION&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Market Capitalization, valued at approximately 110.8 billion dollars, indicates the company's total market value and investment potential."</data>
+  <data key="d2">chunk-4772dbaba2fc40212d9bf295e9a50e6d</data>
+</node>
+<node id="&quot;FISCAL YEAR END 2023&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The Fiscal Year End 2023 marks the completion of an annual financial cycle for the organization, significant for reporting and assessing financial performance."</data>
+  <data key="d2">chunk-4772dbaba2fc40212d9bf295e9a50e6d</data>
+</node>
+<node id="&quot;GENERAL MOTORS COMPANY&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"General Motors Company designs, builds, and sells trucks, crossovers, cars, and automobile parts, and provides software-enabled services worldwide. Founded in 1908 and headquartered in Detroit, Michigan, GM operates through several segments and markets vehicles under various brand names."&lt;SEP&gt;"General Motors Company is a leading automotive manufacturer engaged in designing, producing, and selling vehicles around the globe."&lt;SEP&gt;"General Motors Company is a major American automotive corporation engaged in the design, manufacture, and marketing of vehicles and automotive parts, known for its financial statistics and market performance."&lt;SEP&gt;"General Motors Company is an automotive corporation engaged in the design, manufacturing, and distribution of vehicles."</data>
+  <data key="d2">chunk-07b1b52470586dbcc2cd72bc39786df6&lt;SEP&gt;chunk-d5810bae27976d37e22e9eed1bc82b74&lt;SEP&gt;chunk-455228350a2cf5e5dc43ebcc5a426fe8</data>
+</node>
+<node id="&quot;MARY T. BARRA&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Mary T. Barra is the Chairman and CEO of General Motors Company, with significant responsibilities in directing the company's vision and operations."</data>
+  <data key="d2">chunk-455228350a2cf5e5dc43ebcc5a426fe8</data>
+</node>
+<node id="&quot;MARK L. REUSS&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Mark L. Reuss is the President of General Motors Company, involved in high-level strategic decisions and company management."</data>
+  <data key="d2">chunk-455228350a2cf5e5dc43ebcc5a426fe8</data>
+</node>
+<node id="&quot;PAUL A. JACOBSON&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Paul A. Jacobson serves as the Executive Vice President and CFO of General Motors Company, overseeing financial strategies and operations."</data>
+  <data key="d2">chunk-455228350a2cf5e5dc43ebcc5a426fe8</data>
+</node>
+<node id="&quot;DETROIT&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Detroit is the city where General Motors Company is headquartered, playing a crucial role in its operations and identity."</data>
+  <data key="d2">chunk-455228350a2cf5e5dc43ebcc5a426fe8</data>
+</node>
+<node id="&quot;AUTOMOBILE MANUFACTURING&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Automobile Manufacturing refers to the industry and activities related to designing, building, and selling vehicles, which is central to General Motors Company's business."</data>
+  <data key="d2">chunk-455228350a2cf5e5dc43ebcc5a426fe8</data>
+</node>
+<node id="&quot;LOUIS S. HUGHES&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Louis S. Hughes was previously an officer at General Motors Company, contributing to its operations and strategic direction."</data>
+  <data key="d2">chunk-455228350a2cf5e5dc43ebcc5a426fe8</data>
+</node>
+<node id="&quot;CRAIG B. GLIDDEN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Craig B. Glidden serves as the Executive Vice President and Strategic Advisor for General Motors Company, providing guidance on various strategic initiatives."</data>
+  <data key="d2">chunk-455228350a2cf5e5dc43ebcc5a426fe8</data>
+</node>
+<node id="&quot;CHRISTOPHER T. HATTO&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Christopher T. Hatto is the Vice President of Global Business Solutions and Chief Accounting Officer at General Motors Company, overseeing accounting practices and global business strategies."</data>
+  <data key="d2">chunk-455228350a2cf5e5dc43ebcc5a426fe8</data>
+</node>
+<node id="&quot;ASHISH KOHLI&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Ashish Kohli is the Vice President of Investor Relations at General Motors Company, managing communications with investors and the financial community."&lt;SEP&gt;"Ashish Kohli is the Vice President of Investor Relations at General Motors Company, with experience reflected in his role and responsibilities."</data>
+  <data key="d2">chunk-07b1b52470586dbcc2cd72bc39786df6&lt;SEP&gt;chunk-455228350a2cf5e5dc43ebcc5a426fe8</data>
+</node>
+<node id="&quot;GENERAL MOTORS FINANCIAL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"General Motors Financial provides automotive financing services to customers, supporting vehicle sales and enhancing customer experience for General Motors."</data>
+  <data key="d2">chunk-455228350a2cf5e5dc43ebcc5a426fe8</data>
+</node>
+<node id="&quot;GM NORTH AMERICA&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"GM North America is one of the operational segments of General Motors Company, focusing on producing vehicles for the North American market."</data>
+  <data key="d2">chunk-455228350a2cf5e5dc43ebcc5a426fe8</data>
+</node>
+<node id="&quot;GM INTERNATIONAL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"GM International is a segment of General Motors Company that oversees operations and vehicle production in markets outside of North America."</data>
+  <data key="d2">chunk-455228350a2cf5e5dc43ebcc5a426fe8</data>
+</node>
+<node id="&quot;CRUISE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Cruise is an autonomous vehicle subsidiary of General Motors Company, focused on developing and deploying self-driving technology."</data>
+  <data key="d2">chunk-455228350a2cf5e5dc43ebcc5a426fe8</data>
+</node>
+<node id="&quot;AUTOMOBILE PARTS SALE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Automobile Parts Sale involves the distribution and sale of parts and accessories for vehicles, an essential aspect of General Motors Company's operations."</data>
+  <data key="d2">chunk-455228350a2cf5e5dc43ebcc5a426fe8</data>
+</node>
+<node id="&quot;GRANT M. DIXTON&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Grant M. Dixton serves as the Executive VP and Chief Legal &amp; Public Policy Officer at General Motors Company, indicating his significant role in legal and policy matters."</data>
+  <data key="d2">chunk-07b1b52470586dbcc2cd72bc39786df6</data>
+</node>
+<node id="&quot;LIN-HUA WU&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Lin-Hua Wu is the Senior VP &amp; Chief Communications Officer at General Motors Company, overseeing communication strategies."</data>
+  <data key="d2">chunk-07b1b52470586dbcc2cd72bc39786df6</data>
+</node>
+<node id="&quot;NORMAN DE GREVE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Norman de Greve holds the position of Senior VP &amp; Chief Marketing Officer at General Motors Company, responsible for marketing initiatives."</data>
+  <data key="d2">chunk-07b1b52470586dbcc2cd72bc39786df6</data>
+</node>
+<node id="&quot;ARDEN HOFFMAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Arden Hoffman is the Senior VP &amp; Chief People Officer at General Motors Company, focusing on human resources and talent management."</data>
+  <data key="d2">chunk-07b1b52470586dbcc2cd72bc39786df6</data>
+</node>
+<node id="&quot;2023 FISCAL YEAR&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The 2023 Fiscal Year refers to the financial year during which General Motors assesses its performance and financial health."&lt;SEP&gt;"The 2023 Fiscal Year represents a financial period where the performance and activities of General Motors are evaluated."</data>
+  <data key="d2">chunk-07b1b52470586dbcc2cd72bc39786df6</data>
+</node>
+<node id="&quot;MR. ASHISH KOHLI&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Mr. Ashish Kohli is a Vice President of Investor Relations, born in 1969, with a profile indicating leadership in investor relations at General Motors Company."</data>
+  <data key="d2">chunk-07b1b52470586dbcc2cd72bc39786df6</data>
+</node>
+<node id="&quot;MR. GRANT M. DIXTON&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Mr. Grant M. Dixton is the Executive VP and Chief Legal &amp; Public Policy Officer, born in 1974, contributing to the legal and public policy strategies at General Motors Company."</data>
+  <data key="d2">chunk-07b1b52470586dbcc2cd72bc39786df6</data>
+</node>
+<node id="&quot;MS. LIN-HUA WU&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Ms. Lin-Hua Wu is the Senior VP &amp; Chief Communications Officer, born in 1971, responsible for overseeing communication efforts at General Motors Company."</data>
+  <data key="d2">chunk-07b1b52470586dbcc2cd72bc39786df6</data>
+</node>
+<node id="&quot;MR. NORMAN DE GREVE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Mr. Norman de Greve is the Senior VP &amp; Chief Marketing Officer at General Motors Company, focusing on marketing strategies and brand development."</data>
+  <data key="d2">chunk-07b1b52470586dbcc2cd72bc39786df6</data>
+</node>
+<node id="&quot;MS. ARDEN HOFFMAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Ms. Arden Hoffman is the Senior VP &amp; Chief People Officer at General Motors Company, emphasizing human resources and organizational culture."</data>
+  <data key="d2">chunk-07b1b52470586dbcc2cd72bc39786df6</data>
+</node>
+<node id="&quot;AMERICA/NEW_YORK&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"America/New_York is a timezone that indicates the operational area of General Motors, affecting its business hours and market activities."</data>
+  <data key="d2">chunk-d5810bae27976d37e22e9eed1bc82b74</data>
+</node>
+<node id="&quot;USD&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"USD (US Dollar) is the currency used in financial reporting for General Motors, reflecting its economic transactions and outcomes."</data>
+  <data key="d2">chunk-d5810bae27976d37e22e9eed1bc82b74</data>
+</node>
+<node id="&quot;TOTALCASH&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Total Cash refers to the total amount of liquid assets available to General Motors Company, which plays a crucial role in its liquidity management."</data>
+  <data key="d2">chunk-d5810bae27976d37e22e9eed1bc82b74</data>
+</node>
+<node id="&quot;TOTALDEBT&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Total Debt indicates the cumulative liabilities of General Motors Company, reflecting its financial obligations."</data>
+  <data key="d2">chunk-d5810bae27976d37e22e9eed1bc82b74</data>
+</node>
+<node id="&quot;FREECASHFLOW&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Free Cashflow is the cash a company generates after accounting for cash outflows to support operations and maintain its capital assets, crucial for assessing financial stability."</data>
+  <data key="d2">chunk-d5810bae27976d37e22e9eed1bc82b74</data>
+</node>
+<node id="&quot;OPERATINGCASHFLOW&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Operating Cashflow indicates the cash generated from General Motors Company's core business operations, reflecting its operational efficiency."</data>
+  <data key="d2">chunk-d5810bae27976d37e22e9eed1bc82b74</data>
+</node>
+<node id="&quot;NUMBEROFANALYSTOPINIONS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Number of Analyst Opinions reflects the amount of professional analyses available for General Motors Company, providing insight into investor perceptions."</data>
+  <data key="d2">chunk-d5810bae27976d37e22e9eed1bc82b74</data>
+</node>
+<node id="&quot;TARGETHIGHPRICE&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Target High Price denotes the highest projected stock price for General Motors Company as estimated by analysts, indicating market expectations."</data>
+  <data key="d2">chunk-d5810bae27976d37e22e9eed1bc82b74</data>
+</node>
+<node id="&quot;TARGETLOWPRICE&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Target Low Price indicates the lowest projected stock price for General Motors Company, providing a range for investment outlook."</data>
+  <data key="d2">chunk-d5810bae27976d37e22e9eed1bc82b74</data>
+</node>
+<node id="&quot;RECOMMENDATIONKEY&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Recommendation Key indicates the summarized advice regarding General Motors Company's stock, guiding investor buy/sell decisions."</data>
+  <data key="d2">chunk-d5810bae27976d37e22e9eed1bc82b74</data>
+</node>
+<node id="&quot;TIMESTAMP&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Timestamp marks the specific date and time when General Motors Company's financial data was recorded, essential for time-sensitive analysis."</data>
+  <data key="d2">chunk-d5810bae27976d37e22e9eed1bc82b74</data>
+</node>
+<node id="&quot;EARNINGSGROWTH&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Earnings Growth indicates the percentage increase in a company's earnings, reflecting its profitability improvement over time."</data>
+  <data key="d2">chunk-d5810bae27976d37e22e9eed1bc82b74</data>
+</node>
+<node id="&quot;RETURNONASSETS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Return on Assets (ROA) measures how effectively General Motors Company uses its assets to generate profit, indicating operational efficiency."</data>
+  <data key="d2">chunk-d5810bae27976d37e22e9eed1bc82b74</data>
+</node>
+<node id="&quot;RETURNONEQUITY&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Return on Equity (ROE) assesses a company's profitability relative to its equity, showing how well it generates income from investments."</data>
+  <data key="d2">chunk-d5810bae27976d37e22e9eed1bc82b74</data>
+</node>
+<node id="&quot;EBITDA&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization) is a measure of General Motors Company's overall financial performance."</data>
+  <data key="d2">chunk-d5810bae27976d37e22e9eed1bc82b74</data>
+</node>
+<node id="&quot;EBITDAMARGINS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"EBITDA Margins reflect how much of the company's revenue is converted into EBITDA, indicating operational efficiency."</data>
+  <data key="d2">chunk-d5810bae27976d37e22e9eed1bc82b74</data>
+</node>
+<node id="&quot;OPERATINGMARGINS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Operating Margins illustrate the percentage of revenue that remains after covering operating expenses, indicating profitability."</data>
+  <data key="d2">chunk-d5810bae27976d37e22e9eed1bc82b74</data>
+</node>
+<node id="&quot;GROSSMARGINS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Gross Margins show the percentage of revenue that exceeds the cost of goods sold, crucial for assessing product profitability."</data>
+  <data key="d2">chunk-d5810bae27976d37e22e9eed1bc82b74</data>
+</node>
+<node id="&quot;QUICKRATIO&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Quick Ratio measures a company's ability to meet short-term obligations without relying on inventory, reflecting liquidity."</data>
+  <data key="d2">chunk-d5810bae27976d37e22e9eed1bc82b74</data>
+</node>
+<node id="&quot;CURRENTRATIO&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Current Ratio is a liquidity ratio that measures General Motors Company's ability to pay short-term liabilities with short-term assets."</data>
+  <data key="d2">chunk-d5810bae27976d37e22e9eed1bc82b74</data>
+</node>
+<node id="&quot;TRAILINGPEGRATIO&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Trailing Peg Ratio compares a company's price-to-earnings growth to its earnings, indicating stock valuation relative to growth."</data>
+  <data key="d2">chunk-d5810bae27976d37e22e9eed1bc82b74</data>
+</node>
+<edge source="&quot;FINANCE&quot;" target="&quot;STOCKS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Finance encompasses the study of stocks as a financial instrument, indicating a relationship between the broader discipline and the specific concept of ownership shares."</data>
+  <data key="d5">"financial instruments, economic concepts"</data>
+  <data key="d6">chunk-75d3485b46a470c1989bf64e8e60755a</data>
+</edge>
+<edge source="&quot;UNITED PARCEL SERVICE, INC.&quot;" target="&quot;ATLANTA&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"United Parcel Service, Inc. is headquartered in Atlanta, Georgia, indicating a strong connection to the city's economic activity and infrastructure."</data>
+  <data key="d5">"headquarters, economic hub"</data>
+  <data key="d6">chunk-75d3485b46a470c1989bf64e8e60755a</data>
+</edge>
+<edge source="&quot;UNITED PARCEL SERVICE, INC.&quot;" target="&quot;CAROL B. TOME&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Carol B. Tome is the CEO of United Parcel Service, Inc., directly overseeing its operations and strategic initiatives."</data>
+  <data key="d5">"leadership, corporate governance"</data>
+  <data key="d6">chunk-75d3485b46a470c1989bf64e8e60755a</data>
+</edge>
+<edge source="&quot;MR. BALA SUBRAMANIAN&quot;" target="&quot;UPS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Mr. Bala Subramanian holds a top executive position at UPS, influencing its digital and technology strategies."</data>
+  <data key="d5">"leadership, corporate governance"</data>
+  <data key="d6">chunk-b54a46d2a45784de073c77599a54df6c</data>
+</edge>
+<edge source="&quot;MS. KATHLEEN M. GUTMANN&quot;" target="&quot;UPS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Ms. Kathleen M. Gutmann is a key executive at UPS, overseeing international healthcare and supply chain solutions."</data>
+  <data key="d5">"leadership, corporate governance"</data>
+  <data key="d6">chunk-b54a46d2a45784de073c77599a54df6c</data>
+</edge>
+<edge source="&quot;MR. NANDO CESARONE&quot;" target="&quot;UPS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Mr. Nando Cesarone is responsible for U.S. Operations and UPS Airline, highlighting his role in the company's logistics management."</data>
+  <data key="d5">"leadership, corporate governance"</data>
+  <data key="d6">chunk-b54a46d2a45784de073c77599a54df6c</data>
+</edge>
+<edge source="&quot;MR. BRIAN DYKES&quot;" target="&quot;UPS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Mr. Brian Dykes, as CFO, plays a critical role in financial oversight and strategy at UPS."</data>
+  <data key="d5">"financial oversight, corporate governance"</data>
+  <data key="d6">chunk-b54a46d2a45784de073c77599a54df6c</data>
+</edge>
+<edge source="&quot;MR. NORMAN M. BROTHERS JR.&quot;" target="&quot;UPS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Mr. Norman M. Brothers Jr. manages legal and compliance matters at UPS, indicating his significant role in corporate governance."</data>
+  <data key="d5">"legal compliance, corporate governance"</data>
+  <data key="d6">chunk-b54a46d2a45784de073c77599a54df6c</data>
+</edge>
+<edge source="&quot;MR. DARRELL L. FORD&quot;" target="&quot;UPS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Mr. Darrell L. Ford focuses on diversity, equity, and inclusion at UPS, affecting its corporate culture."</data>
+  <data key="d5">"diversity initiatives, corporate governance"</data>
+  <data key="d6">chunk-b54a46d2a45784de073c77599a54df6c</data>
+</edge>
+<edge source="&quot;MR. RALPH OZOUDE&quot;" target="&quot;UPS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Mr. Ralph Ozoude oversees operations in Nigeria and West Africa, demonstrating UPS's international reach."</data>
+  <data key="d5">"international operations, corporate governance"</data>
+  <data key="d6">chunk-b54a46d2a45784de073c77599a54df6c</data>
+</edge>
+<edge source="&quot;MR. HARRISON PARK&quot;" target="&quot;UPS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Mr. Harrison Park manages UPS's operations in Korea, emphasizing the company's global presence."</data>
+  <data key="d5">"international operations, corporate governance"</data>
+  <data key="d6">chunk-b54a46d2a45784de073c77599a54df6c</data>
+</edge>
+<edge source="&quot;RTX CORPORATION&quot;" target="&quot;ARLINGTON&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"RTX Corporation is located in Arlington, VA, indicating a geographical relationship between the organization and its operational base."</data>
+  <data key="d5">"geography, operational base"</data>
+  <data key="d6">chunk-50ec12daf0fd85579a5074c689a4a8d0</data>
+</edge>
+<edge source="&quot;RTX CORPORATION&quot;" target="&quot;AEROSPACE &amp; DEFENSE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"RTX Corporation operates within the Aerospace &amp; Defense industry, providing relevant products and services to this sector."</data>
+  <data key="d5">"industry affiliation, operational focus"</data>
+  <data key="d6">chunk-50ec12daf0fd85579a5074c689a4a8d0</data>
+</edge>
+<edge source="&quot;RTX CORPORATION&quot;" target="&quot;RAYTHEON TECHNOLOGIES CORPORATION&quot;">
+  <data key="d3">26.0</data>
+  <data key="d4">"Raytheon Technologies Corporation is the former identity of RTX Corporation, reflecting its historical evolution."&lt;SEP&gt;"Raytheon Technologies Corporation is the previous name of RTX Corporation, indicating a relationship through corporate identity and branding."</data>
+  <data key="d5">"corporate evolution, historical significance"&lt;SEP&gt;"rebranding, corporate identity"</data>
+  <data key="d6">chunk-e3725cebb099a9e0c91201f645ee87f0&lt;SEP&gt;chunk-50ec12daf0fd85579a5074c689a4a8d0</data>
+</edge>
+<edge source="&quot;RTX CORPORATION&quot;" target="&quot;AEROSPACE &amp; DEFENSE INDUSTRY&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"RTX Corporation operates within the Aerospace &amp; Defense industry, showcasing its products and services tailored for this sector."</data>
+  <data key="d5">"industry focus, sector engagement"</data>
+  <data key="d6">chunk-50ec12daf0fd85579a5074c689a4a8d0</data>
+</edge>
+<edge source="&quot;RTX CORPORATION&quot;" target="&quot;GOVERNMENT CUSTOMERS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"RTX Corporation provides services and systems to government customers, showing its involvement in defense contracts."</data>
+  <data key="d5">"contractual relationship, defense sector"</data>
+  <data key="d6">chunk-50ec12daf0fd85579a5074c689a4a8d0</data>
+</edge>
+<edge source="&quot;RTX CORPORATION&quot;" target="&quot;CIVIL AND MILITARY AIRCRAFT MANUFACTURERS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"RTX Corporation supplies aerospace products that serve the needs of civil and military aircraft manufacturers, crucial to its operations."</data>
+  <data key="d5">"supplier relationship, aerospace manufacturing"</data>
+  <data key="d6">chunk-50ec12daf0fd85579a5074c689a4a8d0</data>
+</edge>
+<edge source="&quot;RTX CORPORATION&quot;" target="&quot;COMMERCIAL AIRLINES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Commercial airlines depend on RTX Corporation's products and services for their operational efficiency and safety."</data>
+  <data key="d5">"service provision, commercial collaboration"</data>
+  <data key="d6">chunk-50ec12daf0fd85579a5074c689a4a8d0</data>
+</edge>
+<edge source="&quot;RTX CORPORATION&quot;" target="&quot;CIVILIAN AND MILITARY CUSTOMERS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"RTX Corporation provides products and services to both civilian and military customers, ensuring a diverse clientele."</data>
+  <data key="d5">"customer base, industry diversity"</data>
+  <data key="d6">chunk-50ec12daf0fd85579a5074c689a4a8d0</data>
+</edge>
+<edge source="&quot;RTX CORPORATION&quot;" target="&quot;DEFENSIVE AND OFFENSIVE THREAT DETECTION&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Defensive and offensive threat detection capabilities are part of the offerings provided by RTX Corporation to enhance security for various customers."</data>
+  <data key="d5">"security solutions, defense capability"</data>
+  <data key="d6">chunk-50ec12daf0fd85579a5074c689a4a8d0</data>
+</edge>
+<edge source="&quot;RTX CORPORATION&quot;" target="&quot;ARLINGTON, VIRGINIA&quot;">
+  <data key="d3">18.0</data>
+  <data key="d4">"RTX Corporation is headquartered in Arlington, Virginia, indicating a direct link between the organization and its location."</data>
+  <data key="d5">"headquarters, geographic significance"</data>
+  <data key="d6">chunk-e3725cebb099a9e0c91201f645ee87f0</data>
+</edge>
+<edge source="&quot;RTX CORPORATION&quot;" target="&quot;MR. CHRISTOPHER T. CALIO&quot;">
+  <data key="d3">20.0</data>
+  <data key="d4">"Mr. Christopher T. Calio is the CEO of RTX Corporation, indicating a leadership role in the company."</data>
+  <data key="d5">"leadership, corporate governance"</data>
+  <data key="d6">chunk-e3725cebb099a9e0c91201f645ee87f0</data>
+</edge>
+<edge source="&quot;RTX CORPORATION&quot;" target="&quot;MR. NEIL G. MITCHILL JR.&quot;">
+  <data key="d3">18.0</data>
+  <data key="d4">"Mr. Neil G. Mitchill Jr. serves as CFO of RTX Corporation, thus playing a crucial role in the financial management of the company."</data>
+  <data key="d5">"financial management, corporate structure"</data>
+  <data key="d6">chunk-e3725cebb099a9e0c91201f645ee87f0</data>
+</edge>
+<edge source="&quot;RTX CORPORATION&quot;" target="&quot;MS. ROBIN L. DIAMONTE&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"Ms. Robin L. Diamonte, being the Chief Investment Officer, is directly involved in the investment strategies of RTX Corporation."</data>
+  <data key="d5">"investment strategy, corporate governance"</data>
+  <data key="d6">chunk-e3725cebb099a9e0c91201f645ee87f0</data>
+</edge>
+<edge source="&quot;RTX CORPORATION&quot;" target="&quot;MS. AMY L. JOHNSON&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"Ms. Amy L. Johnson is responsible for financial reporting as the Corporate VP &amp; Controller, linking her role with RTX Corporation."</data>
+  <data key="d5">"financial compliance, management"</data>
+  <data key="d6">chunk-e3725cebb099a9e0c91201f645ee87f0</data>
+</edge>
+<edge source="&quot;RTX CORPORATION&quot;" target="&quot;MR. JUAN M. DE BEDOUT&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"Mr. Juan M. de Bedout is the CTO, indicating that he contributes to the technological advancement of RTX Corporation."</data>
+  <data key="d5">"technology management, innovation"</data>
+  <data key="d6">chunk-e3725cebb099a9e0c91201f645ee87f0</data>
+</edge>
+<edge source="&quot;RTX CORPORATION&quot;" target="&quot;MS. JENNIFER REED&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"Ms. Jennifer Reed, as VP of Investor Relations, communicates directly with investors regarding RTX Corporation’s performance."</data>
+  <data key="d5">"investor relations, corporate communication"</data>
+  <data key="d6">chunk-e3725cebb099a9e0c91201f645ee87f0</data>
+</edge>
+<edge source="&quot;RTX CORPORATION&quot;" target="&quot;MR. RAMSARAN MAHARAJH JR.&quot;">
+  <data key="d3">14.0</data>
+  <data key="d4">"As General Counsel, Mr. Ramsaran Maharajh Jr. provides legal support essential for RTX Corporation operations."</data>
+  <data key="d5">"legal governance, corporate structure"</data>
+  <data key="d6">chunk-e3725cebb099a9e0c91201f645ee87f0</data>
+</edge>
+<edge source="&quot;RTX CORPORATION&quot;" target="&quot;MS. PAMELA M. ERICKSON&quot;">
+  <data key="d3">14.0</data>
+  <data key="d4">"Ms. Pamela M. Erickson oversees communications, linking her role with branding and messaging for RTX Corporation."</data>
+  <data key="d5">"communication strategy, corporate branding"</data>
+  <data key="d6">chunk-e3725cebb099a9e0c91201f645ee87f0</data>
+</edge>
+<edge source="&quot;RTX CORPORATION&quot;" target="&quot;MS. DANTAYA M. WILLIAMS&quot;">
+  <data key="d3">14.0</data>
+  <data key="d4">"As Chief Human Resources Officer, Ms. Dantaya M. Williams is responsible for HR practices that influence RTX Corporation's workforce management."</data>
+  <data key="d5">"human resources, workforce development"</data>
+  <data key="d6">chunk-e3725cebb099a9e0c91201f645ee87f0</data>
+</edge>
+<edge source="&quot;RTX CORPORATION&quot;" target="&quot;MR. SHANE G. EDDY&quot;">
+  <data key="d3">18.0</data>
+  <data key="d4">"Mr. Shane G. Eddy, President of Pratt &amp; Whitney—a segment of RTX Corporation—indicates leadership over a key division of the organization."</data>
+  <data key="d5">"division leadership, corporate structure"</data>
+  <data key="d6">chunk-e3725cebb099a9e0c91201f645ee87f0</data>
+</edge>
+<edge source="&quot;RTX CORPORATION&quot;" target="&quot;PRATT &amp; WHITNEY&quot;">
+  <data key="d3">18.0</data>
+  <data key="d4">"Pratt &amp; Whitney is a key segment contributing to the overall operations and offerings of RTX Corporation."</data>
+  <data key="d5">"division significance, aerospace contribution"</data>
+  <data key="d6">chunk-e3725cebb099a9e0c91201f645ee87f0</data>
+</edge>
+<edge source="&quot;RTX CORPORATION&quot;" target="&quot;U.S. GOVERNMENT&quot;">
+  <data key="d3">18.0</data>
+  <data key="d4">"The U.S. Government purchases defense products from RTX Corporation, establishing a vital relationship within national security."</data>
+  <data key="d5">"government contracts, defense relations"</data>
+  <data key="d6">chunk-e3725cebb099a9e0c91201f645ee87f0</data>
+</edge>
+<edge source="&quot;RTX CORPORATION&quot;" target="&quot;FOREIGN GOVERNMENT&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"Foreign governments acquire advanced defense technologies from RTX Corporation, indicating international relations."</data>
+  <data key="d5">"international trade, defense relations"</data>
+  <data key="d6">chunk-e3725cebb099a9e0c91201f645ee87f0</data>
+</edge>
+<edge source="&quot;RTX CORPORATION&quot;" target="&quot;COMMERCIAL CUSTOMERS&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"Commercial customers utilize RTX Corporation's aviation services, demonstrating the company's role in commercial aviation."</data>
+  <data key="d5">"commercial partnerships, aerospace services"</data>
+  <data key="d6">chunk-e3725cebb099a9e0c91201f645ee87f0</data>
+</edge>
+<edge source="&quot;RTX CORPORATION&quot;" target="&quot;FULL-TIME EMPLOYEES&quot;">
+  <data key="d3">14.0</data>
+  <data key="d4">"The workforce of full-time employees at RTX Corporation showcases the scale and operational capacity of the organization."</data>
+  <data key="d5">"workforce scale, operational capacity"</data>
+  <data key="d6">chunk-e3725cebb099a9e0c91201f645ee87f0</data>
+</edge>
+<edge source="&quot;RTX CORPORATION&quot;" target="&quot;FISCAL YEAR 2023&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"Fiscal Year 2023 is the period for which RTX Corporation reports its financial performance, impacting strategic decisions."</data>
+  <data key="d5">"financial reporting, strategic planning"</data>
+  <data key="d6">chunk-e3725cebb099a9e0c91201f645ee87f0</data>
+</edge>
+<edge source="&quot;RTX CORPORATION&quot;" target="&quot;MANAGEMENT SERVICES&quot;">
+  <data key="d3">18.0</data>
+  <data key="d4">"Management services provided by RTX Corporation emphasize its comprehensive offerings in aerospace and defense."</data>
+  <data key="d5">"service offerings, aerospace focus"</data>
+  <data key="d6">chunk-e3725cebb099a9e0c91201f645ee87f0</data>
+</edge>
+<edge source="&quot;RTX CORPORATION&quot;" target="&quot;LOCKHEED MARTIN CORPORATION&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"RTX Corporation and Lockheed Martin Corporation are both significant players in the aerospace and defense industry, developing similar technological systems and products."</data>
+  <data key="d5">"industry competitors, collaboration potential"</data>
+  <data key="d6">chunk-7fb5f83d32b097642b96ace3dd1278aa</data>
+</edge>
+<edge source="&quot;UNITED STATES&quot;" target="&quot;ILLINOIS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Illinois is a state in the United States, highlighting its geographical position within the country."</data>
+  <data key="d5">"geography, national context"</data>
+  <data key="d6">chunk-8f57c9e1be40cf88709a43b3d838a63a</data>
+</edge>
+<edge source="&quot;MR. CHRISTOPHER T. CALIO&quot;" target="&quot;TOTAL PAY&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"Total Pay represents compensation for Mr. Christopher T. Calio, CEO of RTX Corporation, indicating his role in the company's leadership."</data>
+  <data key="d5">"executive compensation, leadership significance"</data>
+  <data key="d6">chunk-e3725cebb099a9e0c91201f645ee87f0</data>
+</edge>
+<edge source="&quot;U.S. GOVERNMENT&quot;" target="&quot;LOCKHEED MARTIN CORPORATION&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Lockheed Martin Corporation serves the U.S. government with critical military and defense solutions, shaping national defense policy."</data>
+  <data key="d5">"government contracts, defense support"</data>
+  <data key="d6">chunk-56a649eb958065f31b13940c919179d2</data>
+</edge>
+<edge source="&quot;FISCAL YEAR 2023&quot;" target="&quot;DEERE &amp; COMPANY&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The performance of Deere &amp; Company during Fiscal Year 2023 is critical for evaluating its financial health and strategic decisions."</data>
+  <data key="d5">"financial performance, assessment"</data>
+  <data key="d6">chunk-4772dbaba2fc40212d9bf295e9a50e6d</data>
+</edge>
+<edge source="&quot;LOCKHEED MARTIN CORPORATION&quot;" target="&quot;BETHESDA&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Lockheed Martin Corporation has a presence in Bethesda, indicating its geographical operational territory and investment in the Maryland area."</data>
+  <data key="d5">"location, operational presence"</data>
+  <data key="d6">chunk-7fb5f83d32b097642b96ace3dd1278aa</data>
+</edge>
+<edge source="&quot;LOCKHEED MARTIN CORPORATION&quot;" target="&quot;JAMES D. TAICLET JR.&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"James D. Taiclet Jr. leads Lockheed Martin Corporation as its Chairman, President, and CEO, making key strategic decisions for the organization."</data>
+  <data key="d5">"leadership, strategic direction"</data>
+  <data key="d6">chunk-56a649eb958065f31b13940c919179d2</data>
+</edge>
+<edge source="&quot;LOCKHEED MARTIN CORPORATION&quot;" target="&quot;JESUS MALAVE JR.&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Jesus Malave Jr. plays a pivotal role as CFO at Lockheed Martin Corporation, influencing financial decision-making and strategy."</data>
+  <data key="d5">"financial leadership, operational support"</data>
+  <data key="d6">chunk-56a649eb958065f31b13940c919179d2</data>
+</edge>
+<edge source="&quot;LOCKHEED MARTIN CORPORATION&quot;" target="&quot;FRANK A. ST. JOHN&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Frank A. St. John supports the operational efficiencies of Lockheed Martin Corporation as the COO, managing overall operations."</data>
+  <data key="d5">"operational management, strategic execution"</data>
+  <data key="d6">chunk-56a649eb958065f31b13940c919179d2</data>
+</edge>
+<edge source="&quot;LOCKHEED MARTIN CORPORATION&quot;" target="&quot;GREGORY M. ULMER&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Gregory M. Ulmer is responsible for the aeronautics segment of Lockheed Martin Corporation, contributing significantly to its defense capabilities."</data>
+  <data key="d5">"segment oversight, aeronautics operations"</data>
+  <data key="d6">chunk-56a649eb958065f31b13940c919179d2</data>
+</edge>
+<edge source="&quot;LOCKHEED MARTIN CORPORATION&quot;" target="&quot;TIMOTHY S. CAHILL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Timothy S. Cahill oversees the Missiles &amp; Fire Control segment within Lockheed Martin Corporation, focusing on missile defense systems."</data>
+  <data key="d5">"segment leadership, defense technology"</data>
+  <data key="d6">chunk-56a649eb958065f31b13940c919179d2</data>
+</edge>
+<edge source="&quot;LOCKHEED MARTIN CORPORATION&quot;" target="&quot;H. EDWARD PAUL III&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"H. Edward Paul III ensures compliance and accuracy in financial reporting for Lockheed Martin Corporation as the Chief Accounting Officer."</data>
+  <data key="d5">"financial governance, reporting"</data>
+  <data key="d6">chunk-56a649eb958065f31b13940c919179d2</data>
+</edge>
+<edge source="&quot;LOCKHEED MARTIN CORPORATION&quot;" target="&quot;RODNEY A. MAKOSKE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Rodney A. Makoske leads Lockheed Martin Corporation's engineering efforts as Chief Engineer, impacting product development."</data>
+  <data key="d5">"engineering leadership, product development"</data>
+  <data key="d6">chunk-56a649eb958065f31b13940c919179d2</data>
+</edge>
+<edge source="&quot;LOCKHEED MARTIN CORPORATION&quot;" target="&quot;YVONNE O. HODGE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Yvonne O. Hodge drives digital transformation at Lockheed Martin Corporation, enhancing technological capabilities."</data>
+  <data key="d5">"digital transformation, organizational growth"</data>
+  <data key="d6">chunk-56a649eb958065f31b13940c919179d2</data>
+</edge>
+<edge source="&quot;LOCKHEED MARTIN CORPORATION&quot;" target="&quot;MARIA A. RICCIARDONE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Maria A. Ricciardone is key in managing investor relations at Lockheed Martin Corporation, influencing stakeholder engagement."</data>
+  <data key="d5">"investor relations, corporate communications"</data>
+  <data key="d6">chunk-56a649eb958065f31b13940c919179d2</data>
+</edge>
+<edge source="&quot;LOCKHEED MARTIN CORPORATION&quot;" target="&quot;MARYANNE R. LAVAN J.D.&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Maryanne R. Lavan J.D. provides legal oversight for Lockheed Martin Corporation, ensuring compliance with corporate laws."</data>
+  <data key="d5">"legal governance, compliance"</data>
+  <data key="d6">chunk-56a649eb958065f31b13940c919179d2</data>
+</edge>
+<edge source="&quot;LOCKHEED MARTIN CORPORATION&quot;" target="&quot;MISSILES AND FIRE CONTROL&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The Missiles and Fire Control segment is a critical part of Lockheed Martin Corporation, providing essential defense technologies and systems."</data>
+  <data key="d5">"defense systems, organizational structure"</data>
+  <data key="d6">chunk-56a649eb958065f31b13940c919179d2</data>
+</edge>
+<edge source="&quot;LOCKHEED MARTIN CORPORATION&quot;" target="&quot;ROTARY AND MISSION SYSTEMS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Rotary and Mission Systems provides key capabilities within Lockheed Martin Corporation, enhancing aerial and naval combat systems."</data>
+  <data key="d5">"aerospace capabilities, military technology"</data>
+  <data key="d6">chunk-56a649eb958065f31b13940c919179d2</data>
+</edge>
+<edge source="&quot;LOCKHEED MARTIN CORPORATION&quot;" target="&quot;SPACE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The Space segment is essential for Lockheed Martin Corporation, focusing on satellite and advanced defense systems vital for national security."</data>
+  <data key="d5">"space technology, national security"</data>
+  <data key="d6">chunk-56a649eb958065f31b13940c919179d2</data>
+</edge>
+<edge source="&quot;LOCKHEED MARTIN CORPORATION&quot;" target="&quot;FOREIGN MILITARY SALES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Lockheed Martin Corporation engages in foreign military sales, aiding allied nations with defense systems and support through government agreements."</data>
+  <data key="d5">"international relations, defense agreements"</data>
+  <data key="d6">chunk-56a649eb958065f31b13940c919179d2</data>
+</edge>
+<edge source="&quot;LOCKHEED MARTIN CORPORATION&quot;" target="&quot;JOHN DEERE&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"Both Lockheed Martin Corporation and John Deere are prominent American organizations involved in manufacturing and technology, albeit in different sectors."</data>
+  <data key="d5">"corporate relations, American industry"</data>
+  <data key="d6">chunk-5d94e244ddd833e621fe4b456e9f9436</data>
+</edge>
+<edge source="&quot;LOCKHEED MARTIN CORPORATION&quot;" target="&quot;LMT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The ticker symbol LMT represents Lockheed Martin Corporation in the stock market, establishing its trading identity."</data>
+  <data key="d5">"stock representation, corporate identity"</data>
+  <data key="d6">chunk-5d94e244ddd833e621fe4b456e9f9436</data>
+</edge>
+<edge source="&quot;LOCKHEED MARTIN CORPORATION&quot;" target="&quot;DIVIDEND RATE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Lockheed Martin Corporation has a declared dividend rate, which is a significant factor for investors looking for passive income."</data>
+  <data key="d5">"investor interest, corporate finance"</data>
+  <data key="d6">chunk-5d94e244ddd833e621fe4b456e9f9436</data>
+</edge>
+<edge source="&quot;LOCKHEED MARTIN CORPORATION&quot;" target="&quot;BETA&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The Beta value of Lockheed Martin Corporation indicates its risk profile relative to the stock market, influencing investment decisions."</data>
+  <data key="d5">"risk assessment, investment strategy"</data>
+  <data key="d6">chunk-5d94e244ddd833e621fe4b456e9f9436</data>
+</edge>
+<edge source="&quot;LOCKHEED MARTIN CORPORATION&quot;" target="&quot;MARKET CAP&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Lockheed Martin Corporation's market cap reflects its total market value and size, compared to other firms in its sector."</data>
+  <data key="d5">"corporate size, market position"</data>
+  <data key="d6">chunk-5d94e244ddd833e621fe4b456e9f9436</data>
+</edge>
+<edge source="&quot;JOHN DEERE&quot;" target="&quot;MOLINE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"John Deere's headquarters are located in Moline, establishing a direct geographic and economic link."</data>
+  <data key="d5">"business location, economic impact"</data>
+  <data key="d6">chunk-5d94e244ddd833e621fe4b456e9f9436</data>
+</edge>
+<edge source="&quot;MOLINE&quot;" target="&quot;DE&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Moline is a city in Illinois, and DE relates to the broader geographic context of U.S. states where businesses operate."</data>
+  <data key="d5">"geographic context, state relations"</data>
+  <data key="d6">chunk-5d94e244ddd833e621fe4b456e9f9436</data>
+</edge>
+<edge source="&quot;MOLINE&quot;" target="&quot;DEERE &amp; COMPANY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Deere &amp; Company is headquartered in Moline, Illinois, making the city a central location for its operations."</data>
+  <data key="d5">"headquarters, operations"</data>
+  <data key="d6">chunk-8f57c9e1be40cf88709a43b3d838a63a</data>
+</edge>
+<edge source="&quot;MOLINE&quot;" target="&quot;ILLINOIS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Moline is a city within Illinois, indicating its location within the state and its connection to the state identity."</data>
+  <data key="d5">"location, context"</data>
+  <data key="d6">chunk-8f57c9e1be40cf88709a43b3d838a63a</data>
+</edge>
+<edge source="&quot;DEERE &amp; COMPANY&quot;" target="&quot;MR. JOHN C. MAY II&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Mr. John C. May II serves as the CEO of Deere &amp; Company, indicating his leadership role and influence in the organization."</data>
+  <data key="d5">"leadership, influence"</data>
+  <data key="d6">chunk-8f57c9e1be40cf88709a43b3d838a63a</data>
+</edge>
+<edge source="&quot;DEERE &amp; COMPANY&quot;" target="&quot;MR. JOSHUA A. JEPSEN&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Mr. Joshua A. Jepsen is the CFO of Deere &amp; Company, indicating his critical role in managing the organization's finances."</data>
+  <data key="d5">"financial management, leadership"</data>
+  <data key="d6">chunk-8f57c9e1be40cf88709a43b3d838a63a</data>
+</edge>
+<edge source="&quot;DEERE &amp; COMPANY&quot;" target="&quot;MR. RYAN D. CAMPBELL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Mr. Ryan D. Campbell oversees the division responsible for construction and forestry equipment, indicating his significant role in operations."</data>
+  <data key="d5">"divisional leadership, operations"</data>
+  <data key="d6">chunk-8f57c9e1be40cf88709a43b3d838a63a</data>
+</edge>
+<edge source="&quot;DEERE &amp; COMPANY&quot;" target="&quot;MR. CORY J. REED&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Mr. Cory J. Reed leads the Precision Agriculture segment for the Americas, demonstrating his industry-specific focus and leadership."</data>
+  <data key="d5">"industry focus, leadership"</data>
+  <data key="d6">chunk-8f57c9e1be40cf88709a43b3d838a63a</data>
+</edge>
+<edge source="&quot;DEERE &amp; COMPANY&quot;" target="&quot;MR. JUSTIN R. ROSE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Mr. Justin R. Rose manages lifecycle solutions at Deere &amp; Company, indicating a key role in customer success strategies."</data>
+  <data key="d5">"customer success, solutions management"</data>
+  <data key="d6">chunk-8f57c9e1be40cf88709a43b3d838a63a</data>
+</edge>
+<edge source="&quot;DEERE &amp; COMPANY&quot;" target="&quot;MR. JAHMY J. HINDMAN&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Mr. Jahmy J. Hindman oversees technology initiatives, highlighting the importance of technology in the company's strategy."</data>
+  <data key="d5">"technology, innovation"</data>
+  <data key="d6">chunk-8f57c9e1be40cf88709a43b3d838a63a</data>
+</edge>
+<edge source="&quot;DEERE &amp; COMPANY&quot;" target="&quot;MR. RAJESH KALATHUR&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Mr. Rajesh Kalathur is responsible for financial services at Deere &amp; Company, indicating his role in a critical business area."</data>
+  <data key="d5">"financial oversight, leadership"</data>
+  <data key="d6">chunk-8f57c9e1be40cf88709a43b3d838a63a</data>
+</edge>
+<edge source="&quot;DEERE &amp; COMPANY&quot;" target="&quot;PRODUCTION AND PRECISION AGRICULTURE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Production and Precision Agriculture is one of the key segments operated by Deere &amp; Company, reflecting its core focus on agricultural machinery."</data>
+  <data key="d5">"organizational structure, core operations"</data>
+  <data key="d6">chunk-8f57c9e1be40cf88709a43b3d838a63a</data>
+</edge>
+<edge source="&quot;DEERE &amp; COMPANY&quot;" target="&quot;SMALL AGRICULTURE AND TURF&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Small Agriculture and Turf is another significant segment under Deere &amp; Company, contributing to its overall business model and product offerings."</data>
+  <data key="d5">"organizational structure, core operations"</data>
+  <data key="d6">chunk-8f57c9e1be40cf88709a43b3d838a63a</data>
+</edge>
+<edge source="&quot;DEERE &amp; COMPANY&quot;" target="&quot;CONSTRUCTION AND FORESTRY&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Deere &amp; Company's Construction and Forestry segment provides essential equipment and services for construction activities, indicating its diversification."</data>
+  <data key="d5">"organizational structure, diversification"</data>
+  <data key="d6">chunk-8f57c9e1be40cf88709a43b3d838a63a</data>
+</edge>
+<edge source="&quot;DEERE &amp; COMPANY&quot;" target="&quot;FINANCIAL SERVICES&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Financial Services plays a vital role in supporting Deere &amp; Company's sales and operational activities through financing options."</data>
+  <data key="d5">"financial support, operations"</data>
+  <data key="d6">chunk-8f57c9e1be40cf88709a43b3d838a63a</data>
+</edge>
+<edge source="&quot;DEERE &amp; COMPANY&quot;" target="&quot;DEERE.COM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Deere.com serves as the digital interface for Deere &amp; Company, promoting its products and services globally."</data>
+  <data key="d5">"digital presence, marketing"</data>
+  <data key="d6">chunk-8f57c9e1be40cf88709a43b3d838a63a</data>
+</edge>
+<edge source="&quot;DEERE &amp; COMPANY&quot;" target="&quot;JOSH BEAL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Josh Beal, as Director of Investor Relations, plays a vital role in communication between Deere &amp; Company and its investors."</data>
+  <data key="d5">"communication, financial management"</data>
+  <data key="d6">chunk-4772dbaba2fc40212d9bf295e9a50e6d</data>
+</edge>
+<edge source="&quot;DEERE &amp; COMPANY&quot;" target="&quot;MS. RENEE A. MAILHOT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Ms. Renee A. Mailhot oversees compliance at Deere &amp; Company, ensuring regulatory adherence and risk management."</data>
+  <data key="d5">"compliance, risk management"</data>
+  <data key="d6">chunk-4772dbaba2fc40212d9bf295e9a50e6d</data>
+</edge>
+<edge source="&quot;MR. RAJESH KALATHUR&quot;" target="&quot;JOHN DEERE FINANCIAL&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Mr. Rajesh Kalathur serves as President and CIO of John Deere Financial, directly influencing its strategic direction."</data>
+  <data key="d5">"leadership, organizational influence"</data>
+  <data key="d6">chunk-4772dbaba2fc40212d9bf295e9a50e6d</data>
+</edge>
+<edge source="&quot;GENERAL MOTORS COMPANY&quot;" target="&quot;MARY T. BARRA&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Mary T. Barra leads General Motors as its CEO, significantly influencing the company's direction and performance."</data>
+  <data key="d5">"leadership, corporate governance"</data>
+  <data key="d6">chunk-455228350a2cf5e5dc43ebcc5a426fe8</data>
+</edge>
+<edge source="&quot;GENERAL MOTORS COMPANY&quot;" target="&quot;MARK L. REUSS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Mark L. Reuss has a key role in the management of General Motors as its President, contributing to strategic initiatives."</data>
+  <data key="d5">"management, corporate hierarchy"</data>
+  <data key="d6">chunk-455228350a2cf5e5dc43ebcc5a426fe8</data>
+</edge>
+<edge source="&quot;GENERAL MOTORS COMPANY&quot;" target="&quot;PAUL A. JACOBSON&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Paul A. Jacobson as CFO provides essential financial oversight for General Motors Company, affecting its economic health and decision-making."</data>
+  <data key="d5">"financial management, corporate governance"</data>
+  <data key="d6">chunk-455228350a2cf5e5dc43ebcc5a426fe8</data>
+</edge>
+<edge source="&quot;GENERAL MOTORS COMPANY&quot;" target="&quot;DETROIT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Detroit serves as the headquarters for General Motors Company, influencing its identity and operations within the automotive industry."</data>
+  <data key="d5">"geographic significance, corporate identity"</data>
+  <data key="d6">chunk-455228350a2cf5e5dc43ebcc5a426fe8</data>
+</edge>
+<edge source="&quot;GENERAL MOTORS COMPANY&quot;" target="&quot;AUTOMOBILE MANUFACTURING&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Automobile Manufacturing is the primary business activity of General Motors Company, encompassing the design, production, and sales of vehicles."</data>
+  <data key="d5">"industry focus, core activity"</data>
+  <data key="d6">chunk-455228350a2cf5e5dc43ebcc5a426fe8</data>
+</edge>
+<edge source="&quot;GENERAL MOTORS COMPANY&quot;" target="&quot;ASHISH KOHLI&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Ashish Kohli serves as Vice President of Investor Relations for General Motors Company, indicating a direct link between his role and the organization."</data>
+  <data key="d5">"role, organizational link"</data>
+  <data key="d6">chunk-07b1b52470586dbcc2cd72bc39786df6</data>
+</edge>
+<edge source="&quot;GENERAL MOTORS COMPANY&quot;" target="&quot;GRANT M. DIXTON&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Grant M. Dixton is the Executive VP and Chief Legal &amp; Public Policy Officer at General Motors Company, demonstrating his role in legal affairs for the organization."</data>
+  <data key="d5">"role, organizational link"</data>
+  <data key="d6">chunk-07b1b52470586dbcc2cd72bc39786df6</data>
+</edge>
+<edge source="&quot;GENERAL MOTORS COMPANY&quot;" target="&quot;LIN-HUA WU&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Lin-Hua Wu is the Senior VP &amp; Chief Communications Officer at General Motors Company, indicating her responsibilities within the organization."</data>
+  <data key="d5">"role, organizational link"</data>
+  <data key="d6">chunk-07b1b52470586dbcc2cd72bc39786df6</data>
+</edge>
+<edge source="&quot;GENERAL MOTORS COMPANY&quot;" target="&quot;NORMAN DE GREVE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Norman de Greve holds the position of Senior VP &amp; Chief Marketing Officer at General Motors Company, linking him directly to the corporate structure."</data>
+  <data key="d5">"role, organizational link"</data>
+  <data key="d6">chunk-07b1b52470586dbcc2cd72bc39786df6</data>
+</edge>
+<edge source="&quot;GENERAL MOTORS COMPANY&quot;" target="&quot;ARDEN HOFFMAN&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Arden Hoffman, as Senior VP &amp; Chief People Officer, plays a key role in human resources at General Motors Company, establishing a direct connection to the organization."</data>
+  <data key="d5">"role, organizational link"</data>
+  <data key="d6">chunk-07b1b52470586dbcc2cd72bc39786df6</data>
+</edge>
+<edge source="&quot;GENERAL MOTORS COMPANY&quot;" target="&quot;AMERICA/NEW_YORK&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"General Motors Company operates within the America/New_York timezone, impacting its business operations and market activities."</data>
+  <data key="d5">"location, operational influence"</data>
+  <data key="d6">chunk-d5810bae27976d37e22e9eed1bc82b74</data>
+</edge>
+<edge source="&quot;GENERAL MOTORS COMPANY&quot;" target="&quot;USD&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"General Motors Company conducts its financial transactions and reporting in USD, which is crucial for its economic activities."</data>
+  <data key="d5">"financial reporting, currency"</data>
+  <data key="d6">chunk-d5810bae27976d37e22e9eed1bc82b74</data>
+</edge>
+</graph></graphml>

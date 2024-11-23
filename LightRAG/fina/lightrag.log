@@ -1,0 +1,29 @@
+2024-11-23 15:24:17,281 - lightrag - INFO - Logger initialized for working directory: fina
+2024-11-23 15:24:17,282 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2024-11-23 15:24:17,282 - lightrag - INFO - Load KV full_docs with 0 data
+2024-11-23 15:24:17,282 - lightrag - INFO - Load KV text_chunks with 0 data
+2024-11-23 15:24:17,284 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-11-23 15:24:17,681 - lightrag - INFO - [New Chunks] inserting 12 chunks
+2024-11-23 15:24:17,681 - lightrag - INFO - Inserting 12 vectors to chunks
+2024-11-23 15:24:17,867 - lightrag - INFO - Writing graph with 0 nodes, 0 edges
+2024-11-23 15:24:37,230 - lightrag - INFO - Logger initialized for working directory: fina
+2024-11-23 15:24:37,231 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2024-11-23 15:24:37,232 - lightrag - INFO - Load KV full_docs with 0 data
+2024-11-23 15:24:37,232 - lightrag - INFO - Load KV text_chunks with 0 data
+2024-11-23 15:24:37,233 - lightrag - INFO - Loaded graph from fina/graph_chunk_entity_relation.graphml with 0 nodes, 0 edges
+2024-11-23 15:24:37,235 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-11-23 15:24:37,587 - lightrag - INFO - [New Chunks] inserting 12 chunks
+2024-11-23 15:24:37,588 - lightrag - INFO - Inserting 12 vectors to chunks
+2024-11-23 15:24:40,371 - lightrag - INFO - [Entity Extraction]...
+2024-11-23 15:25:27,419 - lightrag - INFO - Inserting 208 vectors to entities
+2024-11-23 15:25:33,184 - lightrag - INFO - Inserting 94 vectors to relationships
+2024-11-23 15:25:35,555 - lightrag - INFO - Writing graph with 208 nodes, 94 edges
+2024-11-23 15:29:22,662 - lightrag - INFO - Logger initialized for working directory: fina
+2024-11-23 15:29:22,664 - lightrag - INFO - Load KV llm_response_cache with 24 data
+2024-11-23 15:29:22,664 - lightrag - INFO - Load KV full_docs with 1 data
+2024-11-23 15:29:22,665 - lightrag - INFO - Load KV text_chunks with 12 data
+2024-11-23 15:29:22,672 - lightrag - INFO - Loaded graph from fina/graph_chunk_entity_relation.graphml with 208 nodes, 94 edges
+2024-11-23 15:29:22,687 - lightrag - WARNING - All docs are already in the storage
+2024-11-23 15:31:58,198 - lightrag - INFO - Creating a new event loop in main thread.
+2024-11-23 15:32:00,797 - lightrag - INFO - Local query uses 60 entites, 52 relations, 3 text units
+2024-11-23 15:32:01,623 - lightrag - INFO - Global query uses 64 entites, 60 relations, 3 text units

@@ -15,62 +15,6 @@
         "ADBE",
         "AMD",
         "INTC"
-    ],
-    "电商与互联网": [
-        "AMZN",
-        "BABA",
-        "JD",
-        "PDD",
-        "SHOP",
-        "MELI",
-        "CPNG"
-    ],
-    "金融服务": [
-        "JPM",
-        "BAC",
-        "WFC",
-        "MS",
-        "GS",
-        "V",
-        "MA",
-        "AXP",
-        "BLK",
-        "SCHW"
-    ],
-    "医疗健康": [
-        "JNJ",
-        "UNH",
-        "PFE",
-        "ABBV",
-        "MRK",
-        "LLY",
-        "TMO",
-        "ABT",
-        "DHR",
-        "BMY"
-    ],
-    "消费品": [
-        "PG",
-        "KO",
-        "PEP",
-        "COST",
-        "WMT",
-        "MCD",
-        "NKE",
-        "SBUX",
-        "DIS",
-        "HD"
-    ],
-    "工业制造": [
-        "CAT",
-        "BA",
-        "HON",
-        "GE",
-        "MMM",
-        "UPS",
-        "RTX",
-        "LMT",
-        "DE",
-        "GM"
     ]
 }
+
