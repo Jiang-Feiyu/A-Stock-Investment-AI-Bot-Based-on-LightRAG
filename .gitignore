@@ -24,3 +24,7 @@
 !/LightRAG/fina/data_format.json
 !/LightRAG/fina/static_knowledge.txt
 **/__pycache__/
+/backend/__pycache__
+/LightRAG/lightrag/__pycache__
+/LightRAG/lightrag/kg/__pycache__
+/LightRAG/lightrag/log
