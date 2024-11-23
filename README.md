@@ -95,3 +95,15 @@ Company stock information data structure
 - Log files are created on a daily basis in the format `data_acquire_YYYYMMDD.log`
 - A maximum of five up-to-date records are kept for each company's data
 The program will automatically update the data every 60 seconds (you can adjust this by changing the select timeout)
+
+## Reference
+```
+@article{guo2024lightrag,
+title={LightRAG: Simple and Fast Retrieval-Augmented Generation},
+author={Zirui Guo and Lianghao Xia and Yanhua Yu and Tu Ao and Chao Huang},
+year={2024},
+eprint={2410.05779},
+archivePrefix={arXiv},
+primaryClass={cs.IR}
+}
+```
