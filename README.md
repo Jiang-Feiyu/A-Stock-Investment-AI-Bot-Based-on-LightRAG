@@ -28,13 +28,17 @@ Dependency Install
 `export OPENAI_API_KEY="sk-..."`
 
 ### Start the Program
-
+#### Start script
+- `chmod +x start.sh`
+- `./start.sh`
+#### Seperate start
+Alternatively, you can start each part respectively.
+- Backend (start first)
+    - `cd backend`
+    - `uvicorn backend:app --reload`
 - Middle Desk:
   - `cd LightRAG` 
   - `python main.py`
-- Backend
-    - `cd backend`
-    - `uvicorn backend:app --reload`
 
 Please make sure the Middle desk and backend is already running before you start the Frontend (maybe wait for 60s)
 - Frontend: `python server.py`

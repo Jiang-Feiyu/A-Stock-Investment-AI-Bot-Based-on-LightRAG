@@ -73,8 +73,6 @@ def query_all_stocks():
                 stock_data['query_time'] = datetime.now().isoformat()
                 all_data.append(stock_data)
                 
-                print("==================stock_data==================")
-                print(stock_data)
                 
                 # 处理指标并生成文本
                 knowledge_text = process_metrics(stock_data)

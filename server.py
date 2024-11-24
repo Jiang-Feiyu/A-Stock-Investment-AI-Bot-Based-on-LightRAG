@@ -58,4 +58,4 @@ app = gr.mount_gradio_app(app = app, path = "/",
                           blocks = gui.create_ui().queue(default_concurrency_limit = 5, max_size = 64))
 
 if __name__ == '__main__':
-    uvicorn.run(app)
+    uvicorn.run(app, host="0.0.0.0", port=7860) 
