@@ -1,0 +1,8 @@
+2024-11-23 22:03:40,718 - lightrag - INFO - Logger initialized for working directory: ./LightRAG/fina
+2024-11-23 22:03:40,718 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2024-11-23 22:03:40,719 - lightrag - INFO - Load KV full_docs with 0 data
+2024-11-23 22:03:40,719 - lightrag - INFO - Load KV text_chunks with 0 data
+2024-11-23 22:04:35,733 - lightrag - INFO - Logger initialized for working directory: ./LightRAG/fina
+2024-11-23 22:04:35,734 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2024-11-23 22:04:35,734 - lightrag - INFO - Load KV full_docs with 0 data
+2024-11-23 22:04:35,734 - lightrag - INFO - Load KV text_chunks with 0 data
