@@ -146,8 +146,7 @@ PROMPTS["fail_response"] = "Sorry, I'm not able to provide an answer to that que
 
 PROMPTS["rag_response"] = """---Role---
 
-You are a helpful assistant responding to questions about data in the tables provided.
-
+{ui_prompt}
 
 ---Goal---
 

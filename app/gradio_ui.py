@@ -4,6 +4,7 @@ import gradio as gr
 import os, sys
 sys.path.append("..")
 from LightRAG.lightrag import QueryParam
+from LightRAG.lightrag import prompt
 
 class Gradio_UI:
     def __init__(self, rag):
@@ -28,6 +29,28 @@ class Gradio_UI:
         self.option_bar_state = False
 
         self.rag = rag
+
+        self.lightrag_prompt = """---Role---
+
+{ui_prompt}
+"""
+        self.lightrag_prompt_predefined = """
+        
+---Goal---
+
+Generate a response of the target length and format that responds to the user's question, summarizing all information in the input data tables appropriate for the response length and format, and incorporating any relevant general knowledge.
+If you don't know the answer, just say so. Do not make anything up.
+Do not include information where the supporting evidence for it is not provided.
+
+---Target response length and format---
+
+{response_type}
+
+---Data tables---
+
+{context_data}
+
+Add sections and commentary to the response as appropriate for the length and format. Style the response in markdown."""
 
         with open("./app/pre_defined_prompts.json", "r", encoding="utf-8") as f:
             self.pre_defined_prompts = json.load(f)
@@ -64,8 +87,8 @@ class Gradio_UI:
             self.advance_option_btn: gr.update(value = title),
         }
 
-    # TODO: Communicate with Model
-    def respond(self, query, chat_history):
+    def respond(self, query, chat_history, custom_prompt):
+        prompt.PROMPTS["rag_response"] = self.lightrag_prompt.format(ui_prompt = custom_prompt) + self.lightrag_prompt_predefined
         res = self.rag.query(query = query, param = QueryParam(mode = "hybrid"))
         chat_history.append((query, res))
 
@@ -183,7 +206,7 @@ class Gradio_UI:
         self.advance_option_btn.click(self.option_bar_switch, inputs = [], outputs = [self.option_bar, self.advance_option_btn])
 
         self.input_message.submit(self.respond,
-                             inputs = [self.input_message, self.chat_box],
+                             inputs = [self.input_message, self.chat_box, self.prompt_box],
                              outputs = [self.input_message, self.chat_box])
 
     def create_ui(self):
