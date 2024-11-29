@@ -96,28 +96,6 @@ Add sections and commentary to the response as appropriate for the length and fo
             self.input_message: "",
             self.chat_box: chat_history
         }
-    """
-    def respond(query, chat_history, prompt, temperature, top_p,
-                freq_penalty, presence_penalty, max_tokens):
-        history = []
-        for user_msg, ai_msg in chat_history:
-            history.append({"role": "user", "content": user_msg})
-            history.append({"role": "assistant", "content": ai_msg})
-
-        res = ""
-        chat_history.append((query, res))
-        for r in model.ChatGPT(prompt).stream_with_history(query, history,
-                                                           temperature=temperature,
-                                                           top_p=top_p,
-                                                           presence_penalty=presence_penalty,
-                                                           frequency_penalty=freq_penalty,
-                                                           max_tokens=max_tokens):
-            res += r
-            chat_history[-1] = (query, res)
-            time.sleep(0.01)
-            yield {input_message: "", chat_box: chat_history}
-        yield {input_message: "", chat_box: chat_history}
-    """
 
     def helper_layout(self):
         with gr.Blocks() as b:
@@ -128,14 +106,13 @@ Add sections and commentary to the response as appropriate for the length and fo
                     self.chat_box = gr.Chatbot(
                         elem_id="chat-box", show_label=False, height=600)
 
+                    self.input_message = gr.Textbox(
+                        placeholder = "Input your query, and press SHIFT + ENTER to send",
+                        show_label = False, lines = 4, max_lines = 4,
+                        elem_id = "chat-input", container = False, submit_btn = True)
                     with gr.Row():
-                        self.input_message = gr.Textbox(
-                            placeholder = "Input your query, and press SHIFT + ENTER to send",
-                            show_label = False, lines = 4, max_lines = 4,
-                            elem_id = "chat-input", container = False)
-                        with gr.Column():
-                            self.chat_revoke_btn = gr.Button("Clear", elem_id="chat_revoke")
-                            self.advance_option_btn = gr.Button("Show Advance Options")
+                        self.chat_revoke_btn = gr.Button("Clear", elem_id = "chat_revoke")
+                        self.advance_option_btn = gr.Button("Show Advance Options")
 
                 with gr.Column(scale = 6):
                     with gr.Column(visible = self.option_bar_state) as option_bar:
