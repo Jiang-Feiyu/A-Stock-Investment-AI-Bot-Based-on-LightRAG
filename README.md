@@ -1,5 +1,7 @@
 This is an AI-powered investment assistant that integrates `ChatGPT 4o mini`, `LightRAG`, and `yFinance`. It's capable of retrieving real-time financial market data and generating investment recommendations based on current market conditions
 
+[Here] is a demo video.
+
 ## Start the Program
 ### Config Virtual Env
 `conda create -n <name> python=3.10`
@@ -79,3 +81,5 @@ archivePrefix={arXiv},
 primaryClass={cs.IR}
 }
 ```
+
+[Here]:https://youtu.be/qfzbPpv8Oyo
