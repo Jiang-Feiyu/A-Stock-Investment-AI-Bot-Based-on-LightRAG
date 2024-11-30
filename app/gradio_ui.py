@@ -4,6 +4,7 @@ import gradio as gr
 import os, sys
 sys.path.append("..")
 from LightRAG.lightrag import QueryParam
+from LightRAG.lightrag import prompt
 
 class Gradio_UI:
     def __init__(self, rag):
@@ -28,6 +29,28 @@ class Gradio_UI:
         self.option_bar_state = False
 
         self.rag = rag
+
+        self.lightrag_prompt = """---Role---
+
+{ui_prompt}
+"""
+        self.lightrag_prompt_predefined = """
+        
+---Goal---
+
+Generate a response of the target length and format that responds to the user's question, summarizing all information in the input data tables appropriate for the response length and format, and incorporating any relevant general knowledge.
+If you don't know the answer, just say so. Do not make anything up.
+Do not include information where the supporting evidence for it is not provided.
+
+---Target response length and format---
+
+{response_type}
+
+---Data tables---
+
+{context_data}
+
+Add sections and commentary to the response as appropriate for the length and format. Style the response in markdown."""
 
         with open("./app/pre_defined_prompts.json", "r", encoding="utf-8") as f:
             self.pre_defined_prompts = json.load(f)
@@ -64,8 +87,8 @@ class Gradio_UI:
             self.advance_option_btn: gr.update(value = title),
         }
 
-    # TODO: Communicate with Model
-    def respond(self, query, chat_history):
+    def respond(self, query, chat_history, custom_prompt):
+        prompt.PROMPTS["rag_response"] = self.lightrag_prompt.format(ui_prompt = custom_prompt) + self.lightrag_prompt_predefined
         res = self.rag.query(query = query, param = QueryParam(mode = "hybrid"))
         chat_history.append((query, res))
 
@@ -73,28 +96,6 @@ class Gradio_UI:
             self.input_message: "",
             self.chat_box: chat_history
         }
-    """
-    def respond(query, chat_history, prompt, temperature, top_p,
-                freq_penalty, presence_penalty, max_tokens):
-        history = []
-        for user_msg, ai_msg in chat_history:
-            history.append({"role": "user", "content": user_msg})
-            history.append({"role": "assistant", "content": ai_msg})
-
-        res = ""
-        chat_history.append((query, res))
-        for r in model.ChatGPT(prompt).stream_with_history(query, history,
-                                                           temperature=temperature,
-                                                           top_p=top_p,
-                                                           presence_penalty=presence_penalty,
-                                                           frequency_penalty=freq_penalty,
-                                                           max_tokens=max_tokens):
-            res += r
-            chat_history[-1] = (query, res)
-            time.sleep(0.01)
-            yield {input_message: "", chat_box: chat_history}
-        yield {input_message: "", chat_box: chat_history}
-    """
 
     def helper_layout(self):
         with gr.Blocks() as b:
@@ -105,14 +106,13 @@ class Gradio_UI:
                     self.chat_box = gr.Chatbot(
                         elem_id="chat-box", show_label=False, height=600)
 
+                    self.input_message = gr.Textbox(
+                        placeholder = "Input your query, and press SHIFT + ENTER to send",
+                        show_label = False, lines = 4, max_lines = 4,
+                        elem_id = "chat-input", container = False, submit_btn = True)
                     with gr.Row():
-                        self.input_message = gr.Textbox(
-                            placeholder = "Input your query, and press SHIFT + ENTER to send",
-                            show_label = False, lines = 4, max_lines = 4,
-                            elem_id = "chat-input", container = False)
-                        with gr.Column():
-                            self.chat_revoke_btn = gr.Button("Clear", elem_id="chat_revoke")
-                            self.advance_option_btn = gr.Button("Show Advance Options")
+                        self.chat_revoke_btn = gr.Button("Clear", elem_id = "chat_revoke")
+                        self.advance_option_btn = gr.Button("Show Advance Options")
 
                 with gr.Column(scale = 6):
                     with gr.Column(visible = self.option_bar_state) as option_bar:
@@ -183,7 +183,7 @@ class Gradio_UI:
         self.advance_option_btn.click(self.option_bar_switch, inputs = [], outputs = [self.option_bar, self.advance_option_btn])
 
         self.input_message.submit(self.respond,
-                             inputs = [self.input_message, self.chat_box],
+                             inputs = [self.input_message, self.chat_box, self.prompt_box],
                              outputs = [self.input_message, self.chat_box])
 
     def create_ui(self):
