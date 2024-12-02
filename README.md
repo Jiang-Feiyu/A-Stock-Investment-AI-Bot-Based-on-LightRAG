@@ -70,6 +70,9 @@ To simplified the question, the AI bot evaluate and provide suggestions based on
 3. financial_metrics: `[profitMargins, totalCash, totalRevenue, floatShares]`
 4. valuation_metrics: `[trailingPE, forwardPE, priceToBook, priceToSalesTrailing12Months]`
 
+## User Interface
+![image](https://github.com/user-attachments/assets/205b1607-0782-45a0-a784-c40ad9d7921c)
+
 ## Reference
 ```
 @article{guo2024lightrag,
